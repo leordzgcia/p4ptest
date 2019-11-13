@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ts_resDaycare</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>8870819a-1d5d-44b4-994d-41e1e14cf30c</testSuiteGuid>
+   <testCaseLink>
+      <guid>cfa2cea4-dcbf-49dd-b078-1aac3d69d4c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/p4p_login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d226b8dc-54a1-4812-8d41-357cffc9b24e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5e351ecf-519f-4703-8657-75742233ed01</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cd116f12-4391-4307-a97d-c5353566022f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/p4p_profile_day</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a850200d-17f2-4062-a194-2e53c83a6fd8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>59e8dc57-11e6-4f61-a4f0-740f556a4a26</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>08a2211d-b4fe-46dd-9c5d-b7526ad8d5fd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>22ca12a1-8ae5-4835-94fe-4bf2f831a3e0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>70648fe7-7a6b-4d92-afc8-2490cc6ae4bd</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
