@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_newReservationBoarding" time="274.395" tests="2" failures="1" errors="0">
+   <testsuite name="ts_newReservationBoarding" tests="2" failures="1" errors="0" time="274.395" timestamp="2019-12-27 15:54:15" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_newReservationBoarding">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191227_155414/ts_newReservationBoarding/20191227_155414"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191227_155414/ts_newReservationBoarding/20191227_155414/execution0.log"/>
+         <property name="attachments" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191227_155414/ts_newReservationBoarding/20191227_155414/1577483763118.png, /home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191227_155414/ts_newReservationBoarding/20191227_155414/1577483846750.png"/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Firefox 71.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="254da964-8354-4329-93c9-5f2d7a7e6645"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_newReservationBoarding" time="190.968" classname="Test Cases/p4p_newReservationBoarding" status="FAILED">
+         <failure type="FAILED" message="Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:619)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577483654224.run(TempTestSuite1577483654224.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' located by 'By.xpath: //div[@id='wrapper']/div/div/div/div/div/div/ul/li[4]/a/tab-heading/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-12-27 15:54:15 - [TEST_CASE][FAILED] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:619)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577483654224.run(TempTestSuite1577483654224.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' located by 'By.xpath: //div[@id='wrapper']/div/div/div/div/div/div/ul/li[4]/a/tab-heading/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-12-27 15:54:16 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2019-12-27 15:54:16 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-27 15:54:16 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-27 15:54:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2019-12-27 15:54:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-12-27 15:54:21 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-12-27 15:54:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-12-27 15:54:21 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-12-27 15:54:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:54:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:54:23 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/object_login/btn_login")): Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-12-27 15:54:24 - [MESSAGE][PASSED] - Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-12-27 15:54:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-12-27 15:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-12-27 15:54:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:54:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:54:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object_dashboard_emp/input_search"), var_searchParent): Text 'katalon 1' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2019-12-27 15:54:30 - [MESSAGE][PASSED] - Text 'katalon 1' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2019-12-27 15:54:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2019-12-27 15:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2019-12-27 15:54:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:54:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:54:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2019-12-27 15:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2019-12-27 15:54:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:54:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:54:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_profile/a_addReservation")): Object: 'Object Repository/object_profile/a_addReservation' is clicked on
+
+2019-12-27 15:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/object_profile/a_addReservation' is clicked on
+
+2019-12-27 15:54:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:54:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:54:44 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2019-12-27 15:54:44 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-12-27 15:54:44 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2019-12-27 15:54:44 - [TEST_STEP][PASSED] - fisCanRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_2cancelReservation.xlsx): null
+
+2019-12-27 15:54:44 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - workbookCanRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisCanRes): null
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - sheetCanRes = workbookCanRes.getSheet("Sheet1"): null
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - rowCanRes = sheetCanRes.getRow(var): null
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - todaysDate1 = today.format("mmm/dd/yy"): null
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - todaysDate2 = today.format("dd/mm/yy"): null
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - todaysDate3 = today.format("dd"): null
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - log.logInfo("TEST -- "): TEST -- 
+
+2019-12-27 15:54:45 - [MESSAGE][INFO] - TEST -- 
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - log.logInfo(todaysDate1): 054/27/19
+
+2019-12-27 15:54:45 - [MESSAGE][INFO] - 054/27/19
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - log.logInfo(todaysDate2): 27/54/19
+
+2019-12-27 15:54:45 - [MESSAGE][INFO] - 27/54/19
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - log.logInfo(todaysDate3): 27
+
+2019-12-27 15:54:45 - [MESSAGE][INFO] - 27
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - log.logInfo(nowTime): 0354
+
+2019-12-27 15:54:45 - [MESSAGE][INFO] - 0354
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - log.logInfo("TEST -- "): TEST -- 
+
+2019-12-27 15:54:45 - [MESSAGE][INFO] - TEST -- 
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - if (var_typeReserveation == "Boarding"): null
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/btn_Boarding")): Object: 'Object Repository/object_reservation/btn_Boarding' is clicked on
+
+2019-12-27 15:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/btn_Boarding' is clicked on
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - flagBoar = "1": null
+
+2019-12-27 15:54:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/i_location")): Object: 'Object Repository/object_reservation/i_location' is clicked on
+
+2019-12-27 15:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/i_location' is clicked on
+
+2019-12-27 15:54:47 - [TEST_STEP][PASSED] - switch (var_idFacility): null
+
+2019-12-27 15:54:47 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2019-12-27 15:54:47 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2019-12-27 15:54:47 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2019-12-27 15:54:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:54:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:54:49 - [TEST_STEP][PASSED] - if (var_repeting == "Y"): null
+
+2019-12-27 15:54:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/dateCheckIn")): Object: 'Object Repository/object_reservation/dateCheckIn' is clicked on
+
+2019-12-27 15:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/dateCheckIn' is clicked on
+
+2019-12-27 15:54:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:54:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:54:52 - [TEST_STEP][PASSED] - switch (dateCI[0]): null
+
+2019-12-27 15:54:52 - [TEST_STEP][PASSED] - case "7":: null
+
+2019-12-27 15:54:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_07_ci")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_07_ci' is clicked on
+
+2019-12-27 15:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_07_ci' is clicked on
+
+2019-12-27 15:54:53 - [TEST_STEP][PASSED] - break: null
+
+2019-12-27 15:54:53 - [TEST_STEP][PASSED] - if (flagBoar == "1"): null
+
+2019-12-27 15:54:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/dateCheckOut")): Object: 'Object Repository/object_reservation/dateCheckOut' is clicked on
+
+2019-12-27 15:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/dateCheckOut' is clicked on
+
+2019-12-27 15:54:53 - [TEST_STEP][PASSED] - switch (dateCO[0]): null
+
+2019-12-27 15:54:53 - [TEST_STEP][PASSED] - case "8":: null
+
+2019-12-27 15:54:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_08_co")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_08_co' is clicked on
+
+2019-12-27 15:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_08_co' is clicked on
+
+2019-12-27 15:54:54 - [TEST_STEP][PASSED] - break: null
+
+2019-12-27 15:54:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/timeCheckin")): Object: 'Object Repository/object_reservation/timeCheckin' is clicked on
+
+2019-12-27 15:54:55 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/timeCheckin' is clicked on
+
+2019-12-27 15:54:55 - [TEST_STEP][PASSED] - switch (var_checkinT): null
+
+2019-12-27 15:54:55 - [TEST_STEP][PASSED] - case "800":: null
+
+2019-12-27 15:54:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_800am_ci")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_800am_ci' is clicked on
+
+2019-12-27 15:54:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_800am_ci' is clicked on
+
+2019-12-27 15:54:55 - [TEST_STEP][PASSED] - break: null
+
+2019-12-27 15:54:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/timeCheckOut")): Object: 'Object Repository/object_reservation/timeCheckOut' is clicked on
+
+2019-12-27 15:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/timeCheckOut' is clicked on
+
+2019-12-27 15:54:56 - [TEST_STEP][PASSED] - switch (var_checkoutT): null
+
+2019-12-27 15:54:56 - [TEST_STEP][PASSED] - case "1200":: null
+
+2019-12-27 15:54:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_1200pm_co")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_1200pm_co' is clicked on
+
+2019-12-27 15:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_1200pm_co' is clicked on
+
+2019-12-27 15:54:57 - [TEST_STEP][PASSED] - break: null
+
+2019-12-27 15:54:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:54:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:54:59 - [TEST_STEP][PASSED] - if (arryPets.size() == 1): Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares' is clicked on
+
+2019-12-27 15:54:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares")): Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares' is clicked on
+
+2019-12-27 15:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares' is clicked on
+
+2019-12-27 15:55:00 - [TEST_STEP][PASSED] - if (flagBoar == "1" || flagBoar == "2"): Object: 'Object Repository/object_reservation/div_suite_rad_deluxe' is clicked on
+
+2019-12-27 15:55:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/div_suite_rad_deluxe")): Object: 'Object Repository/object_reservation/div_suite_rad_deluxe' is clicked on
+
+2019-12-27 15:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/div_suite_rad_deluxe' is clicked on
+
+2019-12-27 15:55:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/btn_next2")): Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-27 15:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-27 15:55:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-27 15:55:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-27 15:55:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:55:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:55:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/btn_next2")): Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-27 15:55:11 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-27 15:55:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:55:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:55:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/button_Submit Reservation")): Object: 'Object Repository/object_reservation/button_Submit Reservation' is clicked on
+
+2019-12-27 15:55:13 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/button_Submit Reservation' is clicked on
+
+2019-12-27 15:55:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:55:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:55:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:55:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:55:17 - [TEST_STEP][PASSED] - if (flagBoar == "2" && var_repeatingEvery == "Daily" || var_repeatingEvery == "Monthly" || var_repeatingEvery == "Weekly"): null
+
+2019-12-27 15:55:17 - [TEST_STEP][FAILED] - else: null
+
+2019-12-27 15:55:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:55:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:55:19 - [TEST_STEP][FAILED] - try: Unable to click on object 'Object Repository/object_reservation/button_Return To Reservation' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/object_reservation/button_Return To Reservation'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:588)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577483654224.run(TempTestSuite1577483654224.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/object_reservation/button_Return To Reservation' located by 'By.xpath: (//button[@type='button'])[13]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:588)
+	... 13 more
+)
+
+2019-12-27 15:55:19 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/object_reservation/button_Return To Reservation")): Unable to click on object 'Object Repository/object_reservation/button_Return To Reservation' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/object_reservation/button_Return To Reservation'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:588)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577483654224.run(TempTestSuite1577483654224.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/object_reservation/button_Return To Reservation' located by 'By.xpath: (//button[@type='button'])[13]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:588)
+	... 13 more
+)
+
+2019-12-27 15:56:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[13]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-27 15:56:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/object_reservation/button_Return To Reservation' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/object_reservation/button_Return To Reservation'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:588)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577483654224.run(TempTestSuite1577483654224.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/object_reservation/button_Return To Reservation' located by 'By.xpath: (//button[@type='button'])[13]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:588)
+	... 13 more
+)
+[[ATTACHMENT|/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191227_155414/ts_newReservationBoarding/20191227_155414/1577483763118.png]]
+
+2019-12-27 15:56:03 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-27 15:56:03 - [TEST_STEP][PASSED] - e.printStackTrace(): null
+
+2019-12-27 15:56:03 - [TEST_STEP][PASSED] - log.logInfo("ERROR EXCEPCION"): ERROR EXCEPCION
+
+2019-12-27 15:56:03 - [MESSAGE][INFO] - ERROR EXCEPCION
+
+2019-12-27 15:56:03 - [TEST_STEP][PASSED] - cell1Err = rowNewRes.createCell(16, 0): null
+
+2019-12-27 15:56:03 - [TEST_STEP][PASSED] - cell2Err = rowNewRes.createCell(17, 0): null
+
+2019-12-27 15:56:03 - [TEST_STEP][PASSED] - cell1Err.setCellType(CELL_TYPE_STRING): null
+
+2019-12-27 15:56:03 - [TEST_STEP][PASSED] - cell1Err.setCellValue("Error"): null
+
+2019-12-27 15:56:03 - [TEST_STEP][PASSED] - cell2Err.setCellType(CELL_TYPE_STRING): null
+
+2019-12-27 15:56:03 - [TEST_STEP][PASSED] - cell2Err.setCellValue("Reservacion existente"): null
+
+2019-12-27 15:56:03 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2019-12-27 15:56:03 - [TEST_STEP][PASSED] - workbookNewRes.write(fos): null
+
+2019-12-27 15:56:03 - [TEST_STEP][PASSED] - fos.close(): null
+
+2019-12-27 15:56:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-27 15:56:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-27 15:56:04 - [TEST_STEP][PASSED] - cellCan = rowCanRes.createCell(5, 0): null
+
+2019-12-27 15:56:04 - [TEST_STEP][PASSED] - cellCan.setCellType(CELL_TYPE_STRING): null
+
+2019-12-27 15:56:04 - [TEST_STEP][PASSED] - cellCan.setCellValue("Error en la reservacion"): null
+
+2019-12-27 15:56:04 - [TEST_STEP][PASSED] - fosCan = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_2cancelReservation.xlsx): null
+
+2019-12-27 15:56:04 - [TEST_STEP][PASSED] - workbookCanRes.write(fosCan): null
+
+2019-12-27 15:56:04 - [TEST_STEP][PASSED] - fosCan.close(): null
+
+2019-12-27 15:56:04 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-12-27 15:56:10 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-12-27 15:56:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/button_Go to CheckOut")): Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/button_Go to CheckOut' is clicked on
+
+2019-12-27 15:56:41 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/button_Go to CheckOut' is clicked on
+
+2019-12-27 15:56:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:56:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:56:43 - [TEST_STEP][FAILED] - log.logInfo(getText(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )"))): Unable to get text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:619)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577483654224.run(TempTestSuite1577483654224.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' located by 'By.xpath: //div[@id='wrapper']/div/div/div/div/div/div/ul/li[4]/a/tab-heading/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:619)
+	... 13 more
+)
+
+2019-12-27 15:57:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='wrapper']/div/div/div/div/div/div/ul/li[4]/a/tab-heading/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-27 15:57:26 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:619)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577483654224.run(TempTestSuite1577483654224.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' located by 'By.xpath: //div[@id='wrapper']/div/div/div/div/div/div/ul/li[4]/a/tab-heading/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:619)
+	... 13 more
+)
+[[ATTACHMENT|/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191227_155414/ts_newReservationBoarding/20191227_155414/1577483846750.png]]]]></system-out>
+         <system-err><![CDATA[2019-12-27 15:54:15 - [TEST_CASE][FAILED] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:619)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577483654224.run(TempTestSuite1577483654224.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' located by 'By.xpath: //div[@id='wrapper']/div/div/div/div/div/div/ul/li[4]/a/tab-heading/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_newReservationBoarding" time="82.407" classname="Test Cases/p4p_newReservationBoarding" status="PASSED">
+         <system-out><![CDATA[2019-12-27 15:57:26 - [TEST_CASE][PASSED] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding
+
+2019-12-27 15:57:26 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2019-12-27 15:57:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-27 15:57:27 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-27 15:57:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2019-12-27 15:57:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-12-27 15:57:31 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-12-27 15:57:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-12-27 15:57:31 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-12-27 15:57:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:57:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:57:33 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/object_login/btn_login")): Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-12-27 15:57:34 - [MESSAGE][PASSED] - Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-12-27 15:57:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-12-27 15:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-12-27 15:57:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:57:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:57:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object_dashboard_emp/input_search"), var_searchParent): Text 'katalon 1' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2019-12-27 15:57:40 - [MESSAGE][PASSED] - Text 'katalon 1' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2019-12-27 15:57:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2019-12-27 15:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2019-12-27 15:57:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:57:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:57:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2019-12-27 15:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2019-12-27 15:57:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:57:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:57:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_profile/a_addReservation")): Object: 'Object Repository/object_profile/a_addReservation' is clicked on
+
+2019-12-27 15:57:52 - [MESSAGE][PASSED] - Object: 'Object Repository/object_profile/a_addReservation' is clicked on
+
+2019-12-27 15:57:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:57:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - fisCanRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_2cancelReservation.xlsx): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - workbookCanRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisCanRes): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - sheetCanRes = workbookCanRes.getSheet("Sheet1"): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - rowCanRes = sheetCanRes.getRow(var): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - todaysDate1 = today.format("mmm/dd/yy"): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - todaysDate2 = today.format("dd/mm/yy"): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - todaysDate3 = today.format("dd"): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - log.logInfo("TEST -- "): TEST -- 
+
+2019-12-27 15:57:54 - [MESSAGE][INFO] - TEST -- 
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - log.logInfo(todaysDate1): 057/27/19
+
+2019-12-27 15:57:54 - [MESSAGE][INFO] - 057/27/19
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - log.logInfo(todaysDate2): 27/57/19
+
+2019-12-27 15:57:54 - [MESSAGE][INFO] - 27/57/19
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - log.logInfo(todaysDate3): 27
+
+2019-12-27 15:57:54 - [MESSAGE][INFO] - 27
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - log.logInfo(nowTime): 0357
+
+2019-12-27 15:57:54 - [MESSAGE][INFO] - 0357
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - log.logInfo("TEST -- "): TEST -- 
+
+2019-12-27 15:57:54 - [MESSAGE][INFO] - TEST -- 
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - if (var_typeReserveation == "Boarding"): null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/btn_Boarding")): Object: 'Object Repository/object_reservation/btn_Boarding' is clicked on
+
+2019-12-27 15:57:54 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/btn_Boarding' is clicked on
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - flagBoar = "1": null
+
+2019-12-27 15:57:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/i_location")): Object: 'Object Repository/object_reservation/i_location' is clicked on
+
+2019-12-27 15:57:57 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/i_location' is clicked on
+
+2019-12-27 15:57:57 - [TEST_STEP][PASSED] - switch (var_idFacility): null
+
+2019-12-27 15:57:57 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2019-12-27 15:57:57 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2019-12-27 15:57:57 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2019-12-27 15:57:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:57:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:57:59 - [TEST_STEP][PASSED] - if (var_repeting == "Y"): null
+
+2019-12-27 15:57:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/dateCheckIn")): Object: 'Object Repository/object_reservation/dateCheckIn' is clicked on
+
+2019-12-27 15:58:00 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/dateCheckIn' is clicked on
+
+2019-12-27 15:58:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:58:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:58:02 - [TEST_STEP][PASSED] - switch (dateCI[0]): null
+
+2019-12-27 15:58:02 - [TEST_STEP][PASSED] - case "9":: null
+
+2019-12-27 15:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_09_ci")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_09_ci' is clicked on
+
+2019-12-27 15:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_09_ci' is clicked on
+
+2019-12-27 15:58:02 - [TEST_STEP][PASSED] - break: null
+
+2019-12-27 15:58:02 - [TEST_STEP][PASSED] - if (flagBoar == "1"): null
+
+2019-12-27 15:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/dateCheckOut")): Object: 'Object Repository/object_reservation/dateCheckOut' is clicked on
+
+2019-12-27 15:58:03 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/dateCheckOut' is clicked on
+
+2019-12-27 15:58:03 - [TEST_STEP][PASSED] - switch (dateCO[0]): null
+
+2019-12-27 15:58:03 - [TEST_STEP][PASSED] - case "10":: null
+
+2019-12-27 15:58:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_10_co")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_10_co' is clicked on
+
+2019-12-27 15:58:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_10_co' is clicked on
+
+2019-12-27 15:58:04 - [TEST_STEP][PASSED] - break: null
+
+2019-12-27 15:58:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/timeCheckin")): Object: 'Object Repository/object_reservation/timeCheckin' is clicked on
+
+2019-12-27 15:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/timeCheckin' is clicked on
+
+2019-12-27 15:58:05 - [TEST_STEP][PASSED] - switch (var_checkinT): null
+
+2019-12-27 15:58:05 - [TEST_STEP][PASSED] - case "800":: null
+
+2019-12-27 15:58:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_800am_ci")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_800am_ci' is clicked on
+
+2019-12-27 15:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_800am_ci' is clicked on
+
+2019-12-27 15:58:05 - [TEST_STEP][PASSED] - break: null
+
+2019-12-27 15:58:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/timeCheckOut")): Object: 'Object Repository/object_reservation/timeCheckOut' is clicked on
+
+2019-12-27 15:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/timeCheckOut' is clicked on
+
+2019-12-27 15:58:06 - [TEST_STEP][PASSED] - switch (var_checkoutT): null
+
+2019-12-27 15:58:06 - [TEST_STEP][PASSED] - case "1200":: null
+
+2019-12-27 15:58:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_1200pm_co")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_1200pm_co' is clicked on
+
+2019-12-27 15:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_1200pm_co' is clicked on
+
+2019-12-27 15:58:07 - [TEST_STEP][PASSED] - break: null
+
+2019-12-27 15:58:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:58:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:58:09 - [TEST_STEP][PASSED] - if (arryPets.size() == 1): null
+
+2019-12-27 15:58:09 - [TEST_STEP][PASSED] - else if (arryPets.size() == 2): Object: 'Object Repository/object_reservation/div_Zeus' is clicked on
+
+2019-12-27 15:58:09 - [TEST_STEP][PASSED] - click(findTestObject("object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares")): Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares' is clicked on
+
+2019-12-27 15:58:11 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares' is clicked on
+
+2019-12-27 15:58:11 - [TEST_STEP][PASSED] - click(findTestObject("object_reservation/div_Zeus")): Object: 'Object Repository/object_reservation/div_Zeus' is clicked on
+
+2019-12-27 15:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/div_Zeus' is clicked on
+
+2019-12-27 15:58:15 - [TEST_STEP][PASSED] - if (flagBoar == "1" || flagBoar == "2"): Object: 'Object Repository/object_reservation/div_suite_rad_deluxe' is clicked on
+
+2019-12-27 15:58:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/div_suite_rad_deluxe")): Object: 'Object Repository/object_reservation/div_suite_rad_deluxe' is clicked on
+
+2019-12-27 15:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/div_suite_rad_deluxe' is clicked on
+
+2019-12-27 15:58:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/btn_next2")): Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-27 15:58:22 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-27 15:58:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-27 15:58:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-27 15:58:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:58:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:58:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/btn_next2")): Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-27 15:58:27 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-27 15:58:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:58:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:58:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/button_Submit Reservation")): Object: 'Object Repository/object_reservation/button_Submit Reservation' is clicked on
+
+2019-12-27 15:58:30 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/button_Submit Reservation' is clicked on
+
+2019-12-27 15:58:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:58:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:58:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:58:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:58:34 - [TEST_STEP][PASSED] - if (flagBoar == "2" && var_repeatingEvery == "Daily" || var_repeatingEvery == "Monthly" || var_repeatingEvery == "Weekly"): null
+
+2019-12-27 15:58:34 - [TEST_STEP][PASSED] - else: null
+
+2019-12-27 15:58:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:58:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:58:36 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/object_reservation/button_Return To Reservation' is clicked on
+
+2019-12-27 15:58:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/button_Return To Reservation")): Object: 'Object Repository/object_reservation/button_Return To Reservation' is clicked on
+
+2019-12-27 15:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/button_Return To Reservation' is clicked on
+
+2019-12-27 15:58:36 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-12-27 15:58:42 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-12-27 15:58:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/button_Go to CheckOut")): Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/button_Go to CheckOut' is clicked on
+
+2019-12-27 15:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/button_Go to CheckOut' is clicked on
+
+2019-12-27 15:58:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-27 15:58:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )"))): ( BK )
+
+2019-12-27 15:58:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' is: '( BK )'
+
+2019-12-27 15:58:47 - [MESSAGE][INFO] - ( BK )
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702663/?parent_id=122352'
+
+2019-12-27 15:58:47 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702663/?parent_id=122352'
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )"), "( BK )", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' are matched.
+
+2019-12-27 15:58:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' are matched.
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - cell = rowNewRes.createCell(15, 0): null
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - cell.setCellType(CELL_TYPE_STRING): null
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - cell.setCellValue(arrayUrl[5]): null
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - cell2 = rowNewRes.createCell(16, 0): null
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - cell2.setCellType(CELL_TYPE_STRING): null
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - cell2.setCellValue(getText(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )"))): Text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' is: '( BK )'
+
+2019-12-27 15:58:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' is: '( BK )'
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - cell3 = rowNewRes.createCell(17, 0): null
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - cell3.setCellType(CELL_TYPE_STRING): null
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - cell3.setCellValue("Reservacion generada"): null
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - if (var == 1): null
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - else: null
+
+2019-12-27 15:58:47 - [TEST_STEP][PASSED] - datosExcel = getExcelDataWithDefaultSheet("/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx", "Sheet1", true): null
+
+2019-12-27 15:58:48 - [TEST_STEP][PASSED] - userName = datosExcel.getValue(1, 2): null
+
+2019-12-27 15:58:48 - [TEST_STEP][PASSED] - log.logInfo("TESTT"): TESTT
+
+2019-12-27 15:58:48 - [MESSAGE][INFO] - TESTT
+
+2019-12-27 15:58:48 - [TEST_STEP][PASSED] - log.logInfo(userName): 2
+
+2019-12-27 15:58:48 - [MESSAGE][INFO] - 2
+
+2019-12-27 15:58:48 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(((/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1_ + nowTime) + newReservationBoarding.xlsx)): null
+
+2019-12-27 15:58:48 - [TEST_STEP][PASSED] - workbookNewRes.write(fos): null
+
+2019-12-27 15:58:48 - [TEST_STEP][PASSED] - fos.close(): null
+
+2019-12-27 15:58:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-27 15:58:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-27 15:58:49 - [TEST_STEP][PASSED] - (var_row++): null
+
+2019-12-27 15:58:49 - [TEST_STEP][PASSED] - log.logInfo("POST CANCEL"): POST CANCEL
+
+2019-12-27 15:58:49 - [MESSAGE][INFO] - POST CANCEL
+
+2019-12-27 15:58:49 - [TEST_STEP][PASSED] - cellCan = rowCanRes.createCell(5, 0): null
+
+2019-12-27 15:58:49 - [TEST_STEP][PASSED] - cellCan.setCellType(CELL_TYPE_STRING): null
+
+2019-12-27 15:58:49 - [TEST_STEP][PASSED] - cellCan.setCellValue(arrayUrl[5]): null
+
+2019-12-27 15:58:49 - [TEST_STEP][PASSED] - cell2Can = rowCanRes.createCell(6, 0): null
+
+2019-12-27 15:58:49 - [TEST_STEP][PASSED] - cell2Can.setCellType(CELL_TYPE_STRING): null
+
+2019-12-27 15:58:49 - [TEST_STEP][PASSED] - cell2Can.setCellValue(getText(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )"))): Text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' is: '( BK )'
+
+2019-12-27 15:58:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' is: '( BK )'
+
+2019-12-27 15:58:49 - [TEST_STEP][PASSED] - fosCan = new java.io.FileOutputStream(((/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_2 + nowTime) + cancelReservation.xlsx)): null
+
+2019-12-27 15:58:49 - [TEST_STEP][PASSED] - workbookCanRes.write(fosCan): null
+
+2019-12-27 15:58:49 - [TEST_STEP][PASSED] - fosCan.close(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-27 15:54:15 - [TEST_SUITE][FAILED] - ts_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:619)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577483654224.run(TempTestSuite1577483654224.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' located by 'By.xpath: //div[@id='wrapper']/div/div/div/div/div/div/ul/li[4]/a/tab-heading/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-12-27 15:54:15 - [TEST_SUITE][FAILED] - ts_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:619)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577483654224.run(TempTestSuite1577483654224.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' located by 'By.xpath: //div[@id='wrapper']/div/div/div/div/div/div/ul/li[4]/a/tab-heading/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

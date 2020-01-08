@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_newReservation" time="1.576" tests="4" failures="0" errors="4">
+   <testsuite name="ts_newReservation" tests="4" failures="0" errors="4" time="1.576" timestamp="2019-12-10 12:43:00" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_newReservation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191210_124258/ts_newReservation/20191210_124258"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191210_124258/ts_newReservation/20191210_124258/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+      </properties>
+      <testcase name="Test Cases/p4p_newReservation" time="0.471" classname="Test Cases/p4p_newReservation" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_newReservation FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 507: The current scope already contains a variable of the name flagBoar
+ @ line 507, column 8.
+   String flagBoar = '0'
+          ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 509: The current scope already contains a variable of the name log
+ @ line 509, column 15.
+   KeywordLogger log = new KeywordLogger()
+                 ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 616: The current scope already contains a variable of the name dateCI
+ @ line 616, column 10.
+   String[] dateCI = var_checkinD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 618: The current scope already contains a variable of the name dateCO
+ @ line 618, column 10.
+   String[] dateCO = var_checkoutD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 620: The current scope already contains a variable of the name arryPets
+ @ line 620, column 10.
+   String[] arryPets = var_pets.split(',')
+            ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576003378945.run(TempTestSuite1576003378945.groovy:36)
+"/>
+         <system-out><![CDATA[2019-12-10 12:43:00 - [TEST_CASE][ERROR] - Test Cases/p4p_newReservation: Test Cases/p4p_newReservation FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 507: The current scope already contains a variable of the name flagBoar
+ @ line 507, column 8.
+   String flagBoar = '0'
+          ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 509: The current scope already contains a variable of the name log
+ @ line 509, column 15.
+   KeywordLogger log = new KeywordLogger()
+                 ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 616: The current scope already contains a variable of the name dateCI
+ @ line 616, column 10.
+   String[] dateCI = var_checkinD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 618: The current scope already contains a variable of the name dateCO
+ @ line 618, column 10.
+   String[] dateCO = var_checkoutD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 620: The current scope already contains a variable of the name arryPets
+ @ line 620, column 10.
+   String[] arryPets = var_pets.split(',')
+            ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576003378945.run(TempTestSuite1576003378945.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-12-10 12:43:00 - [TEST_CASE][ERROR] - Test Cases/p4p_newReservation: Test Cases/p4p_newReservation FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 507: The current scope already contains a variable of the name flagBoar
+ @ line 507, column 8.
+   String flagBoar = '0'
+          ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 509: The current scope already contains a variable of the name log
+ @ line 509, column 15.
+   KeywordLogger log = new KeywordLogger()
+                 ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 616: The current scope already contains a variable of the name dateCI
+ @ line 616, column 10.
+   String[] dateCI = var_checkinD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 618: The current scope already contains a variable of the name dateCO
+ @ line 618, column 10.
+   String[] dateCO = var_checkoutD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 620: The current scope already contains a variable of the name arryPets
+ @ line 620, column 10.
+   String[] arryPets = var_pets.split(',')
+            ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576003378945.run(TempTestSuite1576003378945.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_newReservation" time="0.221" classname="Test Cases/p4p_newReservation" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_newReservation FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 507: The current scope already contains a variable of the name flagBoar
+ @ line 507, column 8.
+   String flagBoar = '0'
+          ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 509: The current scope already contains a variable of the name log
+ @ line 509, column 15.
+   KeywordLogger log = new KeywordLogger()
+                 ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 616: The current scope already contains a variable of the name dateCI
+ @ line 616, column 10.
+   String[] dateCI = var_checkinD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 618: The current scope already contains a variable of the name dateCO
+ @ line 618, column 10.
+   String[] dateCO = var_checkoutD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 620: The current scope already contains a variable of the name arryPets
+ @ line 620, column 10.
+   String[] arryPets = var_pets.split(',')
+            ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576003378945.run(TempTestSuite1576003378945.groovy:36)
+"/>
+         <system-out><![CDATA[2019-12-10 12:43:01 - [TEST_CASE][ERROR] - Test Cases/p4p_newReservation: Test Cases/p4p_newReservation FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 507: The current scope already contains a variable of the name flagBoar
+ @ line 507, column 8.
+   String flagBoar = '0'
+          ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 509: The current scope already contains a variable of the name log
+ @ line 509, column 15.
+   KeywordLogger log = new KeywordLogger()
+                 ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 616: The current scope already contains a variable of the name dateCI
+ @ line 616, column 10.
+   String[] dateCI = var_checkinD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 618: The current scope already contains a variable of the name dateCO
+ @ line 618, column 10.
+   String[] dateCO = var_checkoutD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 620: The current scope already contains a variable of the name arryPets
+ @ line 620, column 10.
+   String[] arryPets = var_pets.split(',')
+            ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576003378945.run(TempTestSuite1576003378945.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-12-10 12:43:01 - [TEST_CASE][ERROR] - Test Cases/p4p_newReservation: Test Cases/p4p_newReservation FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 507: The current scope already contains a variable of the name flagBoar
+ @ line 507, column 8.
+   String flagBoar = '0'
+          ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 509: The current scope already contains a variable of the name log
+ @ line 509, column 15.
+   KeywordLogger log = new KeywordLogger()
+                 ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 616: The current scope already contains a variable of the name dateCI
+ @ line 616, column 10.
+   String[] dateCI = var_checkinD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 618: The current scope already contains a variable of the name dateCO
+ @ line 618, column 10.
+   String[] dateCO = var_checkoutD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 620: The current scope already contains a variable of the name arryPets
+ @ line 620, column 10.
+   String[] arryPets = var_pets.split(',')
+            ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576003378945.run(TempTestSuite1576003378945.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_newReservation" time="0.145" classname="Test Cases/p4p_newReservation" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_newReservation FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 507: The current scope already contains a variable of the name flagBoar
+ @ line 507, column 8.
+   String flagBoar = '0'
+          ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 509: The current scope already contains a variable of the name log
+ @ line 509, column 15.
+   KeywordLogger log = new KeywordLogger()
+                 ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 616: The current scope already contains a variable of the name dateCI
+ @ line 616, column 10.
+   String[] dateCI = var_checkinD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 618: The current scope already contains a variable of the name dateCO
+ @ line 618, column 10.
+   String[] dateCO = var_checkoutD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 620: The current scope already contains a variable of the name arryPets
+ @ line 620, column 10.
+   String[] arryPets = var_pets.split(',')
+            ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576003378945.run(TempTestSuite1576003378945.groovy:36)
+"/>
+         <system-out><![CDATA[2019-12-10 12:43:01 - [TEST_CASE][ERROR] - Test Cases/p4p_newReservation: Test Cases/p4p_newReservation FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 507: The current scope already contains a variable of the name flagBoar
+ @ line 507, column 8.
+   String flagBoar = '0'
+          ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 509: The current scope already contains a variable of the name log
+ @ line 509, column 15.
+   KeywordLogger log = new KeywordLogger()
+                 ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 616: The current scope already contains a variable of the name dateCI
+ @ line 616, column 10.
+   String[] dateCI = var_checkinD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 618: The current scope already contains a variable of the name dateCO
+ @ line 618, column 10.
+   String[] dateCO = var_checkoutD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 620: The current scope already contains a variable of the name arryPets
+ @ line 620, column 10.
+   String[] arryPets = var_pets.split(',')
+            ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576003378945.run(TempTestSuite1576003378945.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-12-10 12:43:01 - [TEST_CASE][ERROR] - Test Cases/p4p_newReservation: Test Cases/p4p_newReservation FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 507: The current scope already contains a variable of the name flagBoar
+ @ line 507, column 8.
+   String flagBoar = '0'
+          ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 509: The current scope already contains a variable of the name log
+ @ line 509, column 15.
+   KeywordLogger log = new KeywordLogger()
+                 ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 616: The current scope already contains a variable of the name dateCI
+ @ line 616, column 10.
+   String[] dateCI = var_checkinD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 618: The current scope already contains a variable of the name dateCO
+ @ line 618, column 10.
+   String[] dateCO = var_checkoutD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 620: The current scope already contains a variable of the name arryPets
+ @ line 620, column 10.
+   String[] arryPets = var_pets.split(',')
+            ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576003378945.run(TempTestSuite1576003378945.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_newReservation" time="0.136" classname="Test Cases/p4p_newReservation" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_newReservation FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 507: The current scope already contains a variable of the name flagBoar
+ @ line 507, column 8.
+   String flagBoar = '0'
+          ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 509: The current scope already contains a variable of the name log
+ @ line 509, column 15.
+   KeywordLogger log = new KeywordLogger()
+                 ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 616: The current scope already contains a variable of the name dateCI
+ @ line 616, column 10.
+   String[] dateCI = var_checkinD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 618: The current scope already contains a variable of the name dateCO
+ @ line 618, column 10.
+   String[] dateCO = var_checkoutD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 620: The current scope already contains a variable of the name arryPets
+ @ line 620, column 10.
+   String[] arryPets = var_pets.split(',')
+            ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576003378945.run(TempTestSuite1576003378945.groovy:36)
+"/>
+         <system-out><![CDATA[2019-12-10 12:43:01 - [TEST_CASE][ERROR] - Test Cases/p4p_newReservation: Test Cases/p4p_newReservation FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 507: The current scope already contains a variable of the name flagBoar
+ @ line 507, column 8.
+   String flagBoar = '0'
+          ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 509: The current scope already contains a variable of the name log
+ @ line 509, column 15.
+   KeywordLogger log = new KeywordLogger()
+                 ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 616: The current scope already contains a variable of the name dateCI
+ @ line 616, column 10.
+   String[] dateCI = var_checkinD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 618: The current scope already contains a variable of the name dateCO
+ @ line 618, column 10.
+   String[] dateCO = var_checkoutD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 620: The current scope already contains a variable of the name arryPets
+ @ line 620, column 10.
+   String[] arryPets = var_pets.split(',')
+            ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576003378945.run(TempTestSuite1576003378945.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-12-10 12:43:01 - [TEST_CASE][ERROR] - Test Cases/p4p_newReservation: Test Cases/p4p_newReservation FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 507: The current scope already contains a variable of the name flagBoar
+ @ line 507, column 8.
+   String flagBoar = '0'
+          ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 509: The current scope already contains a variable of the name log
+ @ line 509, column 15.
+   KeywordLogger log = new KeywordLogger()
+                 ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 616: The current scope already contains a variable of the name dateCI
+ @ line 616, column 10.
+   String[] dateCI = var_checkinD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 618: The current scope already contains a variable of the name dateCO
+ @ line 618, column 10.
+   String[] dateCO = var_checkoutD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 620: The current scope already contains a variable of the name arryPets
+ @ line 620, column 10.
+   String[] arryPets = var_pets.split(',')
+            ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576003378945.run(TempTestSuite1576003378945.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-10 12:43:00 - [TEST_SUITE][ERROR] - ts_newReservation: Test Cases/p4p_newReservation FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 507: The current scope already contains a variable of the name flagBoar
+ @ line 507, column 8.
+   String flagBoar = '0'
+          ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 509: The current scope already contains a variable of the name log
+ @ line 509, column 15.
+   KeywordLogger log = new KeywordLogger()
+                 ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 616: The current scope already contains a variable of the name dateCI
+ @ line 616, column 10.
+   String[] dateCI = var_checkinD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 618: The current scope already contains a variable of the name dateCO
+ @ line 618, column 10.
+   String[] dateCO = var_checkoutD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 620: The current scope already contains a variable of the name arryPets
+ @ line 620, column 10.
+   String[] arryPets = var_pets.split(',')
+            ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576003378945.run(TempTestSuite1576003378945.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-12-10 12:43:00 - [TEST_SUITE][ERROR] - ts_newReservation: Test Cases/p4p_newReservation FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 507: The current scope already contains a variable of the name flagBoar
+ @ line 507, column 8.
+   String flagBoar = '0'
+          ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 509: The current scope already contains a variable of the name log
+ @ line 509, column 15.
+   KeywordLogger log = new KeywordLogger()
+                 ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 616: The current scope already contains a variable of the name dateCI
+ @ line 616, column 10.
+   String[] dateCI = var_checkinD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 618: The current scope already contains a variable of the name dateCO
+ @ line 618, column 10.
+   String[] dateCO = var_checkoutD.split(',')
+            ^
+
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_newReservation/Script1574443748278.groovy: 620: The current scope already contains a variable of the name arryPets
+ @ line 620, column 10.
+   String[] arryPets = var_pets.split(',')
+            ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576003378945.run(TempTestSuite1576003378945.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_payment" time="26.69" tests="1" failures="0" errors="1">
+   <testsuite name="ts_payment" tests="1" failures="0" errors="1" time="26.69" timestamp="2019-11-27 06:48:25" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_payment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191127_064823/ts_payment/20191127_064823"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191127_064823/ts_payment/20191127_064823/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Firefox 70.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="fbfee738-916d-426b-9c48-d3dfcb69b616"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_payment" time="21.771" classname="Test Cases/p4p_payment" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_payment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1573495418331
+	at p4p_payment.run(p4p_payment:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574858903834.run(TempTestSuite1574858903834.groovy:36)
+"/>
+         <system-out><![CDATA[2019-11-27 06:48:25 - [TEST_CASE][ERROR] - Test Cases/p4p_payment: Test Cases/p4p_payment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1573495418331
+	at p4p_payment.run(p4p_payment:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574858903834.run(TempTestSuite1574858903834.groovy:36)
+
+
+2019-11-27 06:48:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-27 06:48:25 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-11-27 06:48:25 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-27 06:48:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-27 06:48:28 - [TEST_STEP][PASSED] - navigateToUrl("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 06:48:30 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 06:48:30 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 06:48:30 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 06:48:30 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 06:48:31 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 06:48:31 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 06:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 06:48:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-27 06:48:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-27 06:48:38 - [TEST_STEP][PASSED] - navigateToUrl(var_urlInvoce): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 06:48:41 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 06:48:41 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-11-27 06:48:47 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-11-27 06:48:47 - [TEST_STEP][NOT_RUN] - click(findTestObject("object_invoce/a_btnPay")): NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 06:48:47 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 06:48:47 - [TEST_STEP][PASSED] - navigateToUrl(var_urlPay): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 06:48:47 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 06:48:47 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-11-27 06:48:47 - [TEST_STEP][PASSED] - log.logInfo("TEST"): TEST
+
+2019-11-27 06:48:47 - [MESSAGE][INFO] - TEST
+
+2019-11-27 06:48:47 - [TEST_STEP][PASSED] - log.logInfo(var_method): BY CHECK
+
+2019-11-27 06:48:47 - [MESSAGE][INFO] - BY CHECK
+
+2019-11-27 06:48:47 - [TEST_STEP][PASSED] - setText(a, var_method): null]]></system-out>
+         <system-err><![CDATA[2019-11-27 06:48:25 - [TEST_CASE][ERROR] - Test Cases/p4p_payment: Test Cases/p4p_payment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1573495418331
+	at p4p_payment.run(p4p_payment:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574858903834.run(TempTestSuite1574858903834.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-27 06:48:25 - [TEST_SUITE][ERROR] - ts_payment: Test Cases/p4p_payment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1573495418331
+	at p4p_payment.run(p4p_payment:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574858903834.run(TempTestSuite1574858903834.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-11-27 06:48:25 - [TEST_SUITE][ERROR] - ts_payment: Test Cases/p4p_payment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1573495418331
+	at p4p_payment.run(p4p_payment:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574858903834.run(TempTestSuite1574858903834.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

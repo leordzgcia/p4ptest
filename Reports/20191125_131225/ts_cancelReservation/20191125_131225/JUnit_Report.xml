@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_cancelReservation" time="20.611" tests="1" failures="0" errors="1">
+   <testsuite name="ts_cancelReservation" tests="1" failures="0" errors="1" time="20.611" timestamp="2019-11-25 13:12:26" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_cancelReservation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191125_131225/ts_cancelReservation/20191125_131225"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191125_131225/ts_cancelReservation/20191125_131225/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Firefox 70.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="42960dd0-a372-46b6-9b83-fac0dee02433"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_cancelReserBtn" time="16.707" classname="Test Cases/p4p_cancelReserBtn" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_cancelReserBtn FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: urlReserva for class: Script1574376726717
+	at p4p_cancelReserBtn.run(p4p_cancelReserBtn:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574709145029.run(TempTestSuite1574709145029.groovy:36)
+"/>
+         <system-out><![CDATA[2019-11-25 13:12:26 - [TEST_CASE][ERROR] - Test Cases/p4p_cancelReserBtn: Test Cases/p4p_cancelReserBtn FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: urlReserva for class: Script1574376726717
+	at p4p_cancelReserBtn.run(p4p_cancelReserBtn:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574709145029.run(TempTestSuite1574709145029.groovy:36)
+
+
+2019-11-25 13:12:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-25 13:12:27 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-11-25 13:12:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-25 13:12:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-25 13:12:29 - [TEST_STEP][PASSED] - navigateToUrl("https://p4p-qa-bg.aws.paradise4paws.com/login/?next=/"): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/?next=/' successfully
+
+2019-11-25 13:12:32 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/?next=/' successfully
+
+2019-11-25 13:12:32 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-25 13:12:33 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-25 13:12:33 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-25 13:12:33 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-25 13:12:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-25 13:12:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-25 13:12:36 - [TEST_STEP][NOT_RUN] - verifyElementClickable(findTestObject("object_login/btn_login")): NOT_RUN: verifyElementClickable(findTestObject("object_login/btn_login"))
+
+2019-11-25 13:12:36 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementClickable(findTestObject("object_login/btn_login"))
+
+2019-11-25 13:12:36 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-25 13:12:40 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-25 13:12:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-25 13:12:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-25 13:12:43 - [TEST_STEP][PASSED] - navigateToUrl(urlReserva): null]]></system-out>
+         <system-err><![CDATA[2019-11-25 13:12:26 - [TEST_CASE][ERROR] - Test Cases/p4p_cancelReserBtn: Test Cases/p4p_cancelReserBtn FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: urlReserva for class: Script1574376726717
+	at p4p_cancelReserBtn.run(p4p_cancelReserBtn:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574709145029.run(TempTestSuite1574709145029.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-25 13:12:26 - [TEST_SUITE][ERROR] - ts_cancelReservation: Test Cases/p4p_cancelReserBtn FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: urlReserva for class: Script1574376726717
+	at p4p_cancelReserBtn.run(p4p_cancelReserBtn:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574709145029.run(TempTestSuite1574709145029.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-11-25 13:12:26 - [TEST_SUITE][ERROR] - ts_cancelReservation: Test Cases/p4p_cancelReserBtn FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: urlReserva for class: Script1574376726717
+	at p4p_cancelReserBtn.run(p4p_cancelReserBtn:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574709145029.run(TempTestSuite1574709145029.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

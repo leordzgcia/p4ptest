@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_payment" time="260.902" tests="7" failures="1" errors="1">
+   <testsuite name="ts_payment" tests="7" failures="1" errors="1" time="260.902" timestamp="2019-11-27 08:48:21" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_payment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191127_084819/ts_payment/20191127_084819"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191127_084819/ts_payment/20191127_084819/execution0.log"/>
+         <property name="attachments" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191127_084819/ts_payment/20191127_084819/1574866150225.png"/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Firefox 70.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="ab736e5d-1044-449b-ab93-b032e9af29dc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_payment" time="24.756" classname="Test Cases/p4p_payment" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_payment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: webUI for class: Script1573495418331
+	at p4p_payment.run(p4p_payment:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574866099478.run(TempTestSuite1574866099478.groovy:36)
+"/>
+         <system-out><![CDATA[2019-11-27 08:48:21 - [TEST_CASE][ERROR] - Test Cases/p4p_payment: Test Cases/p4p_payment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: webUI for class: Script1573495418331
+	at p4p_payment.run(p4p_payment:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574866099478.run(TempTestSuite1574866099478.groovy:36)
+
+
+2019-11-27 08:48:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-27 08:48:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-11-27 08:48:21 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-27 08:48:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-27 08:48:24 - [TEST_STEP][PASSED] - navigateToUrl("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 08:48:26 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 08:48:26 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 08:48:27 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 08:48:27 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 08:48:27 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 08:48:27 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 08:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 08:48:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-27 08:48:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-27 08:48:34 - [TEST_STEP][PASSED] - navigateToUrl(var_urlInvoce): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:48:37 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:48:37 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-11-27 08:48:43 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-11-27 08:48:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("object_invoce/a_btnPay")): NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 08:48:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 08:48:43 - [TEST_STEP][PASSED] - navigateToUrl(var_urlPay): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:48:43 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:48:43 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-11-27 08:48:43 - [TEST_STEP][PASSED] - log.logInfo("TEST"): TEST
+
+2019-11-27 08:48:43 - [MESSAGE][INFO] - TEST
+
+2019-11-27 08:48:43 - [TEST_STEP][PASSED] - log.logInfo(var_method): CARD ON FILE
+
+2019-11-27 08:48:43 - [MESSAGE][INFO] - CARD ON FILE
+
+2019-11-27 08:48:43 - [TEST_STEP][PASSED] - if (var_method == "CARD ON FILE"): null
+
+2019-11-27 08:48:43 - [TEST_STEP][PASSED] - click(findTestObject("object_paymentDetails/rdioBtn_methodCardnotpresent")): Object: 'Object Repository/object_paymentDetails/rdioBtn_methodCardnotpresent' is clicked on
+
+2019-11-27 08:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/object_paymentDetails/rdioBtn_methodCardnotpresent' is clicked on
+
+2019-11-27 08:48:46 - [TEST_STEP][PASSED] - webUI.click(findTestObject("object_paymentDetails/btn_makeAPayment")): null]]></system-out>
+         <system-err><![CDATA[2019-11-27 08:48:21 - [TEST_CASE][ERROR] - Test Cases/p4p_payment: Test Cases/p4p_payment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: webUI for class: Script1573495418331
+	at p4p_payment.run(p4p_payment:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574866099478.run(TempTestSuite1574866099478.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_payment" time="24.312" classname="Test Cases/p4p_payment" status="FAILED">
+         <failure type="FAILED" message="Test Cases/p4p_payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at p4p_payment.run(p4p_payment:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574866099478.run(TempTestSuite1574866099478.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-11-27 08:48:46 - [TEST_CASE][FAILED] - Test Cases/p4p_payment: Test Cases/p4p_payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at p4p_payment.run(p4p_payment:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574866099478.run(TempTestSuite1574866099478.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-11-27 08:48:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-27 08:48:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-27 08:48:49 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-11-27 08:48:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-27 08:48:51 - [TEST_STEP][PASSED] - navigateToUrl("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 08:48:52 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 08:48:52 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 08:48:53 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 08:48:53 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 08:48:54 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 08:48:54 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 08:48:57 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 08:48:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-27 08:49:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-27 08:49:00 - [TEST_STEP][PASSED] - navigateToUrl(var_urlInvoce): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:49:04 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:49:04 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-11-27 08:49:10 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-11-27 08:49:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("object_invoce/a_btnPay")): NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 08:49:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 08:49:10 - [TEST_STEP][PASSED] - navigateToUrl(var_urlPay): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:49:10 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:49:10 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-11-27 08:49:10 - [TEST_STEP][PASSED] - log.logInfo("TEST"): TEST
+
+2019-11-27 08:49:10 - [MESSAGE][INFO] - TEST
+
+2019-11-27 08:49:10 - [TEST_STEP][PASSED] - log.logInfo(var_method): CARD PRESENT
+
+2019-11-27 08:49:10 - [MESSAGE][INFO] - CARD PRESENT
+
+2019-11-27 08:49:10 - [TEST_STEP][PASSED] - if (var_method == "CARD ON FILE"): null
+
+2019-11-27 08:49:10 - [TEST_STEP][FAILED] - else if (var_method == "CARD PRESENT"): Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at p4p_payment.run(p4p_payment:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574866099478.run(TempTestSuite1574866099478.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1573495418331.run(Script1573495418331.groovy:53)
+	... 13 more
+)
+
+2019-11-27 08:49:10 - [TEST_STEP][FAILED] - click(findTestObject("object_paymentDetails/rdioBtn_methodCardnpresent")): Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at p4p_payment.run(p4p_payment:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574866099478.run(TempTestSuite1574866099478.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1573495418331.run(Script1573495418331.groovy:53)
+	... 13 more
+)
+
+2019-11-27 08:49:10 - [MESSAGE][WARNING] - Test object with id 'Object Repository/object_paymentDetails/rdioBtn_methodCardnpresent' does not exist
+
+2019-11-27 08:49:10 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-11-27 08:49:10 - [MESSAGE][FAILED] - Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at p4p_payment.run(p4p_payment:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574866099478.run(TempTestSuite1574866099478.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1573495418331.run(Script1573495418331.groovy:53)
+	... 13 more
+)
+[[ATTACHMENT|/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191127_084819/ts_payment/20191127_084819/1574866150225.png]]]]></system-out>
+         <system-err><![CDATA[2019-11-27 08:48:46 - [TEST_CASE][FAILED] - Test Cases/p4p_payment: Test Cases/p4p_payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at p4p_payment.run(p4p_payment:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574866099478.run(TempTestSuite1574866099478.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_payment" time="65.802" classname="Test Cases/p4p_payment" status="PASSED">
+         <system-out><![CDATA[2019-11-27 08:49:10 - [TEST_CASE][PASSED] - Test Cases/p4p_payment: Test Cases/p4p_payment
+
+2019-11-27 08:49:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-27 08:49:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-27 08:49:14 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-11-27 08:49:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-27 08:49:16 - [TEST_STEP][PASSED] - navigateToUrl("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 08:49:17 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 08:49:17 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 08:49:18 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 08:49:18 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 08:49:18 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 08:49:18 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 08:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 08:49:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-27 08:49:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-27 08:49:25 - [TEST_STEP][PASSED] - navigateToUrl(var_urlInvoce): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:49:28 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:49:28 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-11-27 08:49:34 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-11-27 08:49:34 - [TEST_STEP][NOT_RUN] - click(findTestObject("object_invoce/a_btnPay")): NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 08:49:34 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 08:49:34 - [TEST_STEP][PASSED] - navigateToUrl(var_urlPay): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:49:34 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:49:34 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-11-27 08:49:34 - [TEST_STEP][PASSED] - log.logInfo("TEST"): TEST
+
+2019-11-27 08:49:34 - [MESSAGE][INFO] - TEST
+
+2019-11-27 08:49:34 - [TEST_STEP][PASSED] - log.logInfo(var_method): CARD NOT PRESENT
+
+2019-11-27 08:49:34 - [MESSAGE][INFO] - CARD NOT PRESENT
+
+2019-11-27 08:49:34 - [TEST_STEP][PASSED] - if (var_method == "CARD ON FILE"): null
+
+2019-11-27 08:49:34 - [TEST_STEP][PASSED] - else if (var_method == "CARD PRESENT"): null
+
+2019-11-27 08:49:34 - [TEST_STEP][PASSED] - else if (var_method == "CARD NOT PRESENT"): Object: 'Object Repository/object_paymentDetails/btn_makeAPayment' is clicked on
+
+2019-11-27 08:49:34 - [TEST_STEP][PASSED] - click(findTestObject("object_paymentDetails/rdioBtn_methodCardnotpresent")): Object: 'Object Repository/object_paymentDetails/rdioBtn_methodCardnotpresent' is clicked on
+
+2019-11-27 08:49:37 - [MESSAGE][PASSED] - Object: 'Object Repository/object_paymentDetails/rdioBtn_methodCardnotpresent' is clicked on
+
+2019-11-27 08:49:37 - [TEST_STEP][PASSED] - click(findTestObject("object_paymentDetails/btn_makeAPayment")): Object: 'Object Repository/object_paymentDetails/btn_makeAPayment' is clicked on
+
+2019-11-27 08:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/object_paymentDetails/btn_makeAPayment' is clicked on
+
+2019-11-27 08:50:08 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-11-27 08:50:16 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_payment" time="32.545" classname="Test Cases/p4p_payment" status="PASSED">
+         <system-out><![CDATA[2019-11-27 08:50:16 - [TEST_CASE][PASSED] - Test Cases/p4p_payment: Test Cases/p4p_payment
+
+2019-11-27 08:50:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-27 08:50:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-27 08:50:16 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-11-27 08:50:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-27 08:50:18 - [TEST_STEP][PASSED] - navigateToUrl("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 08:50:20 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 08:50:20 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 08:50:21 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 08:50:21 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 08:50:21 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 08:50:21 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 08:50:25 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 08:50:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-27 08:50:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-27 08:50:28 - [TEST_STEP][PASSED] - navigateToUrl(var_urlInvoce): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:50:31 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:50:31 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-11-27 08:50:37 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-11-27 08:50:37 - [TEST_STEP][NOT_RUN] - click(findTestObject("object_invoce/a_btnPay")): NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 08:50:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 08:50:37 - [TEST_STEP][PASSED] - navigateToUrl(var_urlPay): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:50:37 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:50:37 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-11-27 08:50:37 - [TEST_STEP][PASSED] - log.logInfo("TEST"): TEST
+
+2019-11-27 08:50:37 - [MESSAGE][INFO] - TEST
+
+2019-11-27 08:50:37 - [TEST_STEP][PASSED] - log.logInfo(var_method): BY CASH
+
+2019-11-27 08:50:37 - [MESSAGE][INFO] - BY CASH
+
+2019-11-27 08:50:37 - [TEST_STEP][PASSED] - if (var_method == "CARD ON FILE"): null
+
+2019-11-27 08:50:37 - [TEST_STEP][PASSED] - else if (var_method == "CARD PRESENT"): null
+
+2019-11-27 08:50:37 - [TEST_STEP][PASSED] - else if (var_method == "CARD NOT PRESENT"): null
+
+2019-11-27 08:50:37 - [TEST_STEP][PASSED] - else if (var_method == "BY CASH"): Object: 'Object Repository/object_paymentDetails/btn_makeAPayment' is clicked on
+
+2019-11-27 08:50:37 - [TEST_STEP][PASSED] - click(findTestObject("object_paymentDetails/rdioBtn_methodBycash")): Object: 'Object Repository/object_paymentDetails/rdioBtn_methodBycash' is clicked on
+
+2019-11-27 08:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/object_paymentDetails/rdioBtn_methodBycash' is clicked on
+
+2019-11-27 08:50:40 - [TEST_STEP][PASSED] - click(findTestObject("object_paymentDetails/btn_makeAPayment")): Object: 'Object Repository/object_paymentDetails/btn_makeAPayment' is clicked on
+
+2019-11-27 08:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/object_paymentDetails/btn_makeAPayment' is clicked on
+
+2019-11-27 08:50:40 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-11-27 08:50:48 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_payment" time="35.291" classname="Test Cases/p4p_payment" status="PASSED">
+         <system-out><![CDATA[2019-11-27 08:50:48 - [TEST_CASE][PASSED] - Test Cases/p4p_payment: Test Cases/p4p_payment
+
+2019-11-27 08:50:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-27 08:50:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-27 08:50:51 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-11-27 08:50:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-27 08:50:53 - [TEST_STEP][PASSED] - navigateToUrl("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 08:50:54 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 08:50:54 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 08:50:55 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 08:50:55 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 08:50:56 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 08:50:56 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 08:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 08:51:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-27 08:51:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-27 08:51:03 - [TEST_STEP][PASSED] - navigateToUrl(var_urlInvoce): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:51:06 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:51:06 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-11-27 08:51:12 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-11-27 08:51:12 - [TEST_STEP][NOT_RUN] - click(findTestObject("object_invoce/a_btnPay")): NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 08:51:12 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 08:51:12 - [TEST_STEP][PASSED] - navigateToUrl(var_urlPay): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:51:12 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:51:12 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-11-27 08:51:12 - [TEST_STEP][PASSED] - log.logInfo("TEST"): TEST
+
+2019-11-27 08:51:12 - [MESSAGE][INFO] - TEST
+
+2019-11-27 08:51:12 - [TEST_STEP][PASSED] - log.logInfo(var_method): ACCOUNT CREDIT
+
+2019-11-27 08:51:12 - [MESSAGE][INFO] - ACCOUNT CREDIT
+
+2019-11-27 08:51:12 - [TEST_STEP][PASSED] - if (var_method == "CARD ON FILE"): null
+
+2019-11-27 08:51:12 - [TEST_STEP][PASSED] - else if (var_method == "CARD PRESENT"): null
+
+2019-11-27 08:51:12 - [TEST_STEP][PASSED] - else if (var_method == "CARD NOT PRESENT"): null
+
+2019-11-27 08:51:12 - [TEST_STEP][PASSED] - else if (var_method == "BY CASH"): null
+
+2019-11-27 08:51:12 - [TEST_STEP][PASSED] - else if (var_method == "ACCOUNT CREDIT"): Object: 'Object Repository/object_paymentDetails/btn_makeAPayment' is clicked on
+
+2019-11-27 08:51:12 - [TEST_STEP][PASSED] - click(findTestObject("object_paymentDetails/rdioBtn_methodAccountCredit")): Object: 'Object Repository/object_paymentDetails/rdioBtn_methodAccountCredit' is clicked on
+
+2019-11-27 08:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/object_paymentDetails/rdioBtn_methodAccountCredit' is clicked on
+
+2019-11-27 08:51:15 - [TEST_STEP][PASSED] - click(findTestObject("object_paymentDetails/btn_makeAPayment")): Object: 'Object Repository/object_paymentDetails/btn_makeAPayment' is clicked on
+
+2019-11-27 08:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/object_paymentDetails/btn_makeAPayment' is clicked on
+
+2019-11-27 08:51:16 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-11-27 08:51:24 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_payment" time="34.615" classname="Test Cases/p4p_payment" status="PASSED">
+         <system-out><![CDATA[2019-11-27 08:51:24 - [TEST_CASE][PASSED] - Test Cases/p4p_payment: Test Cases/p4p_payment
+
+2019-11-27 08:51:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-27 08:51:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-27 08:51:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-11-27 08:51:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-27 08:51:28 - [TEST_STEP][PASSED] - navigateToUrl("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 08:51:30 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 08:51:30 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 08:51:30 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 08:51:30 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 08:51:31 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 08:51:31 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 08:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 08:51:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-27 08:51:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-27 08:51:38 - [TEST_STEP][PASSED] - navigateToUrl(var_urlInvoce): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:51:41 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:51:41 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-11-27 08:51:47 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-11-27 08:51:47 - [TEST_STEP][NOT_RUN] - click(findTestObject("object_invoce/a_btnPay")): NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 08:51:47 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 08:51:47 - [TEST_STEP][PASSED] - navigateToUrl(var_urlPay): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:51:47 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:51:47 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-11-27 08:51:47 - [TEST_STEP][PASSED] - log.logInfo("TEST"): TEST
+
+2019-11-27 08:51:47 - [MESSAGE][INFO] - TEST
+
+2019-11-27 08:51:47 - [TEST_STEP][PASSED] - log.logInfo(var_method): BY CHECK
+
+2019-11-27 08:51:47 - [MESSAGE][INFO] - BY CHECK
+
+2019-11-27 08:51:47 - [TEST_STEP][PASSED] - if (var_method == "CARD ON FILE"): null
+
+2019-11-27 08:51:47 - [TEST_STEP][PASSED] - else if (var_method == "CARD PRESENT"): null
+
+2019-11-27 08:51:47 - [TEST_STEP][PASSED] - else if (var_method == "CARD NOT PRESENT"): null
+
+2019-11-27 08:51:47 - [TEST_STEP][PASSED] - else if (var_method == "BY CASH"): null
+
+2019-11-27 08:51:47 - [TEST_STEP][PASSED] - else if (var_method == "ACCOUNT CREDIT"): null
+
+2019-11-27 08:51:47 - [TEST_STEP][PASSED] - else if (var_method == "BY CHECK"): Object: 'Object Repository/object_paymentDetails/btn_makeAPayment' is clicked on
+
+2019-11-27 08:51:47 - [TEST_STEP][PASSED] - click(findTestObject("object_paymentDetails/rdioBtn_methodBycheck")): Object: 'Object Repository/object_paymentDetails/rdioBtn_methodBycheck' is clicked on
+
+2019-11-27 08:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/object_paymentDetails/rdioBtn_methodBycheck' is clicked on
+
+2019-11-27 08:51:50 - [TEST_STEP][PASSED] - click(findTestObject("object_paymentDetails/btn_makeAPayment")): Object: 'Object Repository/object_paymentDetails/btn_makeAPayment' is clicked on
+
+2019-11-27 08:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/object_paymentDetails/btn_makeAPayment' is clicked on
+
+2019-11-27 08:51:50 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-11-27 08:51:58 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_payment" time="35.376" classname="Test Cases/p4p_payment" status="PASSED">
+         <system-out><![CDATA[2019-11-27 08:51:58 - [TEST_CASE][PASSED] - Test Cases/p4p_payment: Test Cases/p4p_payment
+
+2019-11-27 08:51:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-27 08:51:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-27 08:52:01 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-11-27 08:52:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-27 08:52:03 - [TEST_STEP][PASSED] - navigateToUrl("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 08:52:05 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/' successfully
+
+2019-11-27 08:52:05 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 08:52:05 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-27 08:52:05 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 08:52:06 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-27 08:52:06 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 08:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-27 08:52:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-27 08:52:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-27 08:52:13 - [TEST_STEP][PASSED] - navigateToUrl(var_urlInvoce): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:52:16 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:52:16 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-11-27 08:52:22 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-11-27 08:52:22 - [TEST_STEP][NOT_RUN] - click(findTestObject("object_invoce/a_btnPay")): NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 08:52:22 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("object_invoce/a_btnPay"))
+
+2019-11-27 08:52:22 - [TEST_STEP][PASSED] - navigateToUrl(var_urlPay): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:52:22 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/payment/1794650/?backUrl=/accounts/profile/#/invoice/97558/1794650/' successfully
+
+2019-11-27 08:52:22 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-11-27 08:52:22 - [TEST_STEP][PASSED] - log.logInfo("TEST"): TEST
+
+2019-11-27 08:52:22 - [MESSAGE][INFO] - TEST
+
+2019-11-27 08:52:22 - [TEST_STEP][PASSED] - log.logInfo(var_method): OTHER
+
+2019-11-27 08:52:22 - [MESSAGE][INFO] - OTHER
+
+2019-11-27 08:52:22 - [TEST_STEP][PASSED] - if (var_method == "CARD ON FILE"): null
+
+2019-11-27 08:52:22 - [TEST_STEP][PASSED] - else if (var_method == "CARD PRESENT"): null
+
+2019-11-27 08:52:22 - [TEST_STEP][PASSED] - else if (var_method == "CARD NOT PRESENT"): null
+
+2019-11-27 08:52:22 - [TEST_STEP][PASSED] - else if (var_method == "BY CASH"): null
+
+2019-11-27 08:52:22 - [TEST_STEP][PASSED] - else if (var_method == "ACCOUNT CREDIT"): null
+
+2019-11-27 08:52:22 - [TEST_STEP][PASSED] - else if (var_method == "BY CHECK"): null
+
+2019-11-27 08:52:22 - [TEST_STEP][PASSED] - else if (var_method == "OTHER"): Object: 'Object Repository/object_paymentDetails/btn_makeAPayment' is clicked on
+
+2019-11-27 08:52:22 - [TEST_STEP][PASSED] - click(findTestObject("object_paymentDetails/rdioBtn_methodOther")): Object: 'Object Repository/object_paymentDetails/rdioBtn_methodOther' is clicked on
+
+2019-11-27 08:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/object_paymentDetails/rdioBtn_methodOther' is clicked on
+
+2019-11-27 08:52:25 - [TEST_STEP][PASSED] - click(findTestObject("object_paymentDetails/btn_makeAPayment")): Object: 'Object Repository/object_paymentDetails/btn_makeAPayment' is clicked on
+
+2019-11-27 08:52:26 - [MESSAGE][PASSED] - Object: 'Object Repository/object_paymentDetails/btn_makeAPayment' is clicked on
+
+2019-11-27 08:52:26 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-11-27 08:52:34 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-27 08:48:21 - [TEST_SUITE][ERROR] - ts_payment: Test Cases/p4p_payment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: webUI for class: Script1573495418331
+	at p4p_payment.run(p4p_payment:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574866099478.run(TempTestSuite1574866099478.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-11-27 08:48:21 - [TEST_SUITE][ERROR] - ts_payment: Test Cases/p4p_payment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: webUI for class: Script1573495418331
+	at p4p_payment.run(p4p_payment:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574866099478.run(TempTestSuite1574866099478.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

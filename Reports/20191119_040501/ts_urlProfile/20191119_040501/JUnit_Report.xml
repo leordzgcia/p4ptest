@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_urlProfile" time="18.742" tests="2" failures="0" errors="0">
+   <testsuite name="ts_urlProfile" tests="2" failures="0" errors="0" time="18.742" timestamp="2019-11-19 04:05:02" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_urlProfile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191119_040501/ts_urlProfile/20191119_040501"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191119_040501/ts_urlProfile/20191119_040501/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Firefox 70.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="2972d712-0a47-4bda-b205-40dbea504188"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_login" time="11.851" classname="Test Cases/p4p_login" status="PASSED">
+         <system-out><![CDATA[2019-11-19 04:05:02 - [TEST_CASE][PASSED] - Test Cases/p4p_login: Test Cases/p4p_login
+
+2019-11-19 04:05:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-19 04:05:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-11-19 04:05:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-19 04:05:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-19 04:05:05 - [TEST_STEP][PASSED] - navigateToUrl("https://p4p-qa-bg.aws.paradise4paws.com/login/?next=/"): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/?next=/' successfully
+
+2019-11-19 04:05:07 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/?next=/' successfully
+
+2019-11-19 04:05:07 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_emailuser"), "jegchavez@gmail.com"): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_emailuser'
+
+2019-11-19 04:05:08 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_emailuser'
+
+2019-11-19 04:05:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("object_login/input_passworduser"), "vRRrCeg9Qho="): Text ****** has been set on object 'Object Repository/object_login/input_passworduser'
+
+2019-11-19 04:05:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/object_login/input_passworduser'
+
+2019-11-19 04:05:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-19 04:05:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-19 04:05:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("object_login/btn_login")): Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-11-19 04:05:12 - [MESSAGE][PASSED] - Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-11-19 04:05:12 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-19 04:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_urlReservation" time="3.017" classname="Test Cases/p4p_urlReservation" status="PASSED">
+         <system-out><![CDATA[2019-11-19 04:05:14 - [TEST_CASE][PASSED] - Test Cases/p4p_urlReservation: Test Cases/p4p_urlReservation
+
+2019-11-19 04:05:14 - [TEST_STEP][PASSED] - navigateToUrl("https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/reservations/97779/"): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/reservations/97779/' successfully
+
+2019-11-19 04:05:17 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/reservations/97779/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-19 04:05:02 - [TEST_SUITE][PASSED] - ts_urlProfile: Test Cases/p4p_urlReservation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

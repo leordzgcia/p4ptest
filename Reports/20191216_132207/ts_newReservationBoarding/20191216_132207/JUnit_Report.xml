@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_newReservationBoarding" time="251.565" tests="3" failures="0" errors="0">
+   <testsuite name="ts_newReservationBoarding" tests="3" failures="0" errors="0" time="251.565" timestamp="2019-12-16 13:22:08" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_newReservationBoarding">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191216_132207/ts_newReservationBoarding/20191216_132207"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191216_132207/ts_newReservationBoarding/20191216_132207/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Firefox 71.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="45a72482-2964-464f-b20e-8a7c60e4333a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_newReservationBoarding" time="80.422" classname="Test Cases/p4p_newReservationBoarding" status="PASSED">
+         <system-out><![CDATA[2019-12-16 13:22:08 - [TEST_CASE][PASSED] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding
+
+2019-12-16 13:22:09 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2019-12-16 13:22:09 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-16 13:22:09 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-16 13:22:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2019-12-16 13:22:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-12-16 13:22:14 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-12-16 13:22:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-12-16 13:22:15 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-12-16 13:22:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:22:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:22:17 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/object_login/btn_login")): Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-12-16 13:22:17 - [MESSAGE][PASSED] - Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-12-16 13:22:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-12-16 13:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-12-16 13:22:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:22:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:22:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object_dashboard_emp/input_search"), var_searchParent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2019-12-16 13:22:23 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2019-12-16 13:22:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2019-12-16 13:22:24 - [MESSAGE][PASSED] - Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2019-12-16 13:22:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:22:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:22:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2019-12-16 13:22:30 - [MESSAGE][PASSED] - Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2019-12-16 13:22:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:22:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:22:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_profile/a_addReservation")): Object: 'Object Repository/object_profile/a_addReservation' is clicked on
+
+2019-12-16 13:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/object_profile/a_addReservation' is clicked on
+
+2019-12-16 13:22:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:22:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:22:36 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2019-12-16 13:22:36 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-12-16 13:22:36 - [TEST_STEP][PASSED] - if (var_typeReserveation == "Boarding"): null
+
+2019-12-16 13:22:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/btn_Boarding")): Object: 'Object Repository/object_reservation/btn_Boarding' is clicked on
+
+2019-12-16 13:22:37 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/btn_Boarding' is clicked on
+
+2019-12-16 13:22:37 - [TEST_STEP][PASSED] - flagBoar = "1": null
+
+2019-12-16 13:22:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/i_location")): Object: 'Object Repository/object_reservation/i_location' is clicked on
+
+2019-12-16 13:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/i_location' is clicked on
+
+2019-12-16 13:22:40 - [TEST_STEP][PASSED] - switch (var_idFacility): null
+
+2019-12-16 13:22:40 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2019-12-16 13:22:40 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2019-12-16 13:22:40 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2019-12-16 13:22:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:22:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:22:42 - [TEST_STEP][PASSED] - if (var_repeting == "Y"): null
+
+2019-12-16 13:22:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/dateCheckIn")): Object: 'Object Repository/object_reservation/dateCheckIn' is clicked on
+
+2019-12-16 13:22:43 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/dateCheckIn' is clicked on
+
+2019-12-16 13:22:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:22:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:22:45 - [TEST_STEP][PASSED] - switch (dateCI[0]): null
+
+2019-12-16 13:22:45 - [TEST_STEP][PASSED] - case "1":: null
+
+2019-12-16 13:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_01_ci")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_01_ci' is clicked on
+
+2019-12-16 13:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_01_ci' is clicked on
+
+2019-12-16 13:22:45 - [TEST_STEP][PASSED] - break: null
+
+2019-12-16 13:22:45 - [TEST_STEP][PASSED] - if (flagBoar == "1"): null
+
+2019-12-16 13:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/dateCheckOut")): Object: 'Object Repository/object_reservation/dateCheckOut' is clicked on
+
+2019-12-16 13:22:49 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/dateCheckOut' is clicked on
+
+2019-12-16 13:22:49 - [TEST_STEP][PASSED] - switch (dateCO[0]): null
+
+2019-12-16 13:22:49 - [TEST_STEP][PASSED] - case "1":: null
+
+2019-12-16 13:22:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_01_co")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_01_co' is clicked on
+
+2019-12-16 13:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_01_co' is clicked on
+
+2019-12-16 13:22:50 - [TEST_STEP][PASSED] - break: null
+
+2019-12-16 13:22:50 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/object_reservationCalendar/CO_close")): NOT_RUN: click(findTestObject("Object Repository/object_reservationCalendar/CO_close"))
+
+2019-12-16 13:22:50 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/object_reservationCalendar/CO_close"))
+
+2019-12-16 13:22:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/timeCheckin")): Object: 'Object Repository/object_reservation/timeCheckin' is clicked on
+
+2019-12-16 13:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/timeCheckin' is clicked on
+
+2019-12-16 13:22:51 - [TEST_STEP][PASSED] - switch (var_checkinT): null
+
+2019-12-16 13:22:51 - [TEST_STEP][PASSED] - case "800":: null
+
+2019-12-16 13:22:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_800am_ci")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_800am_ci' is clicked on
+
+2019-12-16 13:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_800am_ci' is clicked on
+
+2019-12-16 13:22:52 - [TEST_STEP][PASSED] - break: null
+
+2019-12-16 13:22:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/timeCheckOut")): Object: 'Object Repository/object_reservation/timeCheckOut' is clicked on
+
+2019-12-16 13:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/timeCheckOut' is clicked on
+
+2019-12-16 13:22:53 - [TEST_STEP][PASSED] - switch (var_checkoutT): null
+
+2019-12-16 13:22:53 - [TEST_STEP][PASSED] - case "1200":: null
+
+2019-12-16 13:22:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_1200pm_co")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_1200pm_co' is clicked on
+
+2019-12-16 13:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_1200pm_co' is clicked on
+
+2019-12-16 13:22:53 - [TEST_STEP][PASSED] - break: null
+
+2019-12-16 13:22:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:22:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:22:55 - [TEST_STEP][PASSED] - if (arryPets.size() == 1): Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares' is clicked on
+
+2019-12-16 13:22:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares")): Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares' is clicked on
+
+2019-12-16 13:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares' is clicked on
+
+2019-12-16 13:22:57 - [TEST_STEP][NOT_RUN] - click(findTestObject("object_reservations/i_Day_fa fa-circle-o ng-scope")): NOT_RUN: click(findTestObject("object_reservations/i_Day_fa fa-circle-o ng-scope"))
+
+2019-12-16 13:22:57 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("object_reservations/i_Day_fa fa-circle-o ng-scope"))
+
+2019-12-16 13:22:57 - [TEST_STEP][PASSED] - if (flagBoar == "1" || flagBoar == "2"): Object: 'Object Repository/object_reservation/div_suite_rad_deluxe' is clicked on
+
+2019-12-16 13:22:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/div_suite_rad_deluxe")): Object: 'Object Repository/object_reservation/div_suite_rad_deluxe' is clicked on
+
+2019-12-16 13:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/div_suite_rad_deluxe' is clicked on
+
+2019-12-16 13:23:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/btn_next2")): Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-16 13:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-16 13:23:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-16 13:23:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-16 13:23:06 - [TEST_STEP][PASSED] - if (flagBoar == "1"): Object: 'Object Repository/object_reservation/button_DeclineThisPromo' is clicked on
+
+2019-12-16 13:23:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/button_DeclineThisPromo")): Object: 'Object Repository/object_reservation/button_DeclineThisPromo' is clicked on
+
+2019-12-16 13:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/button_DeclineThisPromo' is clicked on
+
+2019-12-16 13:23:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:23:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:23:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/btn_next2")): Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-16 13:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-16 13:23:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/button_Submit Reservation")): Object: 'Object Repository/object_reservation/button_Submit Reservation' is clicked on
+
+2019-12-16 13:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/button_Submit Reservation' is clicked on
+
+2019-12-16 13:23:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:23:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:23:13 - [TEST_STEP][PASSED] - if (flagBoar == "2" && var_repeatingEvery == "Daily" || var_repeatingEvery == "Monthly" || var_repeatingEvery == "Weekly"): null
+
+2019-12-16 13:23:13 - [TEST_STEP][PASSED] - else: null
+
+2019-12-16 13:23:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:23:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:23:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/button_Return To Reservation")): Object: 'Object Repository/object_reservation/button_Return To Reservation' is clicked on
+
+2019-12-16 13:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/button_Return To Reservation' is clicked on
+
+2019-12-16 13:23:17 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-12-16 13:23:23 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-12-16 13:23:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/button_Go to CheckOut")): Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/button_Go to CheckOut' is clicked on
+
+2019-12-16 13:23:24 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/button_Go to CheckOut' is clicked on
+
+2019-12-16 13:23:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:23:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:23:26 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )"))): ( BK )
+
+2019-12-16 13:23:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' is: '( BK )'
+
+2019-12-16 13:23:27 - [MESSAGE][INFO] - ( BK )
+
+2019-12-16 13:23:27 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702543/?parent_id=122350'
+
+2019-12-16 13:23:27 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702543/?parent_id=122350'
+
+2019-12-16 13:23:27 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2019-12-16 13:23:27 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2019-12-16 13:23:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )"), "( BK )", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' are matched.
+
+2019-12-16 13:23:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' are matched.
+
+2019-12-16 13:23:27 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2019-12-16 13:23:27 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fis): null
+
+2019-12-16 13:23:28 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+2019-12-16 13:23:28 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2019-12-16 13:23:28 - [TEST_STEP][PASSED] - row = sheet.getRow(var): null
+
+2019-12-16 13:23:28 - [TEST_STEP][PASSED] - cell = row.createCell(15, 0): null
+
+2019-12-16 13:23:28 - [TEST_STEP][PASSED] - cell.setCellType(CELL_TYPE_STRING): null
+
+2019-12-16 13:23:28 - [TEST_STEP][PASSED] - cell.setCellValue(arrayUrl[5]): null
+
+2019-12-16 13:23:28 - [TEST_STEP][PASSED] - cell2 = row.createCell(16, 0): null
+
+2019-12-16 13:23:28 - [TEST_STEP][PASSED] - cell2.setCellType(CELL_TYPE_STRING): null
+
+2019-12-16 13:23:28 - [TEST_STEP][PASSED] - cell2.setCellValue(getText(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )"))): Text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' is: '( BK )'
+
+2019-12-16 13:23:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' is: '( BK )'
+
+2019-12-16 13:23:28 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2019-12-16 13:23:28 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+2019-12-16 13:23:28 - [TEST_STEP][PASSED] - fos.close(): null
+
+2019-12-16 13:23:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-16 13:23:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-16 13:23:29 - [TEST_STEP][PASSED] - (var_row++): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_newReservationBoarding" time="81.274" classname="Test Cases/p4p_newReservationBoarding" status="PASSED">
+         <system-out><![CDATA[2019-12-16 13:23:29 - [TEST_CASE][PASSED] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding
+
+2019-12-16 13:23:29 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2019-12-16 13:23:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-16 13:23:30 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-16 13:23:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2019-12-16 13:23:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-12-16 13:23:36 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-12-16 13:23:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-12-16 13:23:36 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-12-16 13:23:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:23:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:23:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/object_login/btn_login")): Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-12-16 13:23:38 - [MESSAGE][PASSED] - Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-12-16 13:23:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-12-16 13:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-12-16 13:23:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:23:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:23:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object_dashboard_emp/input_search"), var_searchParent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2019-12-16 13:23:44 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2019-12-16 13:23:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2019-12-16 13:23:45 - [MESSAGE][PASSED] - Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2019-12-16 13:23:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:23:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:23:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2019-12-16 13:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2019-12-16 13:23:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:23:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:23:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_profile/a_addReservation")): Object: 'Object Repository/object_profile/a_addReservation' is clicked on
+
+2019-12-16 13:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/object_profile/a_addReservation' is clicked on
+
+2019-12-16 13:23:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:23:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:23:57 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2019-12-16 13:23:57 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-12-16 13:23:57 - [TEST_STEP][PASSED] - if (var_typeReserveation == "Boarding"): null
+
+2019-12-16 13:23:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/btn_Boarding")): Object: 'Object Repository/object_reservation/btn_Boarding' is clicked on
+
+2019-12-16 13:23:58 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/btn_Boarding' is clicked on
+
+2019-12-16 13:23:58 - [TEST_STEP][PASSED] - flagBoar = "1": null
+
+2019-12-16 13:23:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/i_location")): Object: 'Object Repository/object_reservation/i_location' is clicked on
+
+2019-12-16 13:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/i_location' is clicked on
+
+2019-12-16 13:24:00 - [TEST_STEP][PASSED] - switch (var_idFacility): null
+
+2019-12-16 13:24:00 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2019-12-16 13:24:00 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2019-12-16 13:24:00 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2019-12-16 13:24:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:24:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:24:02 - [TEST_STEP][PASSED] - if (var_repeting == "Y"): null
+
+2019-12-16 13:24:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/dateCheckIn")): Object: 'Object Repository/object_reservation/dateCheckIn' is clicked on
+
+2019-12-16 13:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/dateCheckIn' is clicked on
+
+2019-12-16 13:24:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:24:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:24:05 - [TEST_STEP][PASSED] - switch (dateCI[0]): null
+
+2019-12-16 13:24:05 - [TEST_STEP][PASSED] - case "2":: null
+
+2019-12-16 13:24:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_02_ci")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_02_ci' is clicked on
+
+2019-12-16 13:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_02_ci' is clicked on
+
+2019-12-16 13:24:05 - [TEST_STEP][PASSED] - break: null
+
+2019-12-16 13:24:05 - [TEST_STEP][PASSED] - if (flagBoar == "1"): null
+
+2019-12-16 13:24:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/dateCheckOut")): Object: 'Object Repository/object_reservation/dateCheckOut' is clicked on
+
+2019-12-16 13:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/dateCheckOut' is clicked on
+
+2019-12-16 13:24:06 - [TEST_STEP][PASSED] - switch (dateCO[0]): null
+
+2019-12-16 13:24:06 - [TEST_STEP][PASSED] - case "2":: null
+
+2019-12-16 13:24:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_02_co")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_02_co' is clicked on
+
+2019-12-16 13:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_02_co' is clicked on
+
+2019-12-16 13:24:07 - [TEST_STEP][PASSED] - break: null
+
+2019-12-16 13:24:07 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/object_reservationCalendar/CO_close")): NOT_RUN: click(findTestObject("Object Repository/object_reservationCalendar/CO_close"))
+
+2019-12-16 13:24:07 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/object_reservationCalendar/CO_close"))
+
+2019-12-16 13:24:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/timeCheckin")): Object: 'Object Repository/object_reservation/timeCheckin' is clicked on
+
+2019-12-16 13:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/timeCheckin' is clicked on
+
+2019-12-16 13:24:08 - [TEST_STEP][PASSED] - switch (var_checkinT): null
+
+2019-12-16 13:24:08 - [TEST_STEP][PASSED] - case "800":: null
+
+2019-12-16 13:24:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_800am_ci")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_800am_ci' is clicked on
+
+2019-12-16 13:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_800am_ci' is clicked on
+
+2019-12-16 13:24:08 - [TEST_STEP][PASSED] - break: null
+
+2019-12-16 13:24:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/timeCheckOut")): Object: 'Object Repository/object_reservation/timeCheckOut' is clicked on
+
+2019-12-16 13:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/timeCheckOut' is clicked on
+
+2019-12-16 13:24:09 - [TEST_STEP][PASSED] - switch (var_checkoutT): null
+
+2019-12-16 13:24:09 - [TEST_STEP][PASSED] - case "1200":: null
+
+2019-12-16 13:24:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_1200pm_co")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_1200pm_co' is clicked on
+
+2019-12-16 13:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_1200pm_co' is clicked on
+
+2019-12-16 13:24:10 - [TEST_STEP][PASSED] - break: null
+
+2019-12-16 13:24:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:24:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:24:12 - [TEST_STEP][PASSED] - if (arryPets.size() == 1): null
+
+2019-12-16 13:24:12 - [TEST_STEP][PASSED] - else if (arryPets.size() == 2): Object: 'Object Repository/object_reservation/div_Zeus' is clicked on
+
+2019-12-16 13:24:12 - [TEST_STEP][PASSED] - click(findTestObject("object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares")): Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares' is clicked on
+
+2019-12-16 13:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares' is clicked on
+
+2019-12-16 13:24:13 - [TEST_STEP][PASSED] - click(findTestObject("object_reservation/div_Zeus")): Object: 'Object Repository/object_reservation/div_Zeus' is clicked on
+
+2019-12-16 13:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/div_Zeus' is clicked on
+
+2019-12-16 13:24:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("object_reservations/i_Day_fa fa-circle-o ng-scope")): NOT_RUN: click(findTestObject("object_reservations/i_Day_fa fa-circle-o ng-scope"))
+
+2019-12-16 13:24:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("object_reservations/i_Day_fa fa-circle-o ng-scope"))
+
+2019-12-16 13:24:18 - [TEST_STEP][PASSED] - if (flagBoar == "1" || flagBoar == "2"): Object: 'Object Repository/object_reservation/div_suite_rad_deluxe' is clicked on
+
+2019-12-16 13:24:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/div_suite_rad_deluxe")): Object: 'Object Repository/object_reservation/div_suite_rad_deluxe' is clicked on
+
+2019-12-16 13:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/div_suite_rad_deluxe' is clicked on
+
+2019-12-16 13:24:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/btn_next2")): Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-16 13:24:24 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-16 13:24:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-16 13:24:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-16 13:24:27 - [TEST_STEP][PASSED] - if (flagBoar == "1"): Object: 'Object Repository/object_reservation/button_DeclineThisPromo' is clicked on
+
+2019-12-16 13:24:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/button_DeclineThisPromo")): Object: 'Object Repository/object_reservation/button_DeclineThisPromo' is clicked on
+
+2019-12-16 13:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/button_DeclineThisPromo' is clicked on
+
+2019-12-16 13:24:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:24:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:24:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/btn_next2")): Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-16 13:24:30 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-16 13:24:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/button_Submit Reservation")): Object: 'Object Repository/object_reservation/button_Submit Reservation' is clicked on
+
+2019-12-16 13:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/button_Submit Reservation' is clicked on
+
+2019-12-16 13:24:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:24:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:24:34 - [TEST_STEP][PASSED] - if (flagBoar == "2" && var_repeatingEvery == "Daily" || var_repeatingEvery == "Monthly" || var_repeatingEvery == "Weekly"): null
+
+2019-12-16 13:24:34 - [TEST_STEP][PASSED] - else: null
+
+2019-12-16 13:24:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:24:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:24:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/button_Return To Reservation")): Object: 'Object Repository/object_reservation/button_Return To Reservation' is clicked on
+
+2019-12-16 13:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/button_Return To Reservation' is clicked on
+
+2019-12-16 13:24:38 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-12-16 13:24:44 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-12-16 13:24:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/button_Go to CheckOut")): Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/button_Go to CheckOut' is clicked on
+
+2019-12-16 13:24:46 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/button_Go to CheckOut' is clicked on
+
+2019-12-16 13:24:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:24:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:24:48 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )"))): ( BK )
+
+2019-12-16 13:24:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' is: '( BK )'
+
+2019-12-16 13:24:49 - [MESSAGE][INFO] - ( BK )
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702544/?parent_id=122350'
+
+2019-12-16 13:24:49 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702544/?parent_id=122350'
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )"), "( BK )", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' are matched.
+
+2019-12-16 13:24:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' are matched.
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fis): null
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - row = sheet.getRow(var): null
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - cell = row.createCell(15, 0): null
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - cell.setCellType(CELL_TYPE_STRING): null
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - cell.setCellValue(arrayUrl[5]): null
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - cell2 = row.createCell(16, 0): null
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - cell2.setCellType(CELL_TYPE_STRING): null
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - cell2.setCellValue(getText(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )"))): Text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' is: '( BK )'
+
+2019-12-16 13:24:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' is: '( BK )'
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - fos.close(): null
+
+2019-12-16 13:24:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-16 13:24:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-16 13:24:50 - [TEST_STEP][PASSED] - (var_row++): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_newReservationBoarding" time="88.718" classname="Test Cases/p4p_newReservationBoarding" status="PASSED">
+         <system-out><![CDATA[2019-12-16 13:24:50 - [TEST_CASE][PASSED] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding
+
+2019-12-16 13:24:50 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2019-12-16 13:24:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-16 13:24:51 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-16 13:24:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2019-12-16 13:24:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-12-16 13:24:57 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-12-16 13:24:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-12-16 13:24:57 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-12-16 13:24:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:24:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:24:59 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/object_login/btn_login")): Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-12-16 13:24:59 - [MESSAGE][PASSED] - Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-12-16 13:24:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-12-16 13:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-12-16 13:25:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:25:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:25:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object_dashboard_emp/input_search"), var_searchParent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2019-12-16 13:25:06 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2019-12-16 13:25:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2019-12-16 13:25:07 - [MESSAGE][PASSED] - Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2019-12-16 13:25:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:25:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:25:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2019-12-16 13:25:14 - [MESSAGE][PASSED] - Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2019-12-16 13:25:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:25:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:25:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_profile/a_addReservation")): Object: 'Object Repository/object_profile/a_addReservation' is clicked on
+
+2019-12-16 13:25:17 - [MESSAGE][PASSED] - Object: 'Object Repository/object_profile/a_addReservation' is clicked on
+
+2019-12-16 13:25:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:25:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:25:19 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2019-12-16 13:25:19 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-12-16 13:25:19 - [TEST_STEP][PASSED] - if (var_typeReserveation == "Boarding"): null
+
+2019-12-16 13:25:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/btn_Boarding")): Object: 'Object Repository/object_reservation/btn_Boarding' is clicked on
+
+2019-12-16 13:25:20 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/btn_Boarding' is clicked on
+
+2019-12-16 13:25:20 - [TEST_STEP][PASSED] - flagBoar = "1": null
+
+2019-12-16 13:25:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/i_location")): Object: 'Object Repository/object_reservation/i_location' is clicked on
+
+2019-12-16 13:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/i_location' is clicked on
+
+2019-12-16 13:25:22 - [TEST_STEP][PASSED] - switch (var_idFacility): null
+
+2019-12-16 13:25:22 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2019-12-16 13:25:22 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2019-12-16 13:25:22 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2019-12-16 13:25:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:25:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:25:24 - [TEST_STEP][PASSED] - if (var_repeting == "Y"): null
+
+2019-12-16 13:25:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/dateCheckIn")): Object: 'Object Repository/object_reservation/dateCheckIn' is clicked on
+
+2019-12-16 13:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/dateCheckIn' is clicked on
+
+2019-12-16 13:25:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:25:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:25:27 - [TEST_STEP][PASSED] - switch (dateCI[0]): null
+
+2019-12-16 13:25:27 - [TEST_STEP][PASSED] - case "3":: null
+
+2019-12-16 13:25:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_03_ci")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_03_ci' is clicked on
+
+2019-12-16 13:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_03_ci' is clicked on
+
+2019-12-16 13:25:27 - [TEST_STEP][PASSED] - break: null
+
+2019-12-16 13:25:27 - [TEST_STEP][PASSED] - if (flagBoar == "1"): null
+
+2019-12-16 13:25:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/dateCheckOut")): Object: 'Object Repository/object_reservation/dateCheckOut' is clicked on
+
+2019-12-16 13:25:28 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/dateCheckOut' is clicked on
+
+2019-12-16 13:25:28 - [TEST_STEP][PASSED] - switch (dateCO[0]): null
+
+2019-12-16 13:25:28 - [TEST_STEP][PASSED] - case "3":: null
+
+2019-12-16 13:25:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_03_co")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_03_co' is clicked on
+
+2019-12-16 13:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/button_03_co' is clicked on
+
+2019-12-16 13:25:29 - [TEST_STEP][PASSED] - break: null
+
+2019-12-16 13:25:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/object_reservationCalendar/CO_close")): NOT_RUN: click(findTestObject("Object Repository/object_reservationCalendar/CO_close"))
+
+2019-12-16 13:25:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/object_reservationCalendar/CO_close"))
+
+2019-12-16 13:25:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/timeCheckin")): Object: 'Object Repository/object_reservation/timeCheckin' is clicked on
+
+2019-12-16 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/timeCheckin' is clicked on
+
+2019-12-16 13:25:30 - [TEST_STEP][PASSED] - switch (var_checkinT): null
+
+2019-12-16 13:25:30 - [TEST_STEP][PASSED] - case "800":: null
+
+2019-12-16 13:25:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_800am_ci")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_800am_ci' is clicked on
+
+2019-12-16 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_800am_ci' is clicked on
+
+2019-12-16 13:25:30 - [TEST_STEP][PASSED] - break: null
+
+2019-12-16 13:25:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/timeCheckOut")): Object: 'Object Repository/object_reservation/timeCheckOut' is clicked on
+
+2019-12-16 13:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/timeCheckOut' is clicked on
+
+2019-12-16 13:25:31 - [TEST_STEP][PASSED] - switch (var_checkoutT): null
+
+2019-12-16 13:25:31 - [TEST_STEP][PASSED] - case "1200":: null
+
+2019-12-16 13:25:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_1200pm_co")): Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_1200pm_co' is clicked on
+
+2019-12-16 13:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/time_1200pm_co' is clicked on
+
+2019-12-16 13:25:32 - [TEST_STEP][PASSED] - break: null
+
+2019-12-16 13:25:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:25:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:25:34 - [TEST_STEP][PASSED] - if (arryPets.size() == 1): null
+
+2019-12-16 13:25:34 - [TEST_STEP][PASSED] - else if (arryPets.size() == 2): null
+
+2019-12-16 13:25:34 - [TEST_STEP][PASSED] - else if (arryPets.size() == 3): Object: 'Object Repository/object_reservation/div_Athena' is clicked on
+
+2019-12-16 13:25:34 - [TEST_STEP][PASSED] - click(findTestObject("object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares")): Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares' is clicked on
+
+2019-12-16 13:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boarding Norwalk Pooch Hotel/div_Ares' is clicked on
+
+2019-12-16 13:25:35 - [TEST_STEP][PASSED] - click(findTestObject("object_reservation/div_Zeus")): Object: 'Object Repository/object_reservation/div_Zeus' is clicked on
+
+2019-12-16 13:25:39 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/div_Zeus' is clicked on
+
+2019-12-16 13:25:39 - [TEST_STEP][PASSED] - click(findTestObject("object_reservation/div_Athena")): Object: 'Object Repository/object_reservation/div_Athena' is clicked on
+
+2019-12-16 13:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/div_Athena' is clicked on
+
+2019-12-16 13:25:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("object_reservations/i_Day_fa fa-circle-o ng-scope")): NOT_RUN: click(findTestObject("object_reservations/i_Day_fa fa-circle-o ng-scope"))
+
+2019-12-16 13:25:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("object_reservations/i_Day_fa fa-circle-o ng-scope"))
+
+2019-12-16 13:25:45 - [TEST_STEP][PASSED] - if (flagBoar == "1" || flagBoar == "2"): Object: 'Object Repository/object_reservation/div_suite_rad_deluxe' is clicked on
+
+2019-12-16 13:25:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/div_suite_rad_deluxe")): Object: 'Object Repository/object_reservation/div_suite_rad_deluxe' is clicked on
+
+2019-12-16 13:25:48 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/div_suite_rad_deluxe' is clicked on
+
+2019-12-16 13:25:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/btn_next2")): Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-16 13:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-16 13:25:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-16 13:25:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-16 13:25:55 - [TEST_STEP][PASSED] - if (flagBoar == "1"): Object: 'Object Repository/object_reservation/button_DeclineThisPromo' is clicked on
+
+2019-12-16 13:25:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/button_DeclineThisPromo")): Object: 'Object Repository/object_reservation/button_DeclineThisPromo' is clicked on
+
+2019-12-16 13:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/button_DeclineThisPromo' is clicked on
+
+2019-12-16 13:25:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:25:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:25:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/btn_next2")): Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-16 13:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/btn_next2' is clicked on
+
+2019-12-16 13:25:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/button_Submit Reservation")): Object: 'Object Repository/object_reservation/button_Submit Reservation' is clicked on
+
+2019-12-16 13:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/button_Submit Reservation' is clicked on
+
+2019-12-16 13:26:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:26:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:26:02 - [TEST_STEP][PASSED] - if (flagBoar == "2" && var_repeatingEvery == "Daily" || var_repeatingEvery == "Monthly" || var_repeatingEvery == "Weekly"): null
+
+2019-12-16 13:26:02 - [TEST_STEP][PASSED] - else: null
+
+2019-12-16 13:26:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:26:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:26:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/button_Return To Reservation")): Object: 'Object Repository/object_reservation/button_Return To Reservation' is clicked on
+
+2019-12-16 13:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/button_Return To Reservation' is clicked on
+
+2019-12-16 13:26:07 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-12-16 13:26:13 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-12-16 13:26:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/button_Go to CheckOut")): Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/button_Go to CheckOut' is clicked on
+
+2019-12-16 13:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/button_Go to CheckOut' is clicked on
+
+2019-12-16 13:26:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-16 13:26:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-16 13:26:17 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )"))): ( BK )
+
+2019-12-16 13:26:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' is: '( BK )'
+
+2019-12-16 13:26:18 - [MESSAGE][INFO] - ( BK )
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702545/?parent_id=122350'
+
+2019-12-16 13:26:18 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702545/?parent_id=122350'
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )"), "( BK )", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' are matched.
+
+2019-12-16 13:26:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' are matched.
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fis): null
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Sheet1"): null
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - row = sheet.getRow(var): null
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - cell = row.createCell(15, 0): null
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - cell.setCellType(CELL_TYPE_STRING): null
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - cell.setCellValue(arrayUrl[5]): null
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - cell2 = row.createCell(16, 0): null
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - cell2.setCellType(CELL_TYPE_STRING): null
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - cell2.setCellValue(getText(findTestObject("Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )"))): Text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' is: '( BK )'
+
+2019-12-16 13:26:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/object_reservation/Page_Paradise 4 Paws  Dog Boarding Cat Boar_35fe2b/span_( BK )' is: '( BK )'
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - workbook.write(fos): null
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - fos.close(): null
+
+2019-12-16 13:26:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-16 13:26:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-16 13:26:19 - [TEST_STEP][PASSED] - (var_row++): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-16 13:22:08 - [TEST_SUITE][PASSED] - ts_newReservationBoarding: Test Cases/p4p_newReservationBoarding]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

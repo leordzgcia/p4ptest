@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_urlProfile" time="43.849" tests="2" failures="0" errors="0">
+   <testsuite name="ts_urlProfile" tests="2" failures="0" errors="0" time="43.849" timestamp="2019-11-19 09:59:15" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_urlProfile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191119_095913/ts_urlProfile/20191119_095913"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191119_095913/ts_urlProfile/20191119_095913/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Firefox 70.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="214de98a-34d2-4ce6-9078-92b5939e8c79"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_login _searchParent" time="23.605" classname="Test Cases/p4p_login _searchParent" status="PASSED">
+         <system-out><![CDATA[2019-11-19 09:59:15 - [TEST_CASE][PASSED] - Test Cases/p4p_login _searchParent: Test Cases/p4p_login _searchParent
+
+2019-11-19 09:59:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-19 09:59:16 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-11-19 09:59:16 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-19 09:59:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-19 09:59:18 - [TEST_STEP][PASSED] - navigateToUrl("https://p4p-qa-bg.aws.paradise4paws.com/login/?next=/"): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/?next=/' successfully
+
+2019-11-19 09:59:20 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/?next=/' successfully
+
+2019-11-19 09:59:20 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), "jegchavez@gmail.com"): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-19 09:59:21 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-19 09:59:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("object_login/input_pass"), "vRRrCeg9Qho="): Text ****** has been set on object 'Object Repository/object_login/input_pass'
+
+2019-11-19 09:59:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/object_login/input_pass'
+
+2019-11-19 09:59:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-19 09:59:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-19 09:59:25 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("object_login/btn_login")): Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-11-19 09:59:25 - [MESSAGE][PASSED] - Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-11-19 09:59:25 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-19 09:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-19 09:59:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-19 09:59:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-19 09:59:31 - [TEST_STEP][PASSED] - setText(findTestObject("object_dashboard_emp/input_search"), "test"): Text 'test' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2019-11-19 09:59:32 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2019-11-19 09:59:32 - [TEST_STEP][PASSED] - click(findTestObject("object_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2019-11-19 09:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2019-11-19 09:59:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-11-19 09:59:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_login _searchParent" time="19.929" classname="Test Cases/p4p_login _searchParent" status="PASSED">
+         <system-out><![CDATA[2019-11-19 09:59:39 - [TEST_CASE][PASSED] - Test Cases/p4p_login _searchParent: Test Cases/p4p_login _searchParent
+
+2019-11-19 09:59:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-19 09:59:39 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-11-19 09:59:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-19 09:59:41 - [TEST_STEP][PASSED] - navigateToUrl("https://p4p-qa-bg.aws.paradise4paws.com/login/?next=/"): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/?next=/' successfully
+
+2019-11-19 09:59:42 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/login/?next=/' successfully
+
+2019-11-19 09:59:42 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), "jegchavez@gmail.com"): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-19 09:59:43 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-19 09:59:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("object_login/input_pass"), "vRRrCeg9Qho="): Text ****** has been set on object 'Object Repository/object_login/input_pass'
+
+2019-11-19 09:59:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/object_login/input_pass'
+
+2019-11-19 09:59:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-19 09:59:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-19 09:59:46 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("object_login/btn_login")): Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-11-19 09:59:47 - [MESSAGE][PASSED] - Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-11-19 09:59:47 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-19 09:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-19 09:59:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-19 09:59:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-19 09:59:53 - [TEST_STEP][PASSED] - setText(findTestObject("object_dashboard_emp/input_search"), "test"): Text 'test' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2019-11-19 09:59:54 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2019-11-19 09:59:54 - [TEST_STEP][PASSED] - click(findTestObject("object_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2019-11-19 09:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2019-11-19 09:59:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-11-19 09:59:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-19 09:59:15 - [TEST_SUITE][PASSED] - ts_urlProfile: Test Cases/p4p_login _searchParent]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

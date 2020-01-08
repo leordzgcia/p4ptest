@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_newReservation" time="40.98" tests="1" failures="0" errors="0">
+   <testsuite name="ts_newReservation" tests="1" failures="0" errors="0" time="40.98" timestamp="2019-11-25 15:43:11" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_newReservation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191125_154310/ts_newReservation/20191125_154310"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20191125_154310/ts_newReservation/20191125_154310/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Firefox 70.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="57228996-3230-48a8-961d-d66f0b37bb66"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_newReservation" time="36.179" classname="Test Cases/p4p_newReservation" status="PASSED">
+         <system-out><![CDATA[2019-11-25 15:43:12 - [TEST_CASE][PASSED] - Test Cases/p4p_newReservation: Test Cases/p4p_newReservation
+
+2019-11-25 15:43:12 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2019-11-25 15:43:12 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-11-25 15:43:12 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-25 15:43:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2019-11-25 15:43:17 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-25 15:43:18 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2019-11-25 15:43:18 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-25 15:43:19 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2019-11-25 15:43:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-25 15:43:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-25 15:43:21 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("object_login/btn_login")): Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-11-25 15:43:21 - [MESSAGE][PASSED] - Object 'Object Repository/object_login/btn_login' is clickable
+
+2019-11-25 15:43:21 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-25 15:43:24 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2019-11-25 15:43:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-25 15:43:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-25 15:43:27 - [TEST_STEP][PASSED] - navigateToUrl(var_urlReservations): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/reservations/97558/' successfully
+
+2019-11-25 15:43:29 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/reservations/97558/' successfully
+
+2019-11-25 15:43:29 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-11-25 15:43:35 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-11-25 15:43:35 - [TEST_STEP][PASSED] - click(findTestObject("object_profile/a_addReservation")): Object: 'Object Repository/object_profile/a_addReservation' is clicked on
+
+2019-11-25 15:43:37 - [MESSAGE][PASSED] - Object: 'Object Repository/object_profile/a_addReservation' is clicked on
+
+2019-11-25 15:43:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-11-25 15:43:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-11-25 15:43:40 - [TEST_STEP][PASSED] - click(findTestObject("object_reservations/select_ChicagoPoochWestLoop")): Object: 'Object Repository/object_reservations/select_ChicagoPoochWestLoop' is clicked on
+
+2019-11-25 15:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservations/select_ChicagoPoochWestLoop' is clicked on
+
+2019-11-25 15:43:41 - [TEST_STEP][PASSED] - click(findTestObject("object_reservations/input_Check-in Date_form-control ng-pristine ng-untouched ng-valid")): Object: 'Object Repository/object_reservations/input_Check-in Date_form-control ng-pristine ng-untouched ng-valid' is clicked on
+
+2019-11-25 15:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservations/input_Check-in Date_form-control ng-pristine ng-untouched ng-valid' is clicked on
+
+2019-11-25 15:43:41 - [TEST_STEP][PASSED] - click(findTestObject("object_reservations/input_Check-out Date_form-control ng-pristine ng-untouched ng-valid")): Object: 'Object Repository/object_reservations/input_Check-out Date_form-control ng-pristine ng-untouched ng-valid' is clicked on
+
+2019-11-25 15:43:42 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservations/input_Check-out Date_form-control ng-pristine ng-untouched ng-valid' is clicked on
+
+2019-11-25 15:43:42 - [TEST_STEP][PASSED] - click(findTestObject("object_reservations/input_Check-in Date_form-control ng-pristine ng-untouched ui-timepicker-input")): Object: 'Object Repository/object_reservations/input_Check-in Date_form-control ng-pristine ng-untouched ui-timepicker-input' is clicked on
+
+2019-11-25 15:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservations/input_Check-in Date_form-control ng-pristine ng-untouched ui-timepicker-input' is clicked on
+
+2019-11-25 15:43:43 - [TEST_STEP][PASSED] - click(findTestObject("object_reservations/input_Check-out Date_form-control ng-pristine ng-untouched ui-timepicker-input")): Object: 'Object Repository/object_reservations/input_Check-out Date_form-control ng-pristine ng-untouched ui-timepicker-input' is clicked on
+
+2019-11-25 15:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/object_reservations/input_Check-out Date_form-control ng-pristine ng-untouched ui-timepicker-input' is clicked on
+
+2019-11-25 15:43:44 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-11-25 15:43:48 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-25 15:43:11 - [TEST_SUITE][PASSED] - ts_newReservation: Test Cases/p4p_newReservation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

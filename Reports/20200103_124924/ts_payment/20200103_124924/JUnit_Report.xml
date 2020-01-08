@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_payment" time="243.74" tests="6" failures="0" errors="0">
+   <testsuite name="ts_payment" tests="6" failures="0" errors="0" time="243.74" timestamp="2020-01-03 12:49:25" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_payment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200103_124924/ts_payment/20200103_124924"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200103_124924/ts_payment/20200103_124924/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 79.0.3945.88"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="a1395ec97b7026478823731385f2d25f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_payment - Copy" time="39.963" classname="Test Cases/p4p_payment - Copy" status="PASSED">
+         <system-out><![CDATA[2020-01-03 12:49:26 - [TEST_CASE][PASSED] - Test Cases/p4p_payment - Copy: Test Cases/p4p_payment - Copy
+
+2020-01-03 12:49:26 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-03 12:49:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-03 12:49:26 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-03 12:49:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-03 12:49:28 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2020-01-03 12:49:29 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2020-01-03 12:49:29 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2020-01-03 12:49:29 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2020-01-03 12:49:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-03 12:49:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-03 12:49:32 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("object_login/btn_login")): Object 'Object Repository/object_login/btn_login' is clickable
+
+2020-01-03 12:49:33 - [MESSAGE][PASSED] - Object 'Object Repository/object_login/btn_login' is clickable
+
+2020-01-03 12:49:33 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2020-01-03 12:49:34 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2020-01-03 12:49:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-03 12:49:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-03 12:49:37 - [TEST_STEP][PASSED] - setText(findTestObject("object_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2020-01-03 12:49:38 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2020-01-03 12:49:38 - [TEST_STEP][PASSED] - click(findTestObject("object_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-03 12:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-03 12:49:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:49:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:49:43 - [TEST_STEP][PASSED] - click(findTestObject("object_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-03 12:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-03 12:49:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:49:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:49:49 - [TEST_STEP][PASSED] - click(findTestObject("object_invoce/a_Invoices")): Object: 'Object Repository/object_invoce/a_Invoices' is clicked on
+
+2020-01-03 12:49:50 - [MESSAGE][PASSED] - Object: 'Object Repository/object_invoce/a_Invoices' is clicked on
+
+2020-01-03 12:49:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:49:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:49:55 - [TEST_STEP][PASSED] - click(findTestObject("object_invoce/a_1795112")): Object: 'Object Repository/object_invoce/a_1795112' is clicked on
+
+2020-01-03 12:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/object_invoce/a_1795112' is clicked on
+
+2020-01-03 12:49:57 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-03 12:50:05 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_payment - Copy" time="39.19" classname="Test Cases/p4p_payment - Copy" status="PASSED">
+         <system-out><![CDATA[2020-01-03 12:50:06 - [TEST_CASE][PASSED] - Test Cases/p4p_payment - Copy: Test Cases/p4p_payment - Copy
+
+2020-01-03 12:50:06 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-03 12:50:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-03 12:50:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-03 12:50:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-03 12:50:08 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2020-01-03 12:50:09 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2020-01-03 12:50:09 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2020-01-03 12:50:09 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2020-01-03 12:50:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-03 12:50:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-03 12:50:12 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("object_login/btn_login")): Object 'Object Repository/object_login/btn_login' is clickable
+
+2020-01-03 12:50:12 - [MESSAGE][PASSED] - Object 'Object Repository/object_login/btn_login' is clickable
+
+2020-01-03 12:50:12 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2020-01-03 12:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2020-01-03 12:50:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-03 12:50:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-03 12:50:17 - [TEST_STEP][PASSED] - setText(findTestObject("object_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2020-01-03 12:50:17 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2020-01-03 12:50:17 - [TEST_STEP][PASSED] - click(findTestObject("object_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-03 12:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-03 12:50:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:50:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:50:23 - [TEST_STEP][PASSED] - click(findTestObject("object_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-03 12:50:24 - [MESSAGE][PASSED] - Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-03 12:50:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:50:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:50:29 - [TEST_STEP][PASSED] - click(findTestObject("object_invoce/a_Invoices")): Object: 'Object Repository/object_invoce/a_Invoices' is clicked on
+
+2020-01-03 12:50:29 - [MESSAGE][PASSED] - Object: 'Object Repository/object_invoce/a_Invoices' is clicked on
+
+2020-01-03 12:50:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:50:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:50:34 - [TEST_STEP][PASSED] - click(findTestObject("object_invoce/a_1795112")): Object: 'Object Repository/object_invoce/a_1795112' is clicked on
+
+2020-01-03 12:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/object_invoce/a_1795112' is clicked on
+
+2020-01-03 12:50:37 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-03 12:50:45 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_payment - Copy" time="39.007" classname="Test Cases/p4p_payment - Copy" status="PASSED">
+         <system-out><![CDATA[2020-01-03 12:50:45 - [TEST_CASE][PASSED] - Test Cases/p4p_payment - Copy: Test Cases/p4p_payment - Copy
+
+2020-01-03 12:50:45 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-03 12:50:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-03 12:50:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-03 12:50:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-03 12:50:47 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2020-01-03 12:50:48 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2020-01-03 12:50:48 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2020-01-03 12:50:48 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2020-01-03 12:50:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-03 12:50:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-03 12:50:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("object_login/btn_login")): Object 'Object Repository/object_login/btn_login' is clickable
+
+2020-01-03 12:50:51 - [MESSAGE][PASSED] - Object 'Object Repository/object_login/btn_login' is clickable
+
+2020-01-03 12:50:51 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2020-01-03 12:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2020-01-03 12:50:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-03 12:50:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-03 12:50:56 - [TEST_STEP][PASSED] - setText(findTestObject("object_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2020-01-03 12:50:56 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2020-01-03 12:50:56 - [TEST_STEP][PASSED] - click(findTestObject("object_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-03 12:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-03 12:50:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:51:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:51:02 - [TEST_STEP][PASSED] - click(findTestObject("object_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-03 12:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-03 12:51:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:51:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:51:08 - [TEST_STEP][PASSED] - click(findTestObject("object_invoce/a_Invoices")): Object: 'Object Repository/object_invoce/a_Invoices' is clicked on
+
+2020-01-03 12:51:08 - [MESSAGE][PASSED] - Object: 'Object Repository/object_invoce/a_Invoices' is clicked on
+
+2020-01-03 12:51:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:51:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:51:13 - [TEST_STEP][PASSED] - click(findTestObject("object_invoce/a_1795112")): Object: 'Object Repository/object_invoce/a_1795112' is clicked on
+
+2020-01-03 12:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/object_invoce/a_1795112' is clicked on
+
+2020-01-03 12:51:16 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-03 12:51:24 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_payment - Copy" time="40.87" classname="Test Cases/p4p_payment - Copy" status="PASSED">
+         <system-out><![CDATA[2020-01-03 12:51:24 - [TEST_CASE][PASSED] - Test Cases/p4p_payment - Copy: Test Cases/p4p_payment - Copy
+
+2020-01-03 12:51:24 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-03 12:51:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-03 12:51:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-03 12:51:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-03 12:51:26 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2020-01-03 12:51:27 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2020-01-03 12:51:27 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2020-01-03 12:51:27 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2020-01-03 12:51:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-03 12:51:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-03 12:51:30 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("object_login/btn_login")): Object 'Object Repository/object_login/btn_login' is clickable
+
+2020-01-03 12:51:31 - [MESSAGE][PASSED] - Object 'Object Repository/object_login/btn_login' is clickable
+
+2020-01-03 12:51:31 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2020-01-03 12:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2020-01-03 12:51:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-03 12:51:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-03 12:51:35 - [TEST_STEP][PASSED] - setText(findTestObject("object_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2020-01-03 12:51:35 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2020-01-03 12:51:35 - [TEST_STEP][PASSED] - click(findTestObject("object_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-03 12:51:37 - [MESSAGE][PASSED] - Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-03 12:51:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:51:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:51:42 - [TEST_STEP][PASSED] - click(findTestObject("object_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-03 12:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-03 12:51:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:51:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:51:47 - [TEST_STEP][PASSED] - click(findTestObject("object_invoce/a_Invoices")): Object: 'Object Repository/object_invoce/a_Invoices' is clicked on
+
+2020-01-03 12:51:48 - [MESSAGE][PASSED] - Object: 'Object Repository/object_invoce/a_Invoices' is clicked on
+
+2020-01-03 12:51:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:51:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:51:53 - [TEST_STEP][PASSED] - click(findTestObject("object_invoce/a_1795112")): Object: 'Object Repository/object_invoce/a_1795112' is clicked on
+
+2020-01-03 12:51:57 - [MESSAGE][PASSED] - Object: 'Object Repository/object_invoce/a_1795112' is clicked on
+
+2020-01-03 12:51:57 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-03 12:52:05 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_payment - Copy" time="41.921" classname="Test Cases/p4p_payment - Copy" status="PASSED">
+         <system-out><![CDATA[2020-01-03 12:52:05 - [TEST_CASE][PASSED] - Test Cases/p4p_payment - Copy: Test Cases/p4p_payment - Copy
+
+2020-01-03 12:52:05 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-03 12:52:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-03 12:52:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-03 12:52:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-03 12:52:07 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2020-01-03 12:52:08 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2020-01-03 12:52:08 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2020-01-03 12:52:08 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2020-01-03 12:52:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-03 12:52:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-03 12:52:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("object_login/btn_login")): Object 'Object Repository/object_login/btn_login' is clickable
+
+2020-01-03 12:52:11 - [MESSAGE][PASSED] - Object 'Object Repository/object_login/btn_login' is clickable
+
+2020-01-03 12:52:11 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2020-01-03 12:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2020-01-03 12:52:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-03 12:52:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-03 12:52:17 - [TEST_STEP][PASSED] - setText(findTestObject("object_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2020-01-03 12:52:17 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2020-01-03 12:52:17 - [TEST_STEP][PASSED] - click(findTestObject("object_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-03 12:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-03 12:52:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:52:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:52:23 - [TEST_STEP][PASSED] - click(findTestObject("object_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-03 12:52:24 - [MESSAGE][PASSED] - Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-03 12:52:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:52:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:52:29 - [TEST_STEP][PASSED] - click(findTestObject("object_invoce/a_Invoices")): Object: 'Object Repository/object_invoce/a_Invoices' is clicked on
+
+2020-01-03 12:52:30 - [MESSAGE][PASSED] - Object: 'Object Repository/object_invoce/a_Invoices' is clicked on
+
+2020-01-03 12:52:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:52:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:52:35 - [TEST_STEP][PASSED] - click(findTestObject("object_invoce/a_1795112")): Object: 'Object Repository/object_invoce/a_1795112' is clicked on
+
+2020-01-03 12:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/object_invoce/a_1795112' is clicked on
+
+2020-01-03 12:52:39 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-03 12:52:47 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_payment - Copy" time="41.925" classname="Test Cases/p4p_payment - Copy" status="PASSED">
+         <system-out><![CDATA[2020-01-03 12:52:47 - [TEST_CASE][PASSED] - Test Cases/p4p_payment - Copy: Test Cases/p4p_payment - Copy
+
+2020-01-03 12:52:47 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-03 12:52:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-03 12:52:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-03 12:52:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-03 12:52:49 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2020-01-03 12:52:50 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/object_login/input_user'
+
+2020-01-03 12:52:50 - [TEST_STEP][PASSED] - setText(findTestObject("object_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2020-01-03 12:52:50 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/object_login/input_pass'
+
+2020-01-03 12:52:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-03 12:52:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-03 12:52:53 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("object_login/btn_login")): Object 'Object Repository/object_login/btn_login' is clickable
+
+2020-01-03 12:52:54 - [MESSAGE][PASSED] - Object 'Object Repository/object_login/btn_login' is clickable
+
+2020-01-03 12:52:54 - [TEST_STEP][PASSED] - click(findTestObject("object_login/btn_login")): Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2020-01-03 12:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/object_login/btn_login' is clicked on
+
+2020-01-03 12:52:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-03 12:52:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-03 12:52:59 - [TEST_STEP][PASSED] - setText(findTestObject("object_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2020-01-03 12:52:59 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/object_dashboard_emp/input_search'
+
+2020-01-03 12:52:59 - [TEST_STEP][PASSED] - click(findTestObject("object_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-03 12:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/object_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-03 12:53:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:53:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:53:05 - [TEST_STEP][PASSED] - click(findTestObject("object_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-03 12:53:06 - [MESSAGE][PASSED] - Object: 'Object Repository/object_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-03 12:53:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:53:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:53:11 - [TEST_STEP][PASSED] - click(findTestObject("object_invoce/a_Invoices")): Object: 'Object Repository/object_invoce/a_Invoices' is clicked on
+
+2020-01-03 12:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/object_invoce/a_Invoices' is clicked on
+
+2020-01-03 12:53:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-03 12:53:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-03 12:53:17 - [TEST_STEP][PASSED] - click(findTestObject("object_invoce/a_1795112")): Object: 'Object Repository/object_invoce/a_1795112' is clicked on
+
+2020-01-03 12:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/object_invoce/a_1795112' is clicked on
+
+2020-01-03 12:53:21 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-03 12:53:29 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-03 12:49:25 - [TEST_SUITE][PASSED] - ts_payment: Test Cases/p4p_payment - Copy]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
