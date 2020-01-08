@@ -1,134 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>p4p_payment</name>
+   <name>p4p_newReservationBoarding</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d4d7ecd8-396d-4264-8a16-10d177af49a9</testCaseGuid>
+   <testCaseGuid>36c7adc0-3f4d-4163-b7d2-d4bd103a861b</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>07f03a63-75b4-4dd1-ad2a-516ac7913371</id>
+      <id>0cf8cd61-b97a-4a33-ad94-b25ea8a6ad0b</id>
+      <masked>false</masked>
+      <name>var_idRowRes</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>05497d23-d143-462f-bf2d-b420549c53e5</id>
       <masked>false</masked>
       <name>var_user</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>228facdd-e505-4702-975c-eb5d336121ae</id>
+      <id>a76a108c-aad9-414c-be3b-ede9c1ded13d</id>
       <masked>false</masked>
       <name>var_pass</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>00d8facf-5ea9-4ba2-ac31-a268d5646ba9</id>
+      <id>9e54e46c-9dc8-4fdd-acb4-b86b116081b6</id>
       <masked>false</masked>
-      <name>var_parent</name>
+      <name>var_searchParent</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ef0787f1-d4e7-49ef-b989-62a289cd1b41</id>
+      <id>832f6a24-2f1e-4cc3-806d-095cb84c2c1b</id>
       <masked>false</masked>
-      <name>var_idParent</name>
+      <name>var_typeReserveation</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>377a87ee-765f-4698-932b-888d834ef2ef</id>
+      <id>9eedd062-ee32-4f77-9efc-0b3844bdadc5</id>
       <masked>false</masked>
-      <name>var_method</name>
+      <name>var_idFacility</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>e75af700-2ffe-401e-864e-48e0255b870b</id>
+      <id>57ae1e95-8c6c-437f-85c6-2cc06b3b8321</id>
       <masked>false</masked>
-      <name>var_paybalance</name>
+      <name>var_checkinD</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>4ca705d0-9903-4c03-8e30-0a452ab4d4e0</id>
+      <id>3760a4bf-2b70-4950-a170-ef39a42d6f16</id>
       <masked>false</masked>
-      <name>var_amountpay</name>
+      <name>var_checkoutD</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>6f81be08-7544-40bf-9ea9-a9942be29aed</id>
+      <id>279813e2-1363-4266-b3df-0d10c6105e76</id>
       <masked>false</masked>
-      <name>var_description</name>
+      <name>var_checkinT</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>de236b8b-ec1c-44e2-bb6f-e7d73e27393c</id>
+      <id>5a80d205-561b-4d22-a4a1-86b2d3909ca6</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>var_checkoutT</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>79cdea01-0ae4-4e5a-89a9-516711b80889</id>
+      <id>e843db3d-ccad-4ae0-a410-53bc209ee1fe</id>
       <masked>false</masked>
-      <name>var_cardnumber</name>
+      <name>var_repeting</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>47e7d36d-e439-4015-9921-05eed30edfb1</id>
+      <id>5dcedcfe-b91c-43e3-ae10-22efb4faf621</id>
       <masked>false</masked>
-      <name>var_cardExpiry</name>
+      <name>var_repeatingEvery</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9ec36356-cfb7-4966-8f80-d912c311ccda</id>
+      <id>c51ff46e-e94e-4237-8d8b-54fbd48d0685</id>
       <masked>false</masked>
-      <name>var_cardcvv</name>
+      <name>var_pets</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>f02da525-13de-4c33-8f19-67ed9afcfbbe</id>
+      <id>5d3cf18a-c063-4d0f-aeb2-b42a213382a6</id>
       <masked>false</masked>
-      <name>var_address</name>
+      <name>var_suite</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9f9412b2-7338-4130-99bc-52692c948ad1</id>
+      <id>b12135b3-5ca6-4a16-ae2d-2f7a12214576</id>
       <masked>false</masked>
-      <name>var_city</name>
+      <name>var_url</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>1</defaultValue>
       <description></description>
-      <id>578cdc8d-6447-47ea-8976-bde4941ce602</id>
+      <id>3d954f2a-27f4-4e8c-b3c7-7a1a39801cd9</id>
       <masked>false</masked>
-      <name>var_zip</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>db9b92d3-41a6-451e-9560-98f4eebf84ad</id>
-      <masked>false</masked>
-      <name>var_state</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>2e77c761-ffaa-4a7b-a958-4f1eb78675dc</id>
-      <masked>false</masked>
-      <name>var_country</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>db35bb4f-6bda-483c-a75c-77d1ea8bc0e3</id>
-      <masked>false</masked>
-      <name>var_cardetails</name>
+      <name>var_row</name>
    </variable>
 </TestCaseEntity>
