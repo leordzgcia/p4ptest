@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_createInvoice</name>
+   <name>a_btnAddNotepet</name>
    <tag></tag>
-   <elementGuidId>8772339b-263e-4ca9-a082-84c903648b1f</elementGuidId>
+   <elementGuidId>2f0ea2d2-58f3-4c6d-962f-6bfbe1edef0a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Create Invoice' or . = 'Create Invoice')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='wrapper']/div/div/div/header/div/div/div[2]/a[3]</value>
+         <value>//section[@id='checkin-notes']/div/ng-form/div/div[2]/div/table/thead/tr/th[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -32,69 +24,69 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn  btn-success   </value>
+      <value>btn btn-success center-block</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
-      <value>getNewInvoicePath(parentId)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Create Invoice</value>
+      <value>addNotes()</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>isParent</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;wrapper&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;page-content profile-partial-container ng-scope&quot;]/header[@class=&quot;row reservation-header pet-profile-header&quot;]/div[@class=&quot;client-profile-header clearfix&quot;]/div[@class=&quot;client-profile-action&quot;]/div[@class=&quot;add-pet-block col-md-4&quot;]/a[@class=&quot;btn  btn-success&quot;]</value>
+      <value>id(&quot;checkin-notes&quot;)/div[@class=&quot;ng-scope&quot;]/ng-form[@class=&quot;ng-valid ng-dirty ng-valid-parse&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/table[@class=&quot;table table-bordered table-striped&quot;]/thead[1]/tr[1]/th[5]/a[@class=&quot;btn btn-success center-block&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='wrapper']/div/div/div/header/div/div/div[2]/a[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Create Invoice')]</value>
+      <value>//section[@id='checkin-notes']/div/ng-form/div/div[2]/div/table/thead/tr/th[5]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Reservation'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes'])[2]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Pet'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[2]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show More'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/a[3]</value>
+      <value>//th[5]/a</value>
    </webElementXpaths>
 </WebElementEntity>

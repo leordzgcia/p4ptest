@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_createInvoice</name>
+   <name>button_16_ci_0120</name>
    <tag></tag>
-   <elementGuidId>8772339b-263e-4ca9-a082-84c903648b1f</elementGuidId>
+   <elementGuidId>abd4cd82-ee7b-4125-9d73-531a4d3a2e16</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Create Invoice' or . = 'Create Invoice')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='wrapper']/div/div/div/header/div/div/div[2]/a[3]</value>
+         <value>(//button[@type='button'])[30]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,76 +17,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn  btn-success   </value>
+      <value>btn btn-default btn-sm</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'btn-info': dt.selected, active: isActive(dt)}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
-      <value>getNewInvoicePath(parentId)</value>
+      <value>select(dt.date)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>dt.disabled</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Create Invoice</value>
+      <value>16</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;wrapper&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;page-content profile-partial-container ng-scope&quot;]/header[@class=&quot;row reservation-header pet-profile-header&quot;]/div[@class=&quot;client-profile-header clearfix&quot;]/div[@class=&quot;client-profile-action&quot;]/div[@class=&quot;add-pet-block col-md-4&quot;]/a[@class=&quot;btn  btn-success&quot;]</value>
+      <value>id(&quot;datepicker-130-6014-18&quot;)/button[@class=&quot;btn btn-default btn-sm&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[30]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='wrapper']/div/div/div/header/div/div/div[2]/a[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Create Invoice')]</value>
+      <value>//td[@id='datepicker-130-6014-18']/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Reservation'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::button[19]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Pet'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::button[19]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[2]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/preceding::button[24]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/preceding::button[25]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/a[3]</value>
+      <value>//tr[3]/td[5]/button</value>
    </webElementXpaths>
 </WebElementEntity>

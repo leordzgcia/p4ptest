@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_createInvoice</name>
+   <name>input_Add Task_q</name>
    <tag></tag>
-   <elementGuidId>8772339b-263e-4ca9-a082-84c903648b1f</elementGuidId>
+   <elementGuidId>e180b5bd-c6d7-4721-a56b-4491fa213ac7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Create Invoice' or . = 'Create Invoice')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='wrapper']/div/div/div/header/div/div/div[2]/a[3]</value>
+         <value>//input[@id='omnisearch']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,76 +17,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn  btn-success   </value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-click</name>
-      <type>Main</type>
-      <value>getNewInvoicePath(parentId)</value>
+      <value>search-query-type</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Create Invoice</value>
+      <value>q</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>omnisearch</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>pattern</name>
+      <type>Main</type>
+      <value>.{2,}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>oninvalid</name>
+      <type>Main</type>
+      <value>setCustomValidity('Please enter atleast 2 characters')</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Parent, Pet, Email, Pet ID, PP ID, Invoice #, Reservation ID</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;wrapper&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;page-content profile-partial-container ng-scope&quot;]/header[@class=&quot;row reservation-header pet-profile-header&quot;]/div[@class=&quot;client-profile-header clearfix&quot;]/div[@class=&quot;client-profile-action&quot;]/div[@class=&quot;add-pet-block col-md-4&quot;]/a[@class=&quot;btn  btn-success&quot;]</value>
+      <value>id(&quot;omnisearch&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='omnisearch']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='wrapper']/div/div/div/header/div/div/div[2]/a[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Create Invoice')]</value>
+      <value>//form[@id='p4pFacilityApp']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Reservation'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Task'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Pet'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[2]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arrivals'])[1]/preceding::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Departures'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/a[3]</value>
+      <value>//input</value>
    </webElementXpaths>
 </WebElementEntity>

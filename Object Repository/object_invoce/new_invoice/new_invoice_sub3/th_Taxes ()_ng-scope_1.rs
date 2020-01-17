@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_createInvoice</name>
+   <name>th_Taxes ()_ng-scope_1</name>
    <tag></tag>
-   <elementGuidId>8772339b-263e-4ca9-a082-84c903648b1f</elementGuidId>
+   <elementGuidId>76a8bc3b-ce9a-411b-8c87-b790283b7900</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Create Invoice' or . = 'Create Invoice')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='wrapper']/div/div/div/header/div/div/div[2]/a[3]</value>
+         <value>//section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/thead/tr/th[12]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,76 +17,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>th</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-has-button</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>!isParent</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn  btn-success   </value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-click</name>
-      <type>Main</type>
-      <value>getNewInvoicePath(parentId)</value>
+      <value>ng-scope</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Create Invoice</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;wrapper&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;page-content profile-partial-container ng-scope&quot;]/header[@class=&quot;row reservation-header pet-profile-header&quot;]/div[@class=&quot;client-profile-header clearfix&quot;]/div[@class=&quot;client-profile-action&quot;]/div[@class=&quot;add-pet-block col-md-4&quot;]/a[@class=&quot;btn  btn-success&quot;]</value>
+      <value>id(&quot;checkout-billing&quot;)/ng-form[@class=&quot;billing-common-container ng-scope ng-valid-required ng-dirty ng-valid-required-remove ng-valid ng-valid-date ng-valid-parse-add&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;contacts-content table-responsive&quot;]/fieldset[1]/table[@class=&quot;table table-bordered contacts-table table-striped billing-table&quot;]/thead[1]/tr[1]/th[@class=&quot;ng-scope&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='wrapper']/div/div/div/header/div/div/div[2]/a[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Create Invoice')]</value>
+      <value>//section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/thead/tr/th[12]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Reservation'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Taxes ($)'])[1]/following::th[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Pet'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ext. Price'])[1]/following::th[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[2]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[2]/preceding::th[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$585.00'])[1]/preceding::th[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/a[3]</value>
+      <value>//th[12]</value>
    </webElementXpaths>
 </WebElementEntity>

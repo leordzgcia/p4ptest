@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_createInvoice</name>
+   <name>select_ACCOUNT CREDIT DEPOSIT ADVANCE GENERAL</name>
    <tag></tag>
-   <elementGuidId>8772339b-263e-4ca9-a082-84c903648b1f</elementGuidId>
+   <elementGuidId>c7486de6-5f4b-480b-a38a-3872d18d0bb1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Create Invoice' or . = 'Create Invoice')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='wrapper']/div/div/div/header/div/div/div[2]/a[3]</value>
+         <value>//div[@id='wrapper']/div/div/section/ng-form/div[4]/div/div/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,76 +17,89 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>payment.description</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn  btn-success   </value>
+      <value>form-control ng-pristine ng-untouched ng-valid ng-not-empty</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
-      <value>getNewInvoicePath(parentId)</value>
+      <value>checkForInvalidItems()</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Create Invoice</value>
+      <value>
+                REFUND
+                ACCOUNT CREDIT
+                DEPOSIT
+                ADVANCE
+                GENERAL
+            </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;wrapper&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;page-content profile-partial-container ng-scope&quot;]/header[@class=&quot;row reservation-header pet-profile-header&quot;]/div[@class=&quot;client-profile-header clearfix&quot;]/div[@class=&quot;client-profile-action&quot;]/div[@class=&quot;add-pet-block col-md-4&quot;]/a[@class=&quot;btn  btn-success&quot;]</value>
+      <value>id(&quot;wrapper&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;main-content ng-scope&quot;]/section[1]/ng-form[@class=&quot;ng-pristine ng-invalid ng-invalid-required ng-valid-mask&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2&quot;]/div[@class=&quot;input-group&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-valid ng-not-empty&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='wrapper']/div/div/div/header/div/div/div[2]/a[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Create Invoice')]</value>
+      <value>//div[@id='wrapper']/div/div/section/ng-form/div[4]/div/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Reservation'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description:'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Pet'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay Balance'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[2]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Card Details:'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Now swipe the card'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/a[3]</value>
+      <value>//div/select</value>
    </webElementXpaths>
 </WebElementEntity>

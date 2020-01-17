@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_pay</name>
+   <tag></tag>
+   <elementGuidId>f31e084c-6999-49b7-98a5-2ad89996e937</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkout-billing&quot;]/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a</value>
+   </webElementProperties>
+</WebElementEntity>

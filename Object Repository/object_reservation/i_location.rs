@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_location</name>
+   <tag></tag>
+   <elementGuidId>63d98bd4-7495-45f6-8ae8-3be376d4f702</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;wrapper&quot;]/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div[1]/overview/p4p-reservation-overview-section/div[2]/div[1]/form/div[2]/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;wrapper&quot;]/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div[1]/overview/p4p-reservation-overview-section/div[2]/div[1]/form/div[2]/div/select</value>
+   </webElementProperties>
+</WebElementEntity>

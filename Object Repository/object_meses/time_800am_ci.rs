@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>time_800am_ci</name>
+   <tag></tag>
+   <elementGuidId>6e1f8ffe-dd52-47a3-a467-120dc547ad60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[5]/ul/li[17]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[5]/ul/li[17]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dateCheckIn</name>
+   <tag></tag>
+   <elementGuidId>c8d51a64-1e45-4741-877d-a009ab2e813b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;wrapper&quot;]/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div[1]/overview/p4p-reservation-overview-section/div[2]/div[1]/form/div[3]/div/div[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;wrapper&quot;]/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div[1]/overview/p4p-reservation-overview-section/div[2]/div[1]/form/div[3]/div/div[1]/input</value>
+   </webElementProperties>
+</WebElementEntity>

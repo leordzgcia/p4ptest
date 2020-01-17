@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Repeating_ng-pristine ng-untouched ng_79b3cc</name>
+   <tag></tag>
+   <elementGuidId>19fbbd32-07df-410d-badf-734bfd709c5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='checkbox']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>model.repeating</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>repeatingDisabled</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>handleRepeatingClick()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-pristine ng-untouched ng-valid ng-empty</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wrapper&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;container-reservation-form&quot;]/div[@class=&quot;new-reservation-position ng-scope&quot;]/fieldset[1]/div[@class=&quot;main-content&quot;]/p4p-reservations-wizard[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;container-fluid reservations-wizard&quot;]/div[@class=&quot;container&quot;]/div[1]/overview[@class=&quot;ng-scope&quot;]/p4p-reservation-overview-section[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;row overview&quot;]/div[@class=&quot;col-md-7&quot;]/form[@class=&quot;form-horizontal ng-valid-date ng-dirty ng-valid-parse ng-valid ng-valid-required&quot;]/div[@class=&quot;form-group repeating-group hidden-xs ng-scope&quot;]/div[@class=&quot;col-sm-10 col-md-9&quot;]/div[@class=&quot;col-md-8&quot;]/div[@class=&quot;col-sm-1 col-md-2 repeating-checkbox&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-empty&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='checkbox']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[5]/div/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Repeating'])[1]/following::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check-out Date'])[1]/following::input[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Repeating'])[2]/preceding::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::input[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/input</value>
+   </webElementXpaths>
+</WebElementEntity>

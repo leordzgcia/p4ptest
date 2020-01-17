@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mes_DicCI</name>
+   <tag></tag>
+   <elementGuidId>92a984a8-c648-4797-acc3-1d6a463c12ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;datepicker-622-8319-11&quot;]/button
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;datepicker-622-8319-11&quot;]/button
+</value>
+   </webElementProperties>
+</WebElementEntity>

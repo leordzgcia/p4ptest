@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_suite_inp</name>
+   <tag></tag>
+   <elementGuidId>a8f60ba9-74ee-467c-8b2c-38d8daf326a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;wrapper&quot;]/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div[1]/overview/p4p-reservation-suite-section/div[2]/div[1]/form/div/div/p4p-reservation-suite-selector/ul/li[4]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;wrapper&quot;]/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div[1]/overview/p4p-reservation-suite-section/div[2]/div[1]/form/div/div/p4p-reservation-suite-selector/ul/li[4]/div</value>
+   </webElementProperties>
+</WebElementEntity>

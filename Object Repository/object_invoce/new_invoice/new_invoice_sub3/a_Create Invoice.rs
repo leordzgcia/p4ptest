@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_createInvoice</name>
+   <name>a_Create Invoice</name>
    <tag></tag>
-   <elementGuidId>8772339b-263e-4ca9-a082-84c903648b1f</elementGuidId>
+   <elementGuidId>56077702-03ba-44fd-a917-a956b34db081</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Create Invoice' or . = 'Create Invoice')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='wrapper']/div/div/div/header/div/div/div[2]/a[3]</value>

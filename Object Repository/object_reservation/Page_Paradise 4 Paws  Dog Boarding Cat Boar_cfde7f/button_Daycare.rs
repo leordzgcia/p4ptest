@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Daycare</name>
+   <tag></tag>
+   <elementGuidId>5a05264f-e351-40fa-a102-5b0d9313d2c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn ng-binding</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{selected: value.value === stayType.value}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>handleSelect(stayType)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daycare</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wrapper&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;container-reservation-form&quot;]/div[@class=&quot;new-reservation-position ng-scope&quot;]/fieldset[1]/div[@class=&quot;main-content&quot;]/p4p-reservations-wizard[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;container-fluid reservations-wizard&quot;]/div[@class=&quot;container&quot;]/div[1]/overview[@class=&quot;ng-scope&quot;]/p4p-reservation-overview-section[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;row overview&quot;]/div[@class=&quot;col-md-7&quot;]/form[@class=&quot;form-horizontal ng-pristine ng-valid-date ng-invalid ng-invalid-required&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-md-offset-3 col-md-9&quot;]/p4p-reservation-type-selector[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;btn-group btn-group-justified&quot;]/div[@class=&quot;btn-group ng-scope&quot;]/button[@class=&quot;btn ng-binding&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div/div/p4p-reservation-type-selector/div/div[2]/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Boarding'])[1]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Summary'])[1]/following::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spa Service'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Location'])[1]/preceding::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p4p-reservation-type-selector/div/div[2]/button</value>
+   </webElementXpaths>
+</WebElementEntity>
