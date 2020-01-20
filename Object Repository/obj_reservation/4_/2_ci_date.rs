@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>2_ci_date</name>
+   <tag></tag>
+   <elementGuidId>cc53e420-8f66-4948-88fb-be90094eeb29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;details&quot;]/ng-form/div/div[2]/div[1]/div/div[1]/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;details&quot;]/ng-form/div/div[2]/div[1]/div/div[1]/div[2]/input</value>
+   </webElementProperties>
+</WebElementEntity>

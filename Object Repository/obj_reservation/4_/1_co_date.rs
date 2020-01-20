@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>1_co_date</name>
+   <tag></tag>
+   <elementGuidId>c4a475c0-79c7-4feb-aa52-2567101ef89c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;details&quot;]/ng-form/div/div/div[1]/div/div[1]/div[2]/input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;details&quot;]/ng-form/div/div/div[1]/div/div[1]/div[2]/input</value>
+   </webElementProperties>
+</WebElementEntity>
