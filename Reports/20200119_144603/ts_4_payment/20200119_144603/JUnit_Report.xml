@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_4_payment" time="88.42" tests="3" failures="0" errors="1">
+   <testsuite name="ts_4_payment" tests="3" failures="0" errors="1" time="88.42" timestamp="2020-01-19 14:46:04" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_4_payment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_144603/ts_4_payment/20200119_144603"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_144603/ts_4_payment/20200119_144603/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 79.0.3945.88"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="8bc2f5e8b474795c616dd9587c14dbd5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_4_payment_ ok" time="32.956" classname="Test Cases/p4p_4_payment_ ok" status="PASSED">
+         <system-out><![CDATA[2020-01-19 14:46:05 - [TEST_CASE][PASSED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok
+
+2020-01-19 14:46:05 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 14:46:05 - [TEST_STEP][PASSED] - fisPay = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_4payment.xlsx): null
+
+2020-01-19 14:46:05 - [TEST_STEP][PASSED] - workbookPay = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisPay): null
+
+2020-01-19 14:46:06 - [TEST_STEP][PASSED] - sheetPay = workbookPay.getSheet("Sheet1"): null
+
+2020-01-19 14:46:06 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-19 14:46:06 - [TEST_STEP][PASSED] - rowPay = sheetPay.getRow(var): null
+
+2020-01-19 14:46:06 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-19 14:46:06 - [TEST_STEP][PASSED] - nowTime = today.format("hhmmdd"): null
+
+2020-01-19 14:46:06 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 14:46:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-19 14:46:06 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-19 14:46:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 14:46:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-19 14:46:08 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-19 14:46:08 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 14:46:09 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 14:46:09 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 14:46:09 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 14:46:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 14:46:09 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 14:46:09 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 14:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 14:46:11 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 14:46:12 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 14:46:12 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 14:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 14:46:12 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 14:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 14:46:14 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/new_invoice/a_Invoices")): Object: 'Object Repository/obj_invoce/new_invoice/a_Invoices' is clicked on
+
+2020-01-19 14:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/new_invoice/a_Invoices' is clicked on
+
+2020-01-19 14:46:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 14:46:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 14:46:19 - [TEST_STEP][NOT_RUN] - click(findTestObject("obj_invoce/new_invoice/a_1795112")): NOT_RUN: click(findTestObject("obj_invoce/new_invoice/a_1795112"))
+
+2020-01-19 14:46:19 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("obj_invoce/new_invoice/a_1795112"))
+
+2020-01-19 14:46:19 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 14:46:19 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 14:46:19 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-19 14:46:19 - [TEST_STEP][PASSED] - urlInvoice = arrayUrl[0] + "/" + arrayUrl[1] + "/" + arrayUrl[2] + "/" + arrayUrl[3] + "/" + arrayUrl[4] + "/" + arrayUrl[5] + "/" + "invoice" + "/" + arrayUrl[7] + "/" + var_invoice: null
+
+2020-01-19 14:46:19 - [TEST_STEP][PASSED] - navigateToUrl(urlInvoice): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795637' successfully
+
+2020-01-19 14:46:19 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795637' successfully
+
+2020-01-19 14:46:19 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2020-01-19 14:46:25 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2020-01-19 14:46:25 - [TEST_STEP][PASSED] - if (var_paybalance == "N"): Object: 'Object Repository/obj_paymentdetails/1_pay/btn_Pay' is clicked on
+
+2020-01-19 14:46:25 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/btn_Pay")): Object: 'Object Repository/obj_paymentdetails/1_pay/btn_Pay' is clicked on
+
+2020-01-19 14:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/btn_Pay' is clicked on
+
+2020-01-19 14:46:25 - [TEST_STEP][PASSED] - if (var_paybalance == "Y"): null
+
+2020-01-19 14:46:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 14:46:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 14:46:26 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/rBtn_" + var_method)): Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn_BY_CHECK' is clicked on
+
+2020-01-19 14:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn_BY_CHECK' is clicked on
+
+2020-01-19 14:46:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 14:46:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 14:46:29 - [TEST_STEP][PASSED] - getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_1")): Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$65.00'
+
+2020-01-19 14:46:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$65.00'
+
+2020-01-19 14:46:29 - [TEST_STEP][PASSED] - getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_2")): Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_2' is: '$65.00'
+
+2020-01-19 14:46:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_2' is: '$65.00'
+
+2020-01-19 14:46:30 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_1"))): $65.00
+
+2020-01-19 14:46:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$65.00'
+
+2020-01-19 14:46:30 - [MESSAGE][INFO] - $65.00
+
+2020-01-19 14:46:30 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_2"))): $65.00
+
+2020-01-19 14:46:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_2' is: '$65.00'
+
+2020-01-19 14:46:30 - [MESSAGE][INFO] - $65.00
+
+2020-01-19 14:46:30 - [TEST_STEP][PASSED] - cellAD = rowPay.createCell(11, 0): null
+
+2020-01-19 14:46:30 - [TEST_STEP][PASSED] - cellAD.setCellType(CELL_TYPE_STRING): null
+
+2020-01-19 14:46:30 - [TEST_STEP][PASSED] - cellAD.setCellValue(getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_1"))): Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$65.00'
+
+2020-01-19 14:46:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$65.00'
+
+2020-01-19 14:46:30 - [TEST_STEP][PASSED] - if (var_paybalance == "Y"): null
+
+2020-01-19 14:46:30 - [TEST_STEP][PASSED] - else: Delayed 3 second(s)
+
+2020-01-19 14:46:30 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/rBtn__OtherAmount")): Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn__OtherAmount' is clicked on
+
+2020-01-19 14:46:31 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn__OtherAmount' is clicked on
+
+2020-01-19 14:46:31 - [TEST_STEP][PASSED] - setText(findTestObject("obj_paymentdetails/1_pay/input_AmounttoPay"), var_amountpay): Text '20' is set on object 'Object Repository/obj_paymentdetails/1_pay/input_AmounttoPay'
+
+2020-01-19 14:46:31 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/obj_paymentdetails/1_pay/input_AmounttoPay'
+
+2020-01-19 14:46:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-19 14:46:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-19 14:46:34 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/btn_makeAPayment")): Object: 'Object Repository/obj_paymentdetails/1_pay/btn_makeAPayment' is clicked on
+
+2020-01-19 14:46:35 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/btn_makeAPayment' is clicked on
+
+2020-01-19 14:46:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-19 14:46:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-19 14:46:38 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_4payment.xlsx): null
+
+2020-01-19 14:46:38 - [TEST_STEP][PASSED] - workbookPay.write(fos): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_4_payment_ ok" time="31.389" classname="Test Cases/p4p_4_payment_ ok" status="PASSED">
+         <system-out><![CDATA[2020-01-19 14:46:38 - [TEST_CASE][PASSED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok
+
+2020-01-19 14:46:38 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 14:46:38 - [TEST_STEP][PASSED] - fisPay = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_4payment.xlsx): null
+
+2020-01-19 14:46:38 - [TEST_STEP][PASSED] - workbookPay = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisPay): null
+
+2020-01-19 14:46:38 - [TEST_STEP][PASSED] - sheetPay = workbookPay.getSheet("Sheet1"): null
+
+2020-01-19 14:46:38 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-19 14:46:38 - [TEST_STEP][PASSED] - rowPay = sheetPay.getRow(var): null
+
+2020-01-19 14:46:38 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-19 14:46:38 - [TEST_STEP][PASSED] - nowTime = today.format("hhmmdd"): null
+
+2020-01-19 14:46:38 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 14:46:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-19 14:46:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-19 14:46:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 14:46:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-19 14:46:40 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-19 14:46:40 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 14:46:41 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 14:46:41 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 14:46:41 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 14:46:41 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 14:46:41 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 14:46:41 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 14:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 14:46:43 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 14:46:43 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 14:46:43 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 14:46:44 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 14:46:44 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 14:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 14:46:46 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/new_invoice/a_Invoices")): Object: 'Object Repository/obj_invoce/new_invoice/a_Invoices' is clicked on
+
+2020-01-19 14:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/new_invoice/a_Invoices' is clicked on
+
+2020-01-19 14:46:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 14:46:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 14:46:50 - [TEST_STEP][NOT_RUN] - click(findTestObject("obj_invoce/new_invoice/a_1795112")): NOT_RUN: click(findTestObject("obj_invoce/new_invoice/a_1795112"))
+
+2020-01-19 14:46:50 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("obj_invoce/new_invoice/a_1795112"))
+
+2020-01-19 14:46:50 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 14:46:50 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 14:46:50 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-19 14:46:50 - [TEST_STEP][PASSED] - urlInvoice = arrayUrl[0] + "/" + arrayUrl[1] + "/" + arrayUrl[2] + "/" + arrayUrl[3] + "/" + arrayUrl[4] + "/" + arrayUrl[5] + "/" + "invoice" + "/" + arrayUrl[7] + "/" + var_invoice: null
+
+2020-01-19 14:46:50 - [TEST_STEP][PASSED] - navigateToUrl(urlInvoice): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795638' successfully
+
+2020-01-19 14:46:50 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795638' successfully
+
+2020-01-19 14:46:50 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2020-01-19 14:46:56 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2020-01-19 14:46:56 - [TEST_STEP][PASSED] - if (var_paybalance == "N"): Object: 'Object Repository/obj_paymentdetails/1_pay/btn_Pay' is clicked on
+
+2020-01-19 14:46:56 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/btn_Pay")): Object: 'Object Repository/obj_paymentdetails/1_pay/btn_Pay' is clicked on
+
+2020-01-19 14:46:57 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/btn_Pay' is clicked on
+
+2020-01-19 14:46:57 - [TEST_STEP][PASSED] - if (var_paybalance == "Y"): null
+
+2020-01-19 14:46:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 14:46:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 14:46:58 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/rBtn_" + var_method)): Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn_OTHER' is clicked on
+
+2020-01-19 14:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn_OTHER' is clicked on
+
+2020-01-19 14:46:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 14:47:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 14:47:00 - [TEST_STEP][PASSED] - getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_1")): Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$555.00'
+
+2020-01-19 14:47:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$555.00'
+
+2020-01-19 14:47:01 - [TEST_STEP][PASSED] - getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_2")): Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_2' is: '$555.00'
+
+2020-01-19 14:47:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_2' is: '$555.00'
+
+2020-01-19 14:47:01 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_1"))): $555.00
+
+2020-01-19 14:47:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$555.00'
+
+2020-01-19 14:47:01 - [MESSAGE][INFO] - $555.00
+
+2020-01-19 14:47:01 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_2"))): $555.00
+
+2020-01-19 14:47:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_2' is: '$555.00'
+
+2020-01-19 14:47:02 - [MESSAGE][INFO] - $555.00
+
+2020-01-19 14:47:02 - [TEST_STEP][PASSED] - cellAD = rowPay.createCell(11, 0): null
+
+2020-01-19 14:47:02 - [TEST_STEP][PASSED] - cellAD.setCellType(CELL_TYPE_STRING): null
+
+2020-01-19 14:47:02 - [TEST_STEP][PASSED] - cellAD.setCellValue(getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_1"))): Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$555.00'
+
+2020-01-19 14:47:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$555.00'
+
+2020-01-19 14:47:02 - [TEST_STEP][PASSED] - if (var_paybalance == "Y"): null
+
+2020-01-19 14:47:02 - [TEST_STEP][PASSED] - else: Delayed 3 second(s)
+
+2020-01-19 14:47:02 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/rBtn__OtherAmount")): Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn__OtherAmount' is clicked on
+
+2020-01-19 14:47:02 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn__OtherAmount' is clicked on
+
+2020-01-19 14:47:02 - [TEST_STEP][PASSED] - setText(findTestObject("obj_paymentdetails/1_pay/input_AmounttoPay"), var_amountpay): Text '120' is set on object 'Object Repository/obj_paymentdetails/1_pay/input_AmounttoPay'
+
+2020-01-19 14:47:03 - [MESSAGE][PASSED] - Text '120' is set on object 'Object Repository/obj_paymentdetails/1_pay/input_AmounttoPay'
+
+2020-01-19 14:47:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-19 14:47:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-19 14:47:06 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/btn_makeAPayment")): Object: 'Object Repository/obj_paymentdetails/1_pay/btn_makeAPayment' is clicked on
+
+2020-01-19 14:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/btn_makeAPayment' is clicked on
+
+2020-01-19 14:47:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-19 14:47:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-19 14:47:09 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_4payment.xlsx): null
+
+2020-01-19 14:47:09 - [TEST_STEP][PASSED] - workbookPay.write(fos): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_4_payment_ ok" time="23.593" classname="Test Cases/p4p_4_payment_ ok" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method createCell() on null object
+	at org.apache.poi.ss.usermodel.Row$createCell.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579466763418.run(TempTestSuite1579466763418.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-19 14:47:09 - [TEST_CASE][ERROR] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method createCell() on null object
+	at org.apache.poi.ss.usermodel.Row$createCell.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579466763418.run(TempTestSuite1579466763418.groovy:36)
+
+
+2020-01-19 14:47:09 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 14:47:09 - [TEST_STEP][PASSED] - fisPay = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_4payment.xlsx): null
+
+2020-01-19 14:47:09 - [TEST_STEP][PASSED] - workbookPay = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisPay): null
+
+2020-01-19 14:47:09 - [TEST_STEP][PASSED] - sheetPay = workbookPay.getSheet("Sheet1"): null
+
+2020-01-19 14:47:09 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-19 14:47:09 - [TEST_STEP][PASSED] - rowPay = sheetPay.getRow(var): null
+
+2020-01-19 14:47:09 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-19 14:47:09 - [TEST_STEP][PASSED] - nowTime = today.format("hhmmdd"): null
+
+2020-01-19 14:47:09 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 14:47:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-19 14:47:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-19 14:47:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 14:47:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-19 14:47:11 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-19 14:47:11 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 14:47:12 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 14:47:12 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 14:47:12 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 14:47:12 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 14:47:13 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 14:47:13 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 14:47:14 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 14:47:14 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 14:47:15 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 14:47:15 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 14:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 14:47:16 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 14:47:17 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 14:47:17 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/new_invoice/a_Invoices")): Object: 'Object Repository/obj_invoce/new_invoice/a_Invoices' is clicked on
+
+2020-01-19 14:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/new_invoice/a_Invoices' is clicked on
+
+2020-01-19 14:47:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 14:47:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 14:47:22 - [TEST_STEP][NOT_RUN] - click(findTestObject("obj_invoce/new_invoice/a_1795112")): NOT_RUN: click(findTestObject("obj_invoce/new_invoice/a_1795112"))
+
+2020-01-19 14:47:22 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("obj_invoce/new_invoice/a_1795112"))
+
+2020-01-19 14:47:22 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 14:47:22 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 14:47:22 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-19 14:47:22 - [TEST_STEP][PASSED] - urlInvoice = arrayUrl[0] + "/" + arrayUrl[1] + "/" + arrayUrl[2] + "/" + arrayUrl[3] + "/" + arrayUrl[4] + "/" + arrayUrl[5] + "/" + "invoice" + "/" + arrayUrl[7] + "/" + var_invoice: null
+
+2020-01-19 14:47:22 - [TEST_STEP][PASSED] - navigateToUrl(urlInvoice): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795640' successfully
+
+2020-01-19 14:47:22 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795640' successfully
+
+2020-01-19 14:47:22 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2020-01-19 14:47:28 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2020-01-19 14:47:28 - [TEST_STEP][PASSED] - if (var_paybalance == "N"): Object: 'Object Repository/obj_paymentdetails/1_pay/btn_Pay' is clicked on
+
+2020-01-19 14:47:28 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/btn_Pay")): Object: 'Object Repository/obj_paymentdetails/1_pay/btn_Pay' is clicked on
+
+2020-01-19 14:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/btn_Pay' is clicked on
+
+2020-01-19 14:47:28 - [TEST_STEP][PASSED] - if (var_paybalance == "Y"): null
+
+2020-01-19 14:47:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 14:47:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 14:47:29 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/rBtn_" + var_method)): Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn_BY_CASH' is clicked on
+
+2020-01-19 14:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn_BY_CASH' is clicked on
+
+2020-01-19 14:47:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 14:47:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 14:47:32 - [TEST_STEP][PASSED] - getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_1")): Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$25.00'
+
+2020-01-19 14:47:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$25.00'
+
+2020-01-19 14:47:32 - [TEST_STEP][PASSED] - getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_2")): Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_2' is: '$25.00'
+
+2020-01-19 14:47:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_2' is: '$25.00'
+
+2020-01-19 14:47:32 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_1"))): $25.00
+
+2020-01-19 14:47:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$25.00'
+
+2020-01-19 14:47:32 - [MESSAGE][INFO] - $25.00
+
+2020-01-19 14:47:32 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_2"))): $25.00
+
+2020-01-19 14:47:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_2' is: '$25.00'
+
+2020-01-19 14:47:33 - [MESSAGE][INFO] - $25.00
+
+2020-01-19 14:47:33 - [TEST_STEP][PASSED] - cellAD = rowPay.createCell(11, 0): null]]></system-out>
+         <system-err><![CDATA[2020-01-19 14:47:09 - [TEST_CASE][ERROR] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method createCell() on null object
+	at org.apache.poi.ss.usermodel.Row$createCell.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579466763418.run(TempTestSuite1579466763418.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-19 14:46:04 - [TEST_SUITE][ERROR] - ts_4_payment: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method createCell() on null object
+	at org.apache.poi.ss.usermodel.Row$createCell.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579466763418.run(TempTestSuite1579466763418.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-01-19 14:46:04 - [TEST_SUITE][ERROR] - ts_4_payment: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method createCell() on null object
+	at org.apache.poi.ss.usermodel.Row$createCell.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579466763418.run(TempTestSuite1579466763418.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

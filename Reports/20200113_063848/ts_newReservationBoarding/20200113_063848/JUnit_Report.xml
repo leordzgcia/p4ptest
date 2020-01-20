@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_newReservationBoarding" time="1.867" tests="3" failures="0" errors="3">
+   <testsuite name="ts_newReservationBoarding" tests="3" failures="0" errors="3" time="1.867" timestamp="2020-01-13 06:38:49" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_newReservationBoarding">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200113_063848/ts_newReservationBoarding/20200113_063848"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200113_063848/ts_newReservationBoarding/20200113_063848/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+      </properties>
+      <testcase name="Test Cases/p4p_newReservationBoarding" time="1.162" classname="Test Cases/p4p_newReservationBoarding" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+java.io.IOException: Stream Closed
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:121)
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:103)
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:312)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:70)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init>(XSSFWorkbook.java:295)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919128116.run(TempTestSuite1578919128116.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-13 06:38:49 - [TEST_CASE][ERROR] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+java.io.IOException: Stream Closed
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:121)
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:103)
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:312)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:70)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919128116.run(TempTestSuite1578919128116.groovy:36)
+
+
+2020-01-13 06:38:50 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-13 06:38:50 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-13 06:38:50 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-13 06:38:50 - [TEST_STEP][PASSED] - fisCanRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_2cancelReservation.xlsx): null
+
+2020-01-13 06:38:50 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-13 06:38:50 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-13 06:38:50 - [TEST_STEP][PASSED] - workbookCanRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisCanRes): null
+
+2020-01-13 06:38:50 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisCanRes): null]]></system-out>
+         <system-err><![CDATA[2020-01-13 06:38:49 - [TEST_CASE][ERROR] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+java.io.IOException: Stream Closed
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:121)
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:103)
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:312)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:70)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919128116.run(TempTestSuite1578919128116.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_newReservationBoarding" time="0.124" classname="Test Cases/p4p_newReservationBoarding" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+java.io.IOException: Stream Closed
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:121)
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:103)
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:312)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:70)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init>(XSSFWorkbook.java:295)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919128116.run(TempTestSuite1578919128116.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-13 06:38:50 - [TEST_CASE][ERROR] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+java.io.IOException: Stream Closed
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:121)
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:103)
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:312)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:70)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919128116.run(TempTestSuite1578919128116.groovy:36)
+
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - fisCanRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_2cancelReservation.xlsx): null
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - workbookCanRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisCanRes): null
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisCanRes): null]]></system-out>
+         <system-err><![CDATA[2020-01-13 06:38:50 - [TEST_CASE][ERROR] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+java.io.IOException: Stream Closed
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:121)
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:103)
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:312)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:70)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919128116.run(TempTestSuite1578919128116.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_newReservationBoarding" time="0.089" classname="Test Cases/p4p_newReservationBoarding" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+java.io.IOException: Stream Closed
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:121)
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:103)
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:312)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:70)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init>(XSSFWorkbook.java:295)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919128116.run(TempTestSuite1578919128116.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-13 06:38:51 - [TEST_CASE][ERROR] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+java.io.IOException: Stream Closed
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:121)
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:103)
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:312)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:70)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919128116.run(TempTestSuite1578919128116.groovy:36)
+
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - fisCanRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_2cancelReservation.xlsx): null
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - workbookCanRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisCanRes): null
+
+2020-01-13 06:38:51 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisCanRes): null]]></system-out>
+         <system-err><![CDATA[2020-01-13 06:38:51 - [TEST_CASE][ERROR] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+java.io.IOException: Stream Closed
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:121)
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:103)
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:312)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:70)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919128116.run(TempTestSuite1578919128116.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-13 06:38:49 - [TEST_SUITE][ERROR] - ts_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+java.io.IOException: Stream Closed
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:121)
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:103)
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:312)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:70)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919128116.run(TempTestSuite1578919128116.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-01-13 06:38:49 - [TEST_SUITE][ERROR] - ts_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+java.io.IOException: Stream Closed
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:121)
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:103)
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:312)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:70)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919128116.run(TempTestSuite1578919128116.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

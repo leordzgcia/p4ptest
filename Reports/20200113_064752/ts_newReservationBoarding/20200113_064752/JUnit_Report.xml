@@ -1,0 +1,2068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_newReservationBoarding" time="438.702" tests="3" failures="2" errors="0">
+   <testsuite name="ts_newReservationBoarding" tests="3" failures="2" errors="0" time="438.702" timestamp="2020-01-13 06:47:53" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_newReservationBoarding">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200113_064752/ts_newReservationBoarding/20200113_064752"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200113_064752/ts_newReservationBoarding/20200113_064752/execution0.log"/>
+         <property name="attachments" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200113_064752/ts_newReservationBoarding/20200113_064752/1578919846753.png, /home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200113_064752/ts_newReservationBoarding/20200113_064752/1578919968477.png, /home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200113_064752/ts_newReservationBoarding/20200113_064752/1578920026908.png, /home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200113_064752/ts_newReservationBoarding/20200113_064752/1578920111860.png, /home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200113_064752/ts_newReservationBoarding/20200113_064752/1578920112063.png"/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 79.0.3945.88"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="42eee1b2bd7b97bb5b6a725c7bc68886"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_newReservationBoarding" time="81.484" classname="Test Cases/p4p_newReservationBoarding" status="PASSED">
+         <system-out><![CDATA[2020-01-13 06:47:53 - [TEST_CASE][PASSED] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding
+
+2020-01-13 06:47:54 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-13 06:47:54 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-13 06:47:54 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-13 06:47:54 - [TEST_STEP][PASSED] - fisCanRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_2cancelReservation.xlsx): null
+
+2020-01-13 06:47:54 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-13 06:47:54 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - workbookCanRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisCanRes): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - sheetCanRes = workbookCanRes.getSheet("Sheet1"): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - sheetInv = workbookInv.getSheet("Sheet1"): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - rowCanRes = sheetCanRes.getRow(var): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - rowInv = sheetInv.getRow(var): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - todaysDate1 = today.format("yyyy"): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - todaysDate2 = today.format("mm"): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - todaysDate3 = today.format("dd"): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - todaysDate4 = today.format("mmm/dd/yyyy"): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - todaysDate5 = today.format("dd/mm/yyyy"): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-13 06:47:55 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-13 06:47:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-13 06:47:55 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-13 06:48:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-13 06:48:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-13 06:48:05 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-13 06:48:05 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-13 06:48:05 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-13 06:48:05 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-13 06:48:05 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-13 06:48:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:48:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:48:07 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-13 06:48:08 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-13 06:48:08 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-13 06:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-13 06:48:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:48:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:48:12 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_searchParent): Text 'katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-13 06:48:12 - [MESSAGE][PASSED] - Text 'katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-13 06:48:12 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-13 06:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-13 06:48:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:48:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:48:15 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-13 06:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-13 06:48:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:48:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:48:18 - [TEST_STEP][PASSED] - click(findTestObject("obj_profile/a_addReservation")): Object: 'Object Repository/obj_profile/a_addReservation' is clicked on
+
+2020-01-13 06:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_profile/a_addReservation' is clicked on
+
+2020-01-13 06:48:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:48:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:48:25 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_Boarding")): Object: 'Object Repository/obj_reservation/4_/btn_Boarding' is clicked on
+
+2020-01-13 06:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_Boarding' is clicked on
+
+2020-01-13 06:48:25 - [TEST_STEP][PASSED] - flagBoar = "1": null
+
+2020-01-13 06:48:25 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/i_location")): Object: 'Object Repository/obj_reservation/4_/i_location' is clicked on
+
+2020-01-13 06:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/i_location' is clicked on
+
+2020-01-13 06:48:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-13 06:48:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-13 06:48:28 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/2_facility/i_" + var_idFacility + "_facility")): Object: 'Object Repository/obj_reservation/2_facility/i_3_facility' is clicked on
+
+2020-01-13 06:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/2_facility/i_3_facility' is clicked on
+
+2020-01-13 06:48:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:48:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:48:31 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/dateCheckIn")): Object: 'Object Repository/obj_reservation/4_/dateCheckIn' is clicked on
+
+2020-01-13 06:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/dateCheckIn' is clicked on
+
+2020-01-13 06:48:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:48:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:48:34 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/3_date2020/0120/CI/button_" + dateCI[0] + "01_ci")): Object: 'Object Repository/obj_reservation/3_date2020/0120/CI/button_0101_ci' is clicked on
+
+2020-01-13 06:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/3_date2020/0120/CI/button_0101_ci' is clicked on
+
+2020-01-13 06:48:34 - [TEST_STEP][PASSED] - if (flagBoar == "1"): Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_0201_co' is clicked on
+
+2020-01-13 06:48:34 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/dateCheckOut")): Object: 'Object Repository/obj_reservation/4_/dateCheckOut' is clicked on
+
+2020-01-13 06:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/dateCheckOut' is clicked on
+
+2020-01-13 06:48:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:48:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:48:37 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/3_date2020/0120/CO/button_" + dateCO[0] + "01_co")): Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_0201_co' is clicked on
+
+2020-01-13 06:48:37 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_0201_co' is clicked on
+
+2020-01-13 06:48:37 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 1): null
+
+2020-01-13 06:48:37 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 2): null
+
+2020-01-13 06:48:37 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 3): null
+
+2020-01-13 06:48:37 - [TEST_STEP][PASSED] - var_checkinT = "0" + var_checkinT: null
+
+2020-01-13 06:48:37 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/timeCheckin")): Object: 'Object Repository/obj_reservation/4_/timeCheckin' is clicked on
+
+2020-01-13 06:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/timeCheckin' is clicked on
+
+2020-01-13 06:48:38 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/0_horas/CI/time_" + var_checkinT + "_ci")): Object: 'Object Repository/obj_reservation/0_horas/CI/time_0800_ci' is clicked on
+
+2020-01-13 06:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/0_horas/CI/time_0800_ci' is clicked on
+
+2020-01-13 06:48:39 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/timeCheckOut")): Object: 'Object Repository/obj_reservation/4_/timeCheckOut' is clicked on
+
+2020-01-13 06:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/timeCheckOut' is clicked on
+
+2020-01-13 06:48:39 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/0_horas/CO/time_" + var_checkoutT + "_co")): Object: 'Object Repository/obj_reservation/0_horas/CO/time_1130_co' is clicked on
+
+2020-01-13 06:48:40 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/0_horas/CO/time_1130_co' is clicked on
+
+2020-01-13 06:48:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:48:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:48:42 - [TEST_STEP][PASSED] - if (arryPets.size() == 1): Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-13 06:48:42 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_5/div_Ares")): Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-13 06:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-13 06:48:43 - [TEST_STEP][PASSED] - stringDeposit = getText(findTestObject("obj_reservation/4_/span_requiresdeposit"), CONTINUE_ON_FAILURE): Text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit' is: 'You are making a reservation for a special period of time that may have special pricing and requires a deposit. (12/20/2019 - 01/05/2020)'
+
+2020-01-13 06:48:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit' is: 'You are making a reservation for a special period of time that may have special pricing and requires a deposit. (12/20/2019 - 01/05/2020)'
+
+2020-01-13 06:48:47 - [TEST_STEP][PASSED] - varHoliday = 0: null
+
+2020-01-13 06:48:47 - [TEST_STEP][PASSED] - if (stringDeposit != null): null
+
+2020-01-13 06:48:47 - [TEST_STEP][PASSED] - varHoliday = 1: null
+
+2020-01-13 06:48:47 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/div_suite_rad_deluxe")): Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-13 06:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-13 06:48:49 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_next2")): Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-13 06:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-13 06:48:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-13 06:48:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-13 06:48:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:48:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:48:54 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_next2")): Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-13 06:48:55 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-13 06:48:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:48:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:48:57 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Submit Reservation")): Object: 'Object Repository/obj_reservation/4_/button_Submit Reservation' is clicked on
+
+2020-01-13 06:48:57 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Submit Reservation' is clicked on
+
+2020-01-13 06:48:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:48:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:48:59 - [TEST_STEP][PASSED] - if (flagBoar == "2" && var_repeatingEvery == "Daily" || var_repeatingEvery == "Monthly" || var_repeatingEvery == "Weekly"): null
+
+2020-01-13 06:48:59 - [TEST_STEP][PASSED] - else: null
+
+2020-01-13 06:48:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:49:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:49:01 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-13 06:49:01 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Return To Reservation")): Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-13 06:49:02 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-13 06:49:02 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2020-01-13 06:49:08 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2020-01-13 06:49:08 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_2/button_Go to CheckOut")): Object: 'Object Repository/obj_reservation/P4P_2/button_Go to CheckOut' is clicked on
+
+2020-01-13 06:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_2/button_Go to CheckOut' is clicked on
+
+2020-01-13 06:49:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:49:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:49:12 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702756/?parent_id=122352'
+
+2020-01-13 06:49:12 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702756/?parent_id=122352'
+
+2020-01-13 06:49:12 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-13 06:49:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("obj_reservation/P4P_2/span_( BK )"), "( BK )", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-13 06:49:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-13 06:49:13 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/P4P_2/a_1795351"))): 1795373
+
+2020-01-13 06:49:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795373'
+
+2020-01-13 06:49:13 - [MESSAGE][INFO] - 1795373
+
+2020-01-13 06:49:13 - [TEST_STEP][PASSED] - cell = rowNewRes.createCell(15, 0): null
+
+2020-01-13 06:49:13 - [TEST_STEP][PASSED] - cell.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:49:13 - [TEST_STEP][PASSED] - cell.setCellValue(arrayUrl[5]): null
+
+2020-01-13 06:49:13 - [TEST_STEP][PASSED] - varIdInv = getText(findTestObject("obj_reservation/P4P_2/a_1795351")).toString(): Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795373'
+
+2020-01-13 06:49:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795373'
+
+2020-01-13 06:49:13 - [TEST_STEP][PASSED] - cell6 = rowNewRes.createCell(16, 0): null
+
+2020-01-13 06:49:13 - [TEST_STEP][PASSED] - cell6.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:49:13 - [TEST_STEP][PASSED] - cell6.setCellValue(varIdInv): null
+
+2020-01-13 06:49:13 - [TEST_STEP][PASSED] - cell2 = rowNewRes.createCell(18, 0): null
+
+2020-01-13 06:49:13 - [TEST_STEP][PASSED] - cell2.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:49:13 - [TEST_STEP][PASSED] - cell2.setCellValue(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-13 06:49:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cell3 = rowNewRes.createCell(19, 0): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cell3.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cell3.setCellValue("Reservacion generada"): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - if (varHoliday == 1): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cell4 = rowNewRes.createCell(17, 0): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cell4.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cell4.setCellValue("Y"): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - if (var == 1): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cell4 = rowNewRes.createCell(22, 0): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cell4.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cell4.setCellValue(nowTime): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - workbookNewRes.write(fos): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - fos.close(): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv = rowInv.createCell(1, 0): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv.setCellValue(var_searchParent): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv2 = rowInv.createCell(2, 0): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv2.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv2.setCellValue(varIdInv): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv3 = rowInv.createCell(4, 0): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv3.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv3.setCellValue(var_checkinD): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv4 = rowInv.createCell(5, 0): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv4.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv4.setCellValue(var_typeReserveation): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv5 = rowInv.createCell(6, 0): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv5.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv5.setCellValue(var_suite): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv6 = rowInv.createCell(7, 0): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv6.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - cellInv6.setCellValue(var_pets): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - fosInv = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - workbookInv.write(fosInv): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - fosInv.close(): null
+
+2020-01-13 06:49:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-13 06:49:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - (var_row++): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - cellCan = rowCanRes.createCell(5, 0): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - cellCan.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - cellCan.setCellValue(arrayUrl[5]): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - cell2Can = rowCanRes.createCell(6, 0): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - cell2Can.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - cell2Can.setCellValue(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-13 06:49:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - fosCan = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_2cancelReservation.xlsx): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - workbookCanRes.write(fosCan): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - fosCan.close(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_newReservationBoarding" time="118.946" classname="Test Cases/p4p_newReservationBoarding" status="FAILED">
+         <failure type="FAILED" message="Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:161)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-01-13 06:49:15 - [TEST_CASE][FAILED] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:161)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - fisCanRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_2cancelReservation.xlsx): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - workbookCanRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisCanRes): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - sheetCanRes = workbookCanRes.getSheet("Sheet1"): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - sheetInv = workbookInv.getSheet("Sheet1"): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - rowCanRes = sheetCanRes.getRow(var): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - rowInv = sheetInv.getRow(var): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - todaysDate1 = today.format("yyyy"): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - todaysDate2 = today.format("mm"): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - todaysDate3 = today.format("dd"): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - todaysDate4 = today.format("mmm/dd/yyyy"): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - todaysDate5 = today.format("dd/mm/yyyy"): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-13 06:49:15 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-13 06:49:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-13 06:49:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-13 06:49:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-13 06:49:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-13 06:49:20 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-13 06:49:20 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-13 06:49:20 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-13 06:49:20 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-13 06:49:21 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-13 06:49:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:49:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:49:23 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-13 06:49:23 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-13 06:49:23 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-13 06:49:25 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-13 06:49:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:49:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:49:27 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_searchParent): Text 'katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-13 06:49:28 - [MESSAGE][PASSED] - Text 'katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-13 06:49:28 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-13 06:49:29 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-13 06:49:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:49:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:49:31 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-13 06:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-13 06:49:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:49:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:49:34 - [TEST_STEP][PASSED] - click(findTestObject("obj_profile/a_addReservation")): Object: 'Object Repository/obj_profile/a_addReservation' is clicked on
+
+2020-01-13 06:49:39 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_profile/a_addReservation' is clicked on
+
+2020-01-13 06:49:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:49:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:49:41 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_Boarding")): Object: 'Object Repository/obj_reservation/4_/btn_Boarding' is clicked on
+
+2020-01-13 06:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_Boarding' is clicked on
+
+2020-01-13 06:49:41 - [TEST_STEP][PASSED] - flagBoar = "1": null
+
+2020-01-13 06:49:41 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/i_location")): Object: 'Object Repository/obj_reservation/4_/i_location' is clicked on
+
+2020-01-13 06:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/i_location' is clicked on
+
+2020-01-13 06:49:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-13 06:49:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-13 06:49:45 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/2_facility/i_" + var_idFacility + "_facility")): Object: 'Object Repository/obj_reservation/2_facility/i_3_facility' is clicked on
+
+2020-01-13 06:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/2_facility/i_3_facility' is clicked on
+
+2020-01-13 06:49:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:49:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:49:47 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/dateCheckIn")): Object: 'Object Repository/obj_reservation/4_/dateCheckIn' is clicked on
+
+2020-01-13 06:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/dateCheckIn' is clicked on
+
+2020-01-13 06:49:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:49:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:49:51 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/3_date2020/0120/CI/button_" + dateCI[0] + "01_ci")): Object: 'Object Repository/obj_reservation/3_date2020/0120/CI/button_0901_ci' is clicked on
+
+2020-01-13 06:49:51 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/3_date2020/0120/CI/button_0901_ci' is clicked on
+
+2020-01-13 06:49:51 - [TEST_STEP][PASSED] - if (flagBoar == "1"): Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_1001_co' is clicked on
+
+2020-01-13 06:49:51 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/dateCheckOut")): Object: 'Object Repository/obj_reservation/4_/dateCheckOut' is clicked on
+
+2020-01-13 06:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/dateCheckOut' is clicked on
+
+2020-01-13 06:49:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:49:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:49:54 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/3_date2020/0120/CO/button_" + dateCO[0] + "01_co")): Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_1001_co' is clicked on
+
+2020-01-13 06:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_1001_co' is clicked on
+
+2020-01-13 06:49:54 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 1): null
+
+2020-01-13 06:49:54 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 2): null
+
+2020-01-13 06:49:54 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 3): null
+
+2020-01-13 06:49:54 - [TEST_STEP][PASSED] - var_checkinT = "0" + var_checkinT: null
+
+2020-01-13 06:49:54 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/timeCheckin")): Object: 'Object Repository/obj_reservation/4_/timeCheckin' is clicked on
+
+2020-01-13 06:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/timeCheckin' is clicked on
+
+2020-01-13 06:49:55 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/0_horas/CI/time_" + var_checkinT + "_ci")): Object: 'Object Repository/obj_reservation/0_horas/CI/time_0830_ci' is clicked on
+
+2020-01-13 06:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/0_horas/CI/time_0830_ci' is clicked on
+
+2020-01-13 06:49:56 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/timeCheckOut")): Object: 'Object Repository/obj_reservation/4_/timeCheckOut' is clicked on
+
+2020-01-13 06:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/timeCheckOut' is clicked on
+
+2020-01-13 06:49:56 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/0_horas/CO/time_" + var_checkoutT + "_co")): Object: 'Object Repository/obj_reservation/0_horas/CO/time_1200_co' is clicked on
+
+2020-01-13 06:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/0_horas/CO/time_1200_co' is clicked on
+
+2020-01-13 06:49:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:49:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:49:59 - [TEST_STEP][PASSED] - if (arryPets.size() == 1): null
+
+2020-01-13 06:49:59 - [TEST_STEP][PASSED] - else if (arryPets.size() == 2): Object: 'Object Repository/obj_reservation/4_/div_Zeus' is clicked on
+
+2020-01-13 06:49:59 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_5/div_Ares")): Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-13 06:50:00 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-13 06:50:00 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/div_Zeus")): Object: 'Object Repository/obj_reservation/4_/div_Zeus' is clicked on
+
+2020-01-13 06:50:04 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/div_Zeus' is clicked on
+
+2020-01-13 06:50:04 - [TEST_STEP][FAILED] - stringDeposit = getText(findTestObject("obj_reservation/4_/span_requiresdeposit"), CONTINUE_ON_FAILURE): Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:161)
+	... 13 more
+)
+
+2020-01-13 06:50:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-13 06:50:46 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:161)
+	... 13 more
+)
+[[ATTACHMENT|/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200113_064752/ts_newReservationBoarding/20200113_064752/1578919846753.png]]
+
+2020-01-13 06:50:46 - [TEST_STEP][PASSED] - varHoliday = 0: null
+
+2020-01-13 06:50:46 - [TEST_STEP][PASSED] - if (stringDeposit != null): null
+
+2020-01-13 06:50:46 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/div_suite_rad_deluxe")): Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-13 06:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-13 06:50:48 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_next2")): Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-13 06:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-13 06:50:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-13 06:50:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-13 06:50:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:50:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:50:54 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_next2")): Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-13 06:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-13 06:50:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:50:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:50:56 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Submit Reservation")): Object: 'Object Repository/obj_reservation/4_/button_Submit Reservation' is clicked on
+
+2020-01-13 06:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Submit Reservation' is clicked on
+
+2020-01-13 06:50:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:50:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:50:59 - [TEST_STEP][PASSED] - if (flagBoar == "2" && var_repeatingEvery == "Daily" || var_repeatingEvery == "Monthly" || var_repeatingEvery == "Weekly"): null
+
+2020-01-13 06:50:59 - [TEST_STEP][PASSED] - else: null
+
+2020-01-13 06:50:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:51:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:51:01 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-13 06:51:01 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Return To Reservation")): Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-13 06:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-13 06:51:02 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2020-01-13 06:51:08 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2020-01-13 06:51:08 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_2/button_Go to CheckOut")): Object: 'Object Repository/obj_reservation/P4P_2/button_Go to CheckOut' is clicked on
+
+2020-01-13 06:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_2/button_Go to CheckOut' is clicked on
+
+2020-01-13 06:51:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:51:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:51:12 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702757/?parent_id=122352'
+
+2020-01-13 06:51:12 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702757/?parent_id=122352'
+
+2020-01-13 06:51:12 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-13 06:51:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("obj_reservation/P4P_2/span_( BK )"), "( BK )", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-13 06:51:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-13 06:51:12 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/P4P_2/a_1795351"))): 1795375
+
+2020-01-13 06:51:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795375'
+
+2020-01-13 06:51:12 - [MESSAGE][INFO] - 1795375
+
+2020-01-13 06:51:12 - [TEST_STEP][PASSED] - cell = rowNewRes.createCell(15, 0): null
+
+2020-01-13 06:51:12 - [TEST_STEP][PASSED] - cell.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:51:12 - [TEST_STEP][PASSED] - cell.setCellValue(arrayUrl[5]): null
+
+2020-01-13 06:51:12 - [TEST_STEP][PASSED] - varIdInv = getText(findTestObject("obj_reservation/P4P_2/a_1795351")).toString(): Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795375'
+
+2020-01-13 06:51:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795375'
+
+2020-01-13 06:51:12 - [TEST_STEP][PASSED] - cell6 = rowNewRes.createCell(16, 0): null
+
+2020-01-13 06:51:12 - [TEST_STEP][PASSED] - cell6.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:51:12 - [TEST_STEP][PASSED] - cell6.setCellValue(varIdInv): null
+
+2020-01-13 06:51:12 - [TEST_STEP][PASSED] - cell2 = rowNewRes.createCell(18, 0): null
+
+2020-01-13 06:51:12 - [TEST_STEP][PASSED] - cell2.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:51:12 - [TEST_STEP][PASSED] - cell2.setCellValue(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-13 06:51:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cell3 = rowNewRes.createCell(19, 0): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cell3.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cell3.setCellValue("Reservacion generada"): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - if (varHoliday == 1): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - else: null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cell4 = rowNewRes.createCell(17, 0): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cell4.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cell4.setCellValue("N"): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - if (var == 1): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - workbookNewRes.write(fos): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - fos.close(): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv = rowInv.createCell(1, 0): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv.setCellValue(var_searchParent): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv2 = rowInv.createCell(2, 0): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv2.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv2.setCellValue(varIdInv): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv3 = rowInv.createCell(4, 0): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv3.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv3.setCellValue(var_checkinD): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv4 = rowInv.createCell(5, 0): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv4.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv4.setCellValue(var_typeReserveation): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv5 = rowInv.createCell(6, 0): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv5.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv5.setCellValue(var_suite): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv6 = rowInv.createCell(7, 0): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv6.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - cellInv6.setCellValue(var_pets): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - fosInv = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - workbookInv.write(fosInv): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - fosInv.close(): null
+
+2020-01-13 06:51:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-13 06:51:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - (var_row++): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - cellCan = rowCanRes.createCell(5, 0): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - cellCan.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - cellCan.setCellValue(arrayUrl[5]): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - cell2Can = rowCanRes.createCell(6, 0): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - cell2Can.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - cell2Can.setCellValue(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-13 06:51:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - fosCan = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_2cancelReservation.xlsx): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - workbookCanRes.write(fosCan): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - fosCan.close(): null]]></system-out>
+         <system-err><![CDATA[2020-01-13 06:49:15 - [TEST_CASE][FAILED] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:161)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_newReservationBoarding" time="237.748" classname="Test Cases/p4p_newReservationBoarding" status="FAILED">
+         <failure type="FAILED" message="Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:161)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-01-13 06:51:14 - [TEST_CASE][FAILED] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:161)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - fisCanRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_2cancelReservation.xlsx): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - workbookCanRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisCanRes): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - sheetCanRes = workbookCanRes.getSheet("Sheet1"): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - sheetInv = workbookInv.getSheet("Sheet1"): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - rowCanRes = sheetCanRes.getRow(var): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - rowInv = sheetInv.getRow(var): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - todaysDate1 = today.format("yyyy"): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - todaysDate2 = today.format("mm"): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - todaysDate3 = today.format("dd"): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - todaysDate4 = today.format("mmm/dd/yyyy"): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - todaysDate5 = today.format("dd/mm/yyyy"): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-13 06:51:14 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-13 06:51:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-13 06:51:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-13 06:51:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-13 06:51:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-13 06:51:26 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-13 06:51:26 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-13 06:51:26 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-13 06:51:26 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-13 06:51:27 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-13 06:51:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:51:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:51:29 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-13 06:51:29 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-13 06:51:29 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-13 06:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-13 06:51:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:51:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:51:34 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_searchParent): Text 'katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-13 06:51:34 - [MESSAGE][PASSED] - Text 'katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-13 06:51:34 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-13 06:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-13 06:51:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:51:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:51:37 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-13 06:51:38 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-13 06:51:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:51:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:51:40 - [TEST_STEP][PASSED] - click(findTestObject("obj_profile/a_addReservation")): Object: 'Object Repository/obj_profile/a_addReservation' is clicked on
+
+2020-01-13 06:51:45 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_profile/a_addReservation' is clicked on
+
+2020-01-13 06:51:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:51:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:51:47 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_Boarding")): Object: 'Object Repository/obj_reservation/4_/btn_Boarding' is clicked on
+
+2020-01-13 06:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_Boarding' is clicked on
+
+2020-01-13 06:51:47 - [TEST_STEP][PASSED] - flagBoar = "1": null
+
+2020-01-13 06:51:47 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/i_location")): Object: 'Object Repository/obj_reservation/4_/i_location' is clicked on
+
+2020-01-13 06:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/i_location' is clicked on
+
+2020-01-13 06:51:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-13 06:51:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-13 06:51:51 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/2_facility/i_" + var_idFacility + "_facility")): Object: 'Object Repository/obj_reservation/2_facility/i_3_facility' is clicked on
+
+2020-01-13 06:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/2_facility/i_3_facility' is clicked on
+
+2020-01-13 06:51:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:51:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:51:53 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/dateCheckIn")): Object: 'Object Repository/obj_reservation/4_/dateCheckIn' is clicked on
+
+2020-01-13 06:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/dateCheckIn' is clicked on
+
+2020-01-13 06:51:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:51:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:51:57 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/3_date2020/0120/CI/button_" + dateCI[0] + "01_ci")): Object: 'Object Repository/obj_reservation/3_date2020/0120/CI/button_0901_ci' is clicked on
+
+2020-01-13 06:51:57 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/3_date2020/0120/CI/button_0901_ci' is clicked on
+
+2020-01-13 06:51:57 - [TEST_STEP][PASSED] - if (flagBoar == "1"): Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_1001_co' is clicked on
+
+2020-01-13 06:51:57 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/dateCheckOut")): Object: 'Object Repository/obj_reservation/4_/dateCheckOut' is clicked on
+
+2020-01-13 06:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/dateCheckOut' is clicked on
+
+2020-01-13 06:51:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:52:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:52:00 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/3_date2020/0120/CO/button_" + dateCO[0] + "01_co")): Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_1001_co' is clicked on
+
+2020-01-13 06:52:00 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_1001_co' is clicked on
+
+2020-01-13 06:52:00 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 1): null
+
+2020-01-13 06:52:00 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 2): null
+
+2020-01-13 06:52:00 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 3): null
+
+2020-01-13 06:52:00 - [TEST_STEP][PASSED] - var_checkinT = "0" + var_checkinT: null
+
+2020-01-13 06:52:00 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/timeCheckin")): Object: 'Object Repository/obj_reservation/4_/timeCheckin' is clicked on
+
+2020-01-13 06:52:01 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/timeCheckin' is clicked on
+
+2020-01-13 06:52:01 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/0_horas/CI/time_" + var_checkinT + "_ci")): Object: 'Object Repository/obj_reservation/0_horas/CI/time_0800_ci' is clicked on
+
+2020-01-13 06:52:01 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/0_horas/CI/time_0800_ci' is clicked on
+
+2020-01-13 06:52:01 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/timeCheckOut")): Object: 'Object Repository/obj_reservation/4_/timeCheckOut' is clicked on
+
+2020-01-13 06:52:02 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/timeCheckOut' is clicked on
+
+2020-01-13 06:52:02 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/0_horas/CO/time_" + var_checkoutT + "_co")): Object: 'Object Repository/obj_reservation/0_horas/CO/time_1130_co' is clicked on
+
+2020-01-13 06:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/0_horas/CO/time_1130_co' is clicked on
+
+2020-01-13 06:52:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:52:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:52:05 - [TEST_STEP][PASSED] - if (arryPets.size() == 1): Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-13 06:52:05 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_5/div_Ares")): Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-13 06:52:06 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-13 06:52:06 - [TEST_STEP][FAILED] - stringDeposit = getText(findTestObject("obj_reservation/4_/span_requiresdeposit"), CONTINUE_ON_FAILURE): Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:161)
+	... 13 more
+)
+
+2020-01-13 06:52:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-13 06:52:48 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:161)
+	... 13 more
+)
+[[ATTACHMENT|/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200113_064752/ts_newReservationBoarding/20200113_064752/1578919968477.png]]
+
+2020-01-13 06:52:48 - [TEST_STEP][PASSED] - varHoliday = 0: null
+
+2020-01-13 06:52:48 - [TEST_STEP][PASSED] - if (stringDeposit != null): null
+
+2020-01-13 06:52:48 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/div_suite_rad_deluxe")): Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-13 06:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-13 06:52:50 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_next2")): Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-13 06:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-13 06:52:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-13 06:52:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-13 06:52:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:52:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:52:55 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_next2")): Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-13 06:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-13 06:52:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:52:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:52:58 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Submit Reservation")): Object: 'Object Repository/obj_reservation/4_/button_Submit Reservation' is clicked on
+
+2020-01-13 06:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Submit Reservation' is clicked on
+
+2020-01-13 06:52:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:53:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:53:00 - [TEST_STEP][PASSED] - if (flagBoar == "2" && var_repeatingEvery == "Daily" || var_repeatingEvery == "Monthly" || var_repeatingEvery == "Weekly"): null
+
+2020-01-13 06:53:00 - [TEST_STEP][FAILED] - else: null
+
+2020-01-13 06:53:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:53:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:53:02 - [TEST_STEP][FAILED] - try: Unable to click on object 'Object Repository/obj_reservation/4_/button_Return To Reservation' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_reservation/4_/button_Return To Reservation'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:211)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/button_Return To Reservation' located by 'By.xpath: (//button[@type='button'])[13]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:211)
+	... 13 more
+)
+
+2020-01-13 06:53:02 - [TEST_STEP][FAILED] - click(findTestObject("obj_reservation/4_/button_Return To Reservation")): Unable to click on object 'Object Repository/obj_reservation/4_/button_Return To Reservation' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_reservation/4_/button_Return To Reservation'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:211)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/button_Return To Reservation' located by 'By.xpath: (//button[@type='button'])[13]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:211)
+	... 13 more
+)
+
+2020-01-13 06:53:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[13]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-13 06:53:47 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/obj_reservation/4_/button_Return To Reservation' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_reservation/4_/button_Return To Reservation'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:211)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/button_Return To Reservation' located by 'By.xpath: (//button[@type='button'])[13]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:211)
+	... 13 more
+)
+[[ATTACHMENT|/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200113_064752/ts_newReservationBoarding/20200113_064752/1578920026908.png]]
+
+2020-01-13 06:53:47 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2020-01-13 06:53:47 - [TEST_STEP][PASSED] - e.printStackTrace(): null
+
+2020-01-13 06:53:47 - [TEST_STEP][PASSED] - log.logInfo("ERROR EXCEPCION"): ERROR EXCEPCION
+
+2020-01-13 06:53:47 - [MESSAGE][INFO] - ERROR EXCEPCION
+
+2020-01-13 06:53:47 - [TEST_STEP][PASSED] - cell1Err = rowNewRes.createCell(18, 0): null
+
+2020-01-13 06:53:47 - [TEST_STEP][PASSED] - cell2Err = rowNewRes.createCell(19, 0): null
+
+2020-01-13 06:53:47 - [TEST_STEP][PASSED] - cell1Err.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:53:47 - [TEST_STEP][PASSED] - cell1Err.setCellValue("Error"): null
+
+2020-01-13 06:53:47 - [TEST_STEP][PASSED] - cell2Err.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:53:47 - [TEST_STEP][PASSED] - cell2Err.setCellValue("Reservacion existente"): null
+
+2020-01-13 06:53:47 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-13 06:53:47 - [TEST_STEP][PASSED] - workbookNewRes.write(fos): null
+
+2020-01-13 06:53:47 - [TEST_STEP][PASSED] - fos.close(): null
+
+2020-01-13 06:53:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-13 06:53:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-13 06:53:48 - [TEST_STEP][PASSED] - cellCan = rowCanRes.createCell(5, 0): null
+
+2020-01-13 06:53:48 - [TEST_STEP][PASSED] - cellCan.setCellType(CELL_TYPE_STRING): null
+
+2020-01-13 06:53:48 - [TEST_STEP][PASSED] - cellCan.setCellValue("Error en la reservacion"): null
+
+2020-01-13 06:53:48 - [TEST_STEP][PASSED] - fosCan = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_2cancelReservation.xlsx): null
+
+2020-01-13 06:53:48 - [TEST_STEP][PASSED] - workbookCanRes.write(fosCan): null
+
+2020-01-13 06:53:48 - [TEST_STEP][PASSED] - fosCan.close(): null
+
+2020-01-13 06:53:48 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2020-01-13 06:53:54 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2020-01-13 06:53:54 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_2/button_Go to CheckOut")): Object: 'Object Repository/obj_reservation/P4P_2/button_Go to CheckOut' is clicked on
+
+2020-01-13 06:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_2/button_Go to CheckOut' is clicked on
+
+2020-01-13 06:54:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-13 06:54:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-13 06:54:27 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/reservations/add/?parent_id=122352'
+
+2020-01-13 06:54:27 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/reservations/add/?parent_id=122352'
+
+2020-01-13 06:54:27 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-13 06:54:27 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("obj_reservation/P4P_2/span_( BK )"), "( BK )", STOP_ON_FAILURE): Verify element text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3647)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:245)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/P4P_2/span_( BK )' located by 'By.xpath: //div[@id='wrapper']/div/div/div/div/div/div/ul/li[4]/a/tab-heading/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-01-13 06:55:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='wrapper']/div/div/div/div/div/div/ul/li[4]/a/tab-heading/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-13 06:55:12 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/P4P_2/span_( BK )' located by 'By.xpath: //div[@id='wrapper']/div/div/div/div/div/div/ul/li[4]/a/tab-heading/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/P4P_2/span_( BK )' located by 'By.xpath: //div[@id='wrapper']/div/div/div/div/div/div/ul/li[4]/a/tab-heading/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3647)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:245)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+)
+[[ATTACHMENT|/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200113_064752/ts_newReservationBoarding/20200113_064752/1578920111860.png]]
+
+2020-01-13 06:55:12 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3647)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:245)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/P4P_2/span_( BK )' located by 'By.xpath: //div[@id='wrapper']/div/div/div/div/div/div/ul/li[4]/a/tab-heading/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200113_064752/ts_newReservationBoarding/20200113_064752/1578920112063.png]]]]></system-out>
+         <system-err><![CDATA[2020-01-13 06:51:14 - [TEST_CASE][FAILED] - Test Cases/p4p_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:161)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-13 06:47:53 - [TEST_SUITE][FAILED] - ts_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:161)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-01-13 06:47:53 - [TEST_SUITE][FAILED] - ts_newReservationBoarding: Test Cases/p4p_newReservationBoarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at Script1576482987688.run(Script1576482987688.groovy:161)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at p4p_newReservationBoarding.run(p4p_newReservationBoarding:161)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578919672245.run(TempTestSuite1578919672245.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/obj_reservation/4_/span_requiresdeposit'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_reservation/4_/span_requiresdeposit' located by 'By.xpath: //div[@id='wrapper']/div/div/div[3]/fieldset/div/p4p-reservations-wizard/div/div[2]/div/overview/p4p-reservation-overview-section/div[2]/div/form/div[6]/div/p/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

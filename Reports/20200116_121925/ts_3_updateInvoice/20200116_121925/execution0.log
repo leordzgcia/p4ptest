@@ -1,0 +1,2717 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-16T12:19:26</date>
+  <millis>1579198766917</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/ts_3_updateInvoice</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">ts_3_updateInvoice</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/ts_3_updateInvoice</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:26</date>
+  <millis>1579198766927</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = leonardo-arkusmty - leonardoarkusmty-Inspiron-5577</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">leonardo-arkusmty - leonardoarkusmty-Inspiron-5577</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:26</date>
+  <millis>1579198766927</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Linux 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Linux 64bit</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:26</date>
+  <millis>1579198766928</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 127.0.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">127.0.1.1</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:26</date>
+  <millis>1579198766928</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.0.8.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.0.8.1</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767191</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="source">\\home\\leonardo-arkusmty\\Documents\\workspaceKatalon\\p4ptest\\Test Cases\\p4p_3_updateInvoce_ok.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767252</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_idRowRes = 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767252</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_user = jegchavez@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767252</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pass = admin1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767253</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_parent = Katalon 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767253</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pets = Ares</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767253</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_date = 13,01,2020</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767254</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_type = BOARDING_SUITE,DAYCARE_SUITE</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767254</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_item = Oasis Suite,Half Day of Daycare</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767254</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_invoice = 1795520</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767642</millis>
+  <sequence>17</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/p4p_3_updateInvoce_ok FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&amp;apos;/&amp;apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl
+ @ line 395, column 10.
+   String[] arrayUrl = var_url.split('/')
+            ^
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1579198765501</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767647</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767710</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="source">\\home\\leonardo-arkusmty\\Documents\\workspaceKatalon\\p4ptest\\Test Cases\\p4p_3_updateInvoce_ok.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767744</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_idRowRes = 2</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767745</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_user = jegchavez@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767745</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pass = admin1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767746</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_parent = Katalon 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767746</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pets = Ares</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767746</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_date = 13,01,2020</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767746</millis>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_type = DAYCARE_SUITE</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767747</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_item = Half Day of Daycare</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767747</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_invoice = 1795518</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767938</millis>
+  <sequence>32</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/p4p_3_updateInvoce_ok FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&amp;apos;/&amp;apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl
+ @ line 395, column 10.
+   String[] arrayUrl = var_url.split('/')
+            ^
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1579198765501</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767941</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:27</date>
+  <millis>1579198767990</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="source">\\home\\leonardo-arkusmty\\Documents\\workspaceKatalon\\p4ptest\\Test Cases\\p4p_3_updateInvoce_ok.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768017</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_idRowRes = 3</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768017</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_user = jegchavez@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768018</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pass = admin1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768018</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_parent = Katalon 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768018</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pets = Ares</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768018</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_date = 13,01,2020</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768018</millis>
+  <sequence>43</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_type = PACKAGE</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768019</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_item = M2M Monthly Membership</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768019</millis>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_invoice = 1795521</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768165</millis>
+  <sequence>47</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/p4p_3_updateInvoce_ok FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&amp;apos;/&amp;apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl
+ @ line 395, column 10.
+   String[] arrayUrl = var_url.split('/')
+            ^
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1579198765501</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768168</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768213</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="source">\\home\\leonardo-arkusmty\\Documents\\workspaceKatalon\\p4ptest\\Test Cases\\p4p_3_updateInvoce_ok.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768244</millis>
+  <sequence>52</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_idRowRes = 4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768244</millis>
+  <sequence>53</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_user = jegchavez@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768244</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pass = admin1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768245</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_parent = Katalon 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768245</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pets = Ares,Poseidon</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768245</millis>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_date = 13,01,2020</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768245</millis>
+  <sequence>58</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_type = BOARDING_SUITE</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768246</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_item = Oasis Suite</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768251</millis>
+  <sequence>60</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) var_invoice = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768430</millis>
+  <sequence>62</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/p4p_3_updateInvoce_ok FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&amp;apos;/&amp;apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl
+ @ line 395, column 10.
+   String[] arrayUrl = var_url.split('/')
+            ^
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1579198765501</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768433</millis>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768478</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="source">\\home\\leonardo-arkusmty\\Documents\\workspaceKatalon\\p4ptest\\Test Cases\\p4p_3_updateInvoce_ok.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768498</millis>
+  <sequence>67</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_idRowRes = 5</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768499</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_user = jegchavez@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768499</millis>
+  <sequence>69</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pass = admin1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768499</millis>
+  <sequence>70</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_parent = Katalon 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768499</millis>
+  <sequence>71</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pets = Ares,Poseidon</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768500</millis>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_date = 13,01,2020</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768501</millis>
+  <sequence>73</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_type = DAYCARE_SUITE</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768502</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_item = Half Day of Daycare</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768508</millis>
+  <sequence>75</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) var_invoice = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768657</millis>
+  <sequence>77</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/p4p_3_updateInvoce_ok FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&amp;apos;/&amp;apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl
+ @ line 395, column 10.
+   String[] arrayUrl = var_url.split('/')
+            ^
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1579198765501</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768660</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768696</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="source">\\home\\leonardo-arkusmty\\Documents\\workspaceKatalon\\p4ptest\\Test Cases\\p4p_3_updateInvoce_ok.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768711</millis>
+  <sequence>82</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_idRowRes = 6</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768711</millis>
+  <sequence>83</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_user = jegchavez@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768711</millis>
+  <sequence>84</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pass = admin1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768712</millis>
+  <sequence>85</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_parent = Katalon 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768712</millis>
+  <sequence>86</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pets = Ares,Poseidon</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768712</millis>
+  <sequence>87</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_date = 13,01,2020</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768712</millis>
+  <sequence>88</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_type = PACKAGE</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768712</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_item = M2M Monthly Membership</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768717</millis>
+  <sequence>90</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) var_invoice = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768826</millis>
+  <sequence>92</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/p4p_3_updateInvoce_ok FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&amp;apos;/&amp;apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl
+ @ line 395, column 10.
+   String[] arrayUrl = var_url.split('/')
+            ^
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1579198765501</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768828</millis>
+  <sequence>94</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768867</millis>
+  <sequence>95</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="source">\\home\\leonardo-arkusmty\\Documents\\workspaceKatalon\\p4ptest\\Test Cases\\p4p_3_updateInvoce_ok.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768882</millis>
+  <sequence>97</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_idRowRes = 7</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768882</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_user = jegchavez@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768883</millis>
+  <sequence>99</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pass = admin1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768883</millis>
+  <sequence>100</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_parent = Katalon 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768883</millis>
+  <sequence>101</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pets = Ares,Poseidon,Zeus</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768883</millis>
+  <sequence>102</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_date = 13,01,2020</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768884</millis>
+  <sequence>103</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_type = BOARDING_SUITE</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768884</millis>
+  <sequence>104</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_item = Oasis Suite</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:28</date>
+  <millis>1579198768890</millis>
+  <sequence>105</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) var_invoice = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769035</millis>
+  <sequence>107</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/p4p_3_updateInvoce_ok FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&amp;apos;/&amp;apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl
+ @ line 395, column 10.
+   String[] arrayUrl = var_url.split('/')
+            ^
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1579198765501</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769037</millis>
+  <sequence>109</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769067</millis>
+  <sequence>110</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="source">\\home\\leonardo-arkusmty\\Documents\\workspaceKatalon\\p4ptest\\Test Cases\\p4p_3_updateInvoce_ok.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769079</millis>
+  <sequence>112</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_idRowRes = 8</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769080</millis>
+  <sequence>113</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_user = jegchavez@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769080</millis>
+  <sequence>114</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pass = admin1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769080</millis>
+  <sequence>115</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_parent = Katalon 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769080</millis>
+  <sequence>116</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pets = Ares,Poseidon,Zeus</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769080</millis>
+  <sequence>117</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_date = 13,01,2020</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769080</millis>
+  <sequence>118</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_type = DAYCARE_SUITE</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769080</millis>
+  <sequence>119</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_item = Half Day of Daycare</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769084</millis>
+  <sequence>120</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) var_invoice = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769202</millis>
+  <sequence>122</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/p4p_3_updateInvoce_ok FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&amp;apos;/&amp;apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl
+ @ line 395, column 10.
+   String[] arrayUrl = var_url.split('/')
+            ^
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1579198765501</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769205</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769245</millis>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="source">\\home\\leonardo-arkusmty\\Documents\\workspaceKatalon\\p4ptest\\Test Cases\\p4p_3_updateInvoce_ok.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769260</millis>
+  <sequence>127</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_idRowRes = 9</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769260</millis>
+  <sequence>128</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_user = jegchavez@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769260</millis>
+  <sequence>129</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pass = admin1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769260</millis>
+  <sequence>130</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_parent = Katalon 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769260</millis>
+  <sequence>131</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pets = Ares,Poseidon,Zeus</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769261</millis>
+  <sequence>132</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_date = 13,01,2020</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769261</millis>
+  <sequence>133</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_type = PACKAGE</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769261</millis>
+  <sequence>134</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_item = M2M Monthly Membership</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769265</millis>
+  <sequence>135</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) var_invoice = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769405</millis>
+  <sequence>137</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/p4p_3_updateInvoce_ok FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&amp;apos;/&amp;apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl
+ @ line 395, column 10.
+   String[] arrayUrl = var_url.split('/')
+            ^
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1579198765501</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769407</millis>
+  <sequence>139</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769442</millis>
+  <sequence>140</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="source">\\home\\leonardo-arkusmty\\Documents\\workspaceKatalon\\p4ptest\\Test Cases\\p4p_3_updateInvoce_ok.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769460</millis>
+  <sequence>142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_idRowRes = 10</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769461</millis>
+  <sequence>143</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_user = jegchavez@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769461</millis>
+  <sequence>144</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pass = admin1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769461</millis>
+  <sequence>145</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_parent = Katalon 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769461</millis>
+  <sequence>146</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pets = Ares</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769461</millis>
+  <sequence>147</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_date = 13,01,2020</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769461</millis>
+  <sequence>148</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_type = PACKAGE</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769462</millis>
+  <sequence>149</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_item = Oasis Suite</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769467</millis>
+  <sequence>150</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) var_invoice = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769675</millis>
+  <sequence>152</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/p4p_3_updateInvoce_ok FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&amp;apos;/&amp;apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl
+ @ line 395, column 10.
+   String[] arrayUrl = var_url.split('/')
+            ^
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1579198765501</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769677</millis>
+  <sequence>154</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769712</millis>
+  <sequence>155</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="source">\\home\\leonardo-arkusmty\\Documents\\workspaceKatalon\\p4ptest\\Test Cases\\p4p_3_updateInvoce_ok.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769725</millis>
+  <sequence>157</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_idRowRes = 11</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769725</millis>
+  <sequence>158</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_user = jegchavez@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769726</millis>
+  <sequence>159</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pass = admin1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769726</millis>
+  <sequence>160</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_parent = Katalon 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769726</millis>
+  <sequence>161</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pets = Ares,Poseidon</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769726</millis>
+  <sequence>162</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_date = 13,01,2020</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769726</millis>
+  <sequence>163</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_type = PACKAGE</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769727</millis>
+  <sequence>164</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_item = Half Day of Daycare</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769731</millis>
+  <sequence>165</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) var_invoice = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769847</millis>
+  <sequence>167</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/p4p_3_updateInvoce_ok FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&amp;apos;/&amp;apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl
+ @ line 395, column 10.
+   String[] arrayUrl = var_url.split('/')
+            ^
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1579198765501</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769849</millis>
+  <sequence>169</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769886</millis>
+  <sequence>170</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/p4p_3_updateInvoce_ok</property>
+  <property name="source">\\home\\leonardo-arkusmty\\Documents\\workspaceKatalon\\p4ptest\\Test Cases\\p4p_3_updateInvoce_ok.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769904</millis>
+  <sequence>172</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_idRowRes = 12</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769904</millis>
+  <sequence>173</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_user = jegchavez@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769904</millis>
+  <sequence>174</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pass = admin1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769904</millis>
+  <sequence>175</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_parent = Katalon 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769904</millis>
+  <sequence>176</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_pets = Ares,Poseidon,Zeus</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769905</millis>
+  <sequence>177</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_date = 13,01,2020</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769905</millis>
+  <sequence>178</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_type = BOARDING_SUITE</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769905</millis>
+  <sequence>179</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>var_item = M2M Monthly Membership</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:29</date>
+  <millis>1579198769909</millis>
+  <sequence>180</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) var_invoice = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:30</date>
+  <millis>1579198770037</millis>
+  <sequence>182</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/p4p_3_updateInvoce_ok FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&amp;apos;/&amp;apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl
+ @ line 395, column 10.
+   String[] arrayUrl = var_url.split('/')
+            ^
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1579198765501</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579198765501.run(TempTestSuite1579198765501.groovy:36)\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\nfile:/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Scripts/p4p_3_updateInvoce_ok/Script1579192157788.groovy: 395: The current scope already contains a variable of the name arrayUrl\n @ line 395, column 10.\n   String[] arrayUrl = var_url.split(&apos;/&apos;)\n            ^\n\n1 error\n</property>
+</record>
+<record>
+  <date>2020-01-16T12:19:30</date>
+  <millis>1579198770039</millis>
+  <sequence>184</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/p4p_3_updateInvoce_ok</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-01-16T12:19:30</date>
+  <millis>1579198770067</millis>
+  <sequence>185</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/ts_3_updateInvoice</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

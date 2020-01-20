@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_3_updateInvoice" time="118.276" tests="3" failures="0" errors="0">
+   <testsuite name="ts_3_updateInvoice" tests="3" failures="0" errors="0" time="118.276" timestamp="2020-01-16 16:21:05" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_3_updateInvoice">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200116_162104/ts_3_updateInvoice/20200116_162104"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200116_162104/ts_3_updateInvoice/20200116_162104/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 79.0.3945.88"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="41a649841d5bfe15639e57fde124e92a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_3_updateInvoce_ok" time="39.702" classname="Test Cases/p4p_3_updateInvoce_ok" status="PASSED">
+         <system-out><![CDATA[2020-01-16 16:21:05 - [TEST_CASE][PASSED] - Test Cases/p4p_3_updateInvoce_ok: Test Cases/p4p_3_updateInvoce_ok
+
+2020-01-16 16:21:06 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 16:21:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-16 16:21:06 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-16 16:21:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 16:21:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-16 16:21:09 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-16 16:21:09 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-16 16:21:09 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-16 16:21:09 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3createInvoice.xlsx): null
+
+2020-01-16 16:21:09 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-16 16:21:10 - [TEST_STEP][PASSED] - sheetInv = workbookInv.getSheet("Sheet1"): null
+
+2020-01-16 16:21:10 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-16 16:21:10 - [TEST_STEP][PASSED] - rowInv = sheetInv.getRow(var): null
+
+2020-01-16 16:21:10 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-16 16:21:10 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-16 16:21:10 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-16 16:21:11 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-16 16:21:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-16 16:21:11 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-16 16:21:11 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-16 16:21:12 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-16 16:21:12 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_parent): Text 'Katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-16 16:21:14 - [MESSAGE][PASSED] - Text 'Katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-16 16:21:14 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-16 16:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-16 16:21:15 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-16 16:21:16 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-16 16:21:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:21:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 16:21:18 - [TEST_STEP][PASSED] - click(findTestObject("obj_profile/tab_Invoices")): Object: 'Object Repository/obj_profile/tab_Invoices' is clicked on
+
+2020-01-16 16:21:20 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_profile/tab_Invoices' is clicked on
+
+2020-01-16 16:21:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:21:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 16:21:22 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122352/'
+
+2020-01-16 16:21:22 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122352/'
+
+2020-01-16 16:21:22 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-16 16:21:22 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-16 16:21:26 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-16 16:21:26 - [TEST_STEP][PASSED] - urlInvoice = arrayUrl[0] + "/" + arrayUrl[1] + "/" + arrayUrl[2] + "/" + arrayUrl[3] + "/" + arrayUrl[4] + "/" + arrayUrl[5] + "/" + "invoice" + "/" + arrayUrl[7] + "/" + var_invoice: null
+
+2020-01-16 16:21:26 - [TEST_STEP][PASSED] - navigateToUrl(urlInvoice): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122352/1795518' successfully
+
+2020-01-16 16:21:26 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122352/1795518' successfully
+
+2020-01-16 16:21:26 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-16 16:21:30 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-16 16:21:30 - [TEST_STEP][PASSED] - if (var_movimiento == "U"): Delayed 1 second(s)
+
+2020-01-16 16:21:30 - [TEST_STEP][PASSED] - if (var_type == "BOARDING_SUITE"): Object: 'Object Repository/obj_invoce/new_invoice_ok_1/select_boarding' is clicked on
+
+2020-01-16 16:21:30 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/new_invoice_ok_1/select_boarding"), STOP_ON_FAILURE): Object: 'Object Repository/obj_invoce/new_invoice_ok_1/select_boarding' is clicked on
+
+2020-01-16 16:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/new_invoice_ok_1/select_boarding' is clicked on
+
+2020-01-16 16:21:30 - [TEST_STEP][PASSED] - if (var_type == "DAYCARE_SUITE"): null
+
+2020-01-16 16:21:30 - [TEST_STEP][PASSED] - if (var_type == "PACKAGE"): null
+
+2020-01-16 16:21:30 - [TEST_STEP][PASSED] - if (var_type == "SERVICES"): null
+
+2020-01-16 16:21:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 16:21:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 16:21:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("obj_invoce/1_tabedit/input_item_editDelete"), var_item): Keys 'Oasis Suite' sent to object: 'Object Repository/obj_invoce/1_tabedit/input_item_editDelete'
+
+2020-01-16 16:21:33 - [MESSAGE][PASSED] - Keys 'Oasis Suite' sent to object: 'Object Repository/obj_invoce/1_tabedit/input_item_editDelete'
+
+2020-01-16 16:21:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 16:21:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 16:21:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("obj_invoce/1_tabedit/input_item_editDelete"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/obj_invoce/1_tabedit/input_item_editDelete'
+
+2020-01-16 16:21:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/obj_invoce/1_tabedit/input_item_editDelete'
+
+2020-01-16 16:21:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 16:21:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 16:21:36 - [TEST_STEP][PASSED] - if (var_movimiento == "D"): null
+
+2020-01-16 16:21:36 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/new_invoice/new_invoice_sub/button_Save_Taxe")): Object: 'Object Repository/obj_invoce/new_invoice/new_invoice_sub/button_Save_Taxe' is clicked on
+
+2020-01-16 16:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/new_invoice/new_invoice_sub/button_Save_Taxe' is clicked on
+
+2020-01-16 16:21:37 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-16 16:21:41 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-16 16:21:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:21:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 16:21:43 - [TEST_STEP][PASSED] - fosInv = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3createInvoice.xlsx): null
+
+2020-01-16 16:21:43 - [TEST_STEP][PASSED] - workbookInv.write(fosInv): null
+
+2020-01-16 16:21:43 - [TEST_STEP][PASSED] - fosInv.close(): null
+
+2020-01-16 16:21:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:21:45 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_3_updateInvoce_ok" time="40.241" classname="Test Cases/p4p_3_updateInvoce_ok" status="PASSED">
+         <system-out><![CDATA[2020-01-16 16:21:45 - [TEST_CASE][PASSED] - Test Cases/p4p_3_updateInvoce_ok: Test Cases/p4p_3_updateInvoce_ok
+
+2020-01-16 16:21:45 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 16:21:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-16 16:21:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-16 16:21:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 16:21:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-16 16:21:50 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-16 16:21:50 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-16 16:21:50 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-16 16:21:50 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3createInvoice.xlsx): null
+
+2020-01-16 16:21:50 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-16 16:21:50 - [TEST_STEP][PASSED] - sheetInv = workbookInv.getSheet("Sheet1"): null
+
+2020-01-16 16:21:50 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-16 16:21:50 - [TEST_STEP][PASSED] - rowInv = sheetInv.getRow(var): null
+
+2020-01-16 16:21:50 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-16 16:21:50 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-16 16:21:50 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-16 16:21:51 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-16 16:21:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-16 16:21:51 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-16 16:21:51 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-16 16:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-16 16:21:53 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_parent): Text 'Katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-16 16:21:54 - [MESSAGE][PASSED] - Text 'Katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-16 16:21:54 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-16 16:21:55 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-16 16:21:55 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-16 16:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-16 16:21:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:21:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 16:21:58 - [TEST_STEP][PASSED] - click(findTestObject("obj_profile/tab_Invoices")): Object: 'Object Repository/obj_profile/tab_Invoices' is clicked on
+
+2020-01-16 16:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_profile/tab_Invoices' is clicked on
+
+2020-01-16 16:22:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:22:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 16:22:02 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122352/'
+
+2020-01-16 16:22:02 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122352/'
+
+2020-01-16 16:22:02 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-16 16:22:02 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-16 16:22:06 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-16 16:22:06 - [TEST_STEP][PASSED] - urlInvoice = arrayUrl[0] + "/" + arrayUrl[1] + "/" + arrayUrl[2] + "/" + arrayUrl[3] + "/" + arrayUrl[4] + "/" + arrayUrl[5] + "/" + "invoice" + "/" + arrayUrl[7] + "/" + var_invoice: null
+
+2020-01-16 16:22:06 - [TEST_STEP][PASSED] - navigateToUrl(urlInvoice): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122352/1795520' successfully
+
+2020-01-16 16:22:06 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122352/1795520' successfully
+
+2020-01-16 16:22:06 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-16 16:22:10 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-16 16:22:10 - [TEST_STEP][PASSED] - if (var_movimiento == "U"): Delayed 1 second(s)
+
+2020-01-16 16:22:10 - [TEST_STEP][PASSED] - if (var_type == "BOARDING_SUITE"): null
+
+2020-01-16 16:22:10 - [TEST_STEP][PASSED] - if (var_type == "DAYCARE_SUITE"): null
+
+2020-01-16 16:22:10 - [TEST_STEP][PASSED] - if (var_type == "PACKAGE"): Object: 'Object Repository/obj_invoce/new_invoice_ok_1/select_package' is clicked on
+
+2020-01-16 16:22:10 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/new_invoice_ok_1/select_package"), STOP_ON_FAILURE): Object: 'Object Repository/obj_invoce/new_invoice_ok_1/select_package' is clicked on
+
+2020-01-16 16:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/new_invoice_ok_1/select_package' is clicked on
+
+2020-01-16 16:22:11 - [TEST_STEP][PASSED] - if (var_type == "SERVICES"): null
+
+2020-01-16 16:22:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 16:22:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 16:22:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("obj_invoce/1_tabedit/input_item_editDelete"), var_item): Keys 'M2M Monthly Membership' sent to object: 'Object Repository/obj_invoce/1_tabedit/input_item_editDelete'
+
+2020-01-16 16:22:13 - [MESSAGE][PASSED] - Keys 'M2M Monthly Membership' sent to object: 'Object Repository/obj_invoce/1_tabedit/input_item_editDelete'
+
+2020-01-16 16:22:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 16:22:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 16:22:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("obj_invoce/1_tabedit/input_item_editDelete"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/obj_invoce/1_tabedit/input_item_editDelete'
+
+2020-01-16 16:22:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/obj_invoce/1_tabedit/input_item_editDelete'
+
+2020-01-16 16:22:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 16:22:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 16:22:16 - [TEST_STEP][PASSED] - if (var_movimiento == "D"): null
+
+2020-01-16 16:22:16 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/new_invoice/new_invoice_sub/button_Save_Taxe")): Object: 'Object Repository/obj_invoce/new_invoice/new_invoice_sub/button_Save_Taxe' is clicked on
+
+2020-01-16 16:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/new_invoice/new_invoice_sub/button_Save_Taxe' is clicked on
+
+2020-01-16 16:22:17 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-16 16:22:21 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-16 16:22:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:22:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 16:22:23 - [TEST_STEP][PASSED] - fosInv = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3createInvoice.xlsx): null
+
+2020-01-16 16:22:23 - [TEST_STEP][PASSED] - workbookInv.write(fosInv): null
+
+2020-01-16 16:22:23 - [TEST_STEP][PASSED] - fosInv.close(): null
+
+2020-01-16 16:22:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:22:25 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_3_updateInvoce_ok" time="37.881" classname="Test Cases/p4p_3_updateInvoce_ok" status="PASSED">
+         <system-out><![CDATA[2020-01-16 16:22:26 - [TEST_CASE][PASSED] - Test Cases/p4p_3_updateInvoce_ok: Test Cases/p4p_3_updateInvoce_ok
+
+2020-01-16 16:22:26 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 16:22:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-16 16:22:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-16 16:22:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 16:22:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-16 16:22:28 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-16 16:22:28 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-16 16:22:28 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-16 16:22:28 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3createInvoice.xlsx): null
+
+2020-01-16 16:22:28 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-16 16:22:28 - [TEST_STEP][PASSED] - sheetInv = workbookInv.getSheet("Sheet1"): null
+
+2020-01-16 16:22:28 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-16 16:22:28 - [TEST_STEP][PASSED] - rowInv = sheetInv.getRow(var): null
+
+2020-01-16 16:22:28 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-16 16:22:28 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-16 16:22:28 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-16 16:22:29 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-16 16:22:29 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-16 16:22:29 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-16 16:22:29 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-16 16:22:30 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-16 16:22:30 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_parent): Text 'Katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-16 16:22:32 - [MESSAGE][PASSED] - Text 'Katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-16 16:22:32 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-16 16:22:33 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-16 16:22:33 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-16 16:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-16 16:22:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:22:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 16:22:36 - [TEST_STEP][PASSED] - click(findTestObject("obj_profile/tab_Invoices")): Object: 'Object Repository/obj_profile/tab_Invoices' is clicked on
+
+2020-01-16 16:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_profile/tab_Invoices' is clicked on
+
+2020-01-16 16:22:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:22:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 16:22:40 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122352/'
+
+2020-01-16 16:22:40 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122352/'
+
+2020-01-16 16:22:40 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-16 16:22:40 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-16 16:22:44 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-16 16:22:44 - [TEST_STEP][PASSED] - urlInvoice = arrayUrl[0] + "/" + arrayUrl[1] + "/" + arrayUrl[2] + "/" + arrayUrl[3] + "/" + arrayUrl[4] + "/" + arrayUrl[5] + "/" + "invoice" + "/" + arrayUrl[7] + "/" + var_invoice: null
+
+2020-01-16 16:22:44 - [TEST_STEP][PASSED] - navigateToUrl(urlInvoice): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122352/1795521' successfully
+
+2020-01-16 16:22:44 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122352/1795521' successfully
+
+2020-01-16 16:22:44 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-16 16:22:48 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-16 16:22:48 - [TEST_STEP][PASSED] - if (var_movimiento == "U"): Delayed 1 second(s)
+
+2020-01-16 16:22:48 - [TEST_STEP][PASSED] - if (var_type == "BOARDING_SUITE"): null
+
+2020-01-16 16:22:48 - [TEST_STEP][PASSED] - if (var_type == "DAYCARE_SUITE"): Object: 'Object Repository/obj_invoce/new_invoice_ok_1/select_day' is clicked on
+
+2020-01-16 16:22:48 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/new_invoice_ok_1/select_day"), STOP_ON_FAILURE): Object: 'Object Repository/obj_invoce/new_invoice_ok_1/select_day' is clicked on
+
+2020-01-16 16:22:48 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/new_invoice_ok_1/select_day' is clicked on
+
+2020-01-16 16:22:48 - [TEST_STEP][PASSED] - if (var_type == "PACKAGE"): null
+
+2020-01-16 16:22:48 - [TEST_STEP][PASSED] - if (var_type == "SERVICES"): null
+
+2020-01-16 16:22:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 16:22:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 16:22:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("obj_invoce/1_tabedit/input_item_editDelete"), var_item): Keys 'Half Day of Daycare' sent to object: 'Object Repository/obj_invoce/1_tabedit/input_item_editDelete'
+
+2020-01-16 16:22:51 - [MESSAGE][PASSED] - Keys 'Half Day of Daycare' sent to object: 'Object Repository/obj_invoce/1_tabedit/input_item_editDelete'
+
+2020-01-16 16:22:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 16:22:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 16:22:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("obj_invoce/1_tabedit/input_item_editDelete"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/obj_invoce/1_tabedit/input_item_editDelete'
+
+2020-01-16 16:22:53 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/obj_invoce/1_tabedit/input_item_editDelete'
+
+2020-01-16 16:22:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 16:22:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 16:22:54 - [TEST_STEP][PASSED] - if (var_movimiento == "D"): null
+
+2020-01-16 16:22:54 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/new_invoice/new_invoice_sub/button_Save_Taxe")): Object: 'Object Repository/obj_invoce/new_invoice/new_invoice_sub/button_Save_Taxe' is clicked on
+
+2020-01-16 16:22:55 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/new_invoice/new_invoice_sub/button_Save_Taxe' is clicked on
+
+2020-01-16 16:22:55 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-16 16:22:59 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-16 16:22:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:23:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 16:23:01 - [TEST_STEP][PASSED] - fosInv = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3createInvoice.xlsx): null
+
+2020-01-16 16:23:01 - [TEST_STEP][PASSED] - workbookInv.write(fosInv): null
+
+2020-01-16 16:23:01 - [TEST_STEP][PASSED] - fosInv.close(): null
+
+2020-01-16 16:23:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:23:03 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-16 16:21:05 - [TEST_SUITE][PASSED] - ts_3_updateInvoice: Test Cases/p4p_3_updateInvoce_ok]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

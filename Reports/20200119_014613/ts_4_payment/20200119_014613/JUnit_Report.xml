@@ -1,0 +1,1957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_4_payment" time="506.911" tests="8" failures="6" errors="0">
+   <testsuite name="ts_4_payment" tests="8" failures="6" errors="0" time="506.911" timestamp="2020-01-19 01:46:14" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_4_payment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_014613/ts_4_payment/20200119_014613"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_014613/ts_4_payment/20200119_014613/execution0.log"/>
+         <property name="attachments" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_014613/ts_4_payment/20200119_014613/1579420037988.png, /home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_014613/ts_4_payment/20200119_014613/1579420101946.png, /home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_014613/ts_4_payment/20200119_014613/1579420166260.png, /home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_014613/ts_4_payment/20200119_014613/1579420353184.png, /home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_014613/ts_4_payment/20200119_014613/1579420417020.png, /home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_014613/ts_4_payment/20200119_014613/1579420481144.png"/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 79.0.3945.88"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="7ea81782a56d1277c2d85c1b0d607ba8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_4_payment_ ok" time="63.39" classname="Test Cases/p4p_4_payment_ ok" status="FAILED">
+         <failure type="FAILED" message="Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-01-19 01:46:14 - [TEST_CASE][FAILED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-01-19 01:46:15 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:46:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-19 01:46:15 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-19 01:46:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:46:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-19 01:46:18 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-19 01:46:18 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 01:46:18 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 01:46:18 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-19 01:46:18 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 01:46:19 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-19 01:46:19 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 01:46:19 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:46:19 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:46:19 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:46:20 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:46:20 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:46:20 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:46:20 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:46:21 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:46:22 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:46:22 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:46:23 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:46:25 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/a_Invoices")): Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:46:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 01:46:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 01:46:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("obj_invoce/a_1795112")): NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:46:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:46:29 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:46:29 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:46:29 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-19 01:46:29 - [TEST_STEP][PASSED] - urlInvoice = arrayUrl[0] + "/" + arrayUrl[1] + "/" + arrayUrl[2] + "/" + arrayUrl[3] + "/" + arrayUrl[4] + "/" + arrayUrl[5] + "/" + "invoice" + "/" + arrayUrl[7] + "/" + var_invoice: null
+
+2020-01-19 01:46:29 - [TEST_STEP][PASSED] - navigateToUrl(urlInvoice): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795569' successfully
+
+2020-01-19 01:46:29 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795569' successfully
+
+2020-01-19 01:46:29 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-19 01:46:33 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-19 01:46:33 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay")): NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:46:33 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:46:33 - [TEST_STEP][FAILED] - click(findTestObject("obj_paymentdetails/a_Pay (1)")): Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1579192333520.run(Script1579192333520.groovy:59)
+	... 13 more
+)
+
+2020-01-19 01:47:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-19 01:47:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1579192333520.run(Script1579192333520.groovy:59)
+	... 13 more
+)
+[[ATTACHMENT|/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_014613/ts_4_payment/20200119_014613/1579420037988.png]]]]></system-out>
+         <system-err><![CDATA[2020-01-19 01:46:14 - [TEST_CASE][FAILED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_4_payment_ ok" time="63.832" classname="Test Cases/p4p_4_payment_ ok" status="FAILED">
+         <failure type="FAILED" message="Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-01-19 01:47:18 - [TEST_CASE][FAILED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-01-19 01:47:18 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:47:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-19 01:47:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-19 01:47:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:47:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-19 01:47:21 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-19 01:47:21 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 01:47:21 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 01:47:21 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-19 01:47:21 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 01:47:21 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-19 01:47:21 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 01:47:21 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:47:21 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:47:21 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:47:22 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:47:22 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:47:22 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:47:22 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:47:23 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:47:23 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:47:24 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:47:24 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:47:25 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:47:26 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/a_Invoices")): Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:47:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 01:47:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 01:47:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("obj_invoce/a_1795112")): NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:47:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:47:31 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:47:31 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:47:31 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-19 01:47:31 - [TEST_STEP][PASSED] - urlInvoice = arrayUrl[0] + "/" + arrayUrl[1] + "/" + arrayUrl[2] + "/" + arrayUrl[3] + "/" + arrayUrl[4] + "/" + arrayUrl[5] + "/" + "invoice" + "/" + arrayUrl[7] + "/" + var_invoice: null
+
+2020-01-19 01:47:31 - [TEST_STEP][PASSED] - navigateToUrl(urlInvoice): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795570' successfully
+
+2020-01-19 01:47:31 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795570' successfully
+
+2020-01-19 01:47:31 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-19 01:47:35 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-19 01:47:35 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay")): NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:47:35 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:47:35 - [TEST_STEP][FAILED] - click(findTestObject("obj_paymentdetails/a_Pay (1)")): Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1579192333520.run(Script1579192333520.groovy:59)
+	... 13 more
+)
+
+2020-01-19 01:48:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-19 01:48:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1579192333520.run(Script1579192333520.groovy:59)
+	... 13 more
+)
+[[ATTACHMENT|/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_014613/ts_4_payment/20200119_014613/1579420101946.png]]]]></system-out>
+         <system-err><![CDATA[2020-01-19 01:47:18 - [TEST_CASE][FAILED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_4_payment_ ok" time="64.163" classname="Test Cases/p4p_4_payment_ ok" status="FAILED">
+         <failure type="FAILED" message="Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-01-19 01:48:22 - [TEST_CASE][FAILED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-01-19 01:48:22 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:48:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-19 01:48:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-19 01:48:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:48:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-19 01:48:25 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-19 01:48:25 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 01:48:25 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 01:48:25 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-19 01:48:25 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 01:48:25 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-19 01:48:25 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 01:48:25 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:48:26 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:48:26 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:48:26 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:48:26 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:48:27 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:48:27 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:48:28 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:48:29 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:48:29 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:48:30 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:48:31 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/a_Invoices")): Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:48:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 01:48:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 01:48:36 - [TEST_STEP][NOT_RUN] - click(findTestObject("obj_invoce/a_1795112")): NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:48:36 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:48:36 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:48:36 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:48:36 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-19 01:48:36 - [TEST_STEP][PASSED] - urlInvoice = arrayUrl[0] + "/" + arrayUrl[1] + "/" + arrayUrl[2] + "/" + arrayUrl[3] + "/" + arrayUrl[4] + "/" + arrayUrl[5] + "/" + "invoice" + "/" + arrayUrl[7] + "/" + var_invoice: null
+
+2020-01-19 01:48:36 - [TEST_STEP][PASSED] - navigateToUrl(urlInvoice): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795571' successfully
+
+2020-01-19 01:48:36 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795571' successfully
+
+2020-01-19 01:48:36 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-19 01:48:40 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-19 01:48:40 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay")): NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:48:40 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:48:40 - [TEST_STEP][FAILED] - click(findTestObject("obj_paymentdetails/a_Pay (1)")): Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1579192333520.run(Script1579192333520.groovy:59)
+	... 13 more
+)
+
+2020-01-19 01:49:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-19 01:49:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1579192333520.run(Script1579192333520.groovy:59)
+	... 13 more
+)
+[[ATTACHMENT|/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_014613/ts_4_payment/20200119_014613/1579420166260.png]]]]></system-out>
+         <system-err><![CDATA[2020-01-19 01:48:22 - [TEST_CASE][FAILED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_4_payment_ ok" time="59.878" classname="Test Cases/p4p_4_payment_ ok" status="PASSED">
+         <system-out><![CDATA[2020-01-19 01:49:26 - [TEST_CASE][PASSED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok
+
+2020-01-19 01:49:26 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:49:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-19 01:49:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-19 01:49:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:49:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-19 01:49:29 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-19 01:49:29 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 01:49:29 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 01:49:29 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-19 01:49:29 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 01:49:29 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-19 01:49:29 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 01:49:29 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:49:30 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:49:30 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:49:30 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:49:30 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:49:30 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:49:32 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:49:32 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:49:32 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:49:33 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:49:35 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/a_Invoices")): Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:49:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 01:49:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 01:49:39 - [TEST_STEP][NOT_RUN] - click(findTestObject("obj_invoce/a_1795112")): NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:49:39 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:49:39 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:49:39 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:49:39 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-19 01:49:39 - [TEST_STEP][PASSED] - urlInvoice = arrayUrl[0] + "/" + arrayUrl[1] + "/" + arrayUrl[2] + "/" + arrayUrl[3] + "/" + arrayUrl[4] + "/" + arrayUrl[5] + "/" + "invoice" + "/" + arrayUrl[7] + "/" + var_invoice: null
+
+2020-01-19 01:49:39 - [TEST_STEP][PASSED] - navigateToUrl(urlInvoice): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795532' successfully
+
+2020-01-19 01:49:39 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795532' successfully
+
+2020-01-19 01:49:39 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-19 01:49:43 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-19 01:49:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay")): NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:49:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:49:43 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/a_Pay (1)")): Object: 'Object Repository/obj_paymentdetails/a_Pay (1)' is clicked on
+
+2020-01-19 01:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/a_Pay (1)' is clicked on
+
+2020-01-19 01:49:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 01:49:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 01:49:45 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/rBtn_" + var_method)): Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn_CARD_PRESENT' is clicked on
+
+2020-01-19 01:49:47 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn_CARD_PRESENT' is clicked on
+
+2020-01-19 01:49:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 01:49:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 01:49:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 01:49:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 01:49:49 - [TEST_STEP][PASSED] - getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_1")): Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$117.00'
+
+2020-01-19 01:49:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$117.00'
+
+2020-01-19 01:49:49 - [TEST_STEP][PASSED] - getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_2")): Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_2' is: '$117.00'
+
+2020-01-19 01:49:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_2' is: '$117.00'
+
+2020-01-19 01:49:50 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_1"))): $117.00
+
+2020-01-19 01:49:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$117.00'
+
+2020-01-19 01:49:50 - [MESSAGE][INFO] - $117.00
+
+2020-01-19 01:49:50 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_2"))): $117.00
+
+2020-01-19 01:49:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_2' is: '$117.00'
+
+2020-01-19 01:49:50 - [MESSAGE][INFO] - $117.00
+
+2020-01-19 01:49:50 - [TEST_STEP][PASSED] - if (var_paybalance == "Y"): Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn_PayBalance' is clicked on
+
+2020-01-19 01:49:50 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/rBtn_PayBalance")): Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn_PayBalance' is clicked on
+
+2020-01-19 01:49:51 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn_PayBalance' is clicked on
+
+2020-01-19 01:49:51 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/btn_makeAPayment")): Object: 'Object Repository/obj_paymentdetails/1_pay/btn_makeAPayment' is clicked on
+
+2020-01-19 01:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/btn_makeAPayment' is clicked on
+
+2020-01-19 01:50:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-19 01:50:26 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_4_payment_ ok" time="62.939" classname="Test Cases/p4p_4_payment_ ok" status="PASSED">
+         <system-out><![CDATA[2020-01-19 01:50:26 - [TEST_CASE][PASSED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok
+
+2020-01-19 01:50:26 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:50:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-19 01:50:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-19 01:50:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:50:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-19 01:50:29 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-19 01:50:29 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 01:50:29 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 01:50:29 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-19 01:50:29 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 01:50:29 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-19 01:50:29 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 01:50:29 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:50:29 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:50:29 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:50:30 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:50:30 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:50:30 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:50:30 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:50:31 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:50:32 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:50:32 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:50:33 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:50:33 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:50:34 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:50:34 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/a_Invoices")): Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:50:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 01:50:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 01:50:39 - [TEST_STEP][NOT_RUN] - click(findTestObject("obj_invoce/a_1795112")): NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:50:39 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:50:39 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:50:39 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:50:39 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-19 01:50:39 - [TEST_STEP][PASSED] - urlInvoice = arrayUrl[0] + "/" + arrayUrl[1] + "/" + arrayUrl[2] + "/" + arrayUrl[3] + "/" + arrayUrl[4] + "/" + arrayUrl[5] + "/" + "invoice" + "/" + arrayUrl[7] + "/" + var_invoice: null
+
+2020-01-19 01:50:39 - [TEST_STEP][PASSED] - navigateToUrl(urlInvoice): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795533' successfully
+
+2020-01-19 01:50:39 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795533' successfully
+
+2020-01-19 01:50:39 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-19 01:50:43 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-19 01:50:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay")): NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:50:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:50:43 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/a_Pay (1)")): Object: 'Object Repository/obj_paymentdetails/a_Pay (1)' is clicked on
+
+2020-01-19 01:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/a_Pay (1)' is clicked on
+
+2020-01-19 01:50:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 01:50:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 01:50:45 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/rBtn_" + var_method)): Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn_CARD_NOT_PRESENT' is clicked on
+
+2020-01-19 01:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn_CARD_NOT_PRESENT' is clicked on
+
+2020-01-19 01:50:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 01:50:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 01:50:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 01:50:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 01:50:49 - [TEST_STEP][PASSED] - getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_1")): Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$59.00'
+
+2020-01-19 01:50:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$59.00'
+
+2020-01-19 01:50:49 - [TEST_STEP][PASSED] - getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_2")): Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_2' is: '$59.00'
+
+2020-01-19 01:50:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_2' is: '$59.00'
+
+2020-01-19 01:50:49 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_1"))): $59.00
+
+2020-01-19 01:50:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_1' is: '$59.00'
+
+2020-01-19 01:50:50 - [MESSAGE][INFO] - $59.00
+
+2020-01-19 01:50:50 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_paymentdetails/1_pay/a_amountDue_2"))): $59.00
+
+2020-01-19 01:50:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_paymentdetails/1_pay/a_amountDue_2' is: '$59.00'
+
+2020-01-19 01:50:50 - [MESSAGE][INFO] - $59.00
+
+2020-01-19 01:50:50 - [TEST_STEP][PASSED] - if (var_paybalance == "Y"): null
+
+2020-01-19 01:50:50 - [TEST_STEP][PASSED] - else: Delayed 3 second(s)
+
+2020-01-19 01:50:50 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/rBtn__OtherAmount")): Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn__OtherAmount' is clicked on
+
+2020-01-19 01:50:50 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/rBtn__OtherAmount' is clicked on
+
+2020-01-19 01:50:50 - [TEST_STEP][PASSED] - setText(findTestObject("obj_paymentdetails/1_pay/input_AmounttoPay"), var_amountpay): Text '170' is set on object 'Object Repository/obj_paymentdetails/1_pay/input_AmounttoPay'
+
+2020-01-19 01:50:51 - [MESSAGE][PASSED] - Text '170' is set on object 'Object Repository/obj_paymentdetails/1_pay/input_AmounttoPay'
+
+2020-01-19 01:50:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-19 01:50:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-19 01:50:54 - [TEST_STEP][PASSED] - click(findTestObject("obj_paymentdetails/1_pay/btn_makeAPayment")): Object: 'Object Repository/obj_paymentdetails/1_pay/btn_makeAPayment' is clicked on
+
+2020-01-19 01:51:26 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_paymentdetails/1_pay/btn_makeAPayment' is clicked on
+
+2020-01-19 01:51:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-19 01:51:29 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_4_payment_ ok" time="63.853" classname="Test Cases/p4p_4_payment_ ok" status="FAILED">
+         <failure type="FAILED" message="Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-01-19 01:51:29 - [TEST_CASE][FAILED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-01-19 01:51:29 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:51:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-19 01:51:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-19 01:51:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:51:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-19 01:51:32 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-19 01:51:32 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 01:51:32 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 01:51:32 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-19 01:51:32 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 01:51:32 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-19 01:51:32 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 01:51:32 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:51:32 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:51:32 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:51:33 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:51:33 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:51:33 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:51:33 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:51:34 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:51:35 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:51:35 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:51:36 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:51:37 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:51:37 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/a_Invoices")): Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:51:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 01:51:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 01:51:42 - [TEST_STEP][NOT_RUN] - click(findTestObject("obj_invoce/a_1795112")): NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:51:42 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:51:42 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:51:42 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:51:42 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-19 01:51:42 - [TEST_STEP][PASSED] - urlInvoice = arrayUrl[0] + "/" + arrayUrl[1] + "/" + arrayUrl[2] + "/" + arrayUrl[3] + "/" + arrayUrl[4] + "/" + arrayUrl[5] + "/" + "invoice" + "/" + arrayUrl[7] + "/" + var_invoice: null
+
+2020-01-19 01:51:42 - [TEST_STEP][PASSED] - navigateToUrl(urlInvoice): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795534' successfully
+
+2020-01-19 01:51:42 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795534' successfully
+
+2020-01-19 01:51:42 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-19 01:51:46 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-19 01:51:46 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay")): NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:51:46 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:51:46 - [TEST_STEP][FAILED] - click(findTestObject("obj_paymentdetails/a_Pay (1)")): Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1579192333520.run(Script1579192333520.groovy:59)
+	... 13 more
+)
+
+2020-01-19 01:52:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-19 01:52:33 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1579192333520.run(Script1579192333520.groovy:59)
+	... 13 more
+)
+[[ATTACHMENT|/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_014613/ts_4_payment/20200119_014613/1579420353184.png]]]]></system-out>
+         <system-err><![CDATA[2020-01-19 01:51:29 - [TEST_CASE][FAILED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_4_payment_ ok" time="63.767" classname="Test Cases/p4p_4_payment_ ok" status="FAILED">
+         <failure type="FAILED" message="Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-01-19 01:52:33 - [TEST_CASE][FAILED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-01-19 01:52:33 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:52:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-19 01:52:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-19 01:52:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:52:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-19 01:52:36 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-19 01:52:36 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 01:52:36 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 01:52:36 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-19 01:52:36 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 01:52:36 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-19 01:52:36 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 01:52:36 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:52:36 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:52:36 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:52:37 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:52:37 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:52:37 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:52:37 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:52:38 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:52:38 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:52:39 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:52:39 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:52:40 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:52:41 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/a_Invoices")): Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:52:45 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:52:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 01:52:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 01:52:46 - [TEST_STEP][NOT_RUN] - click(findTestObject("obj_invoce/a_1795112")): NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:52:46 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:52:46 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:52:46 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:52:46 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-19 01:52:46 - [TEST_STEP][PASSED] - urlInvoice = arrayUrl[0] + "/" + arrayUrl[1] + "/" + arrayUrl[2] + "/" + arrayUrl[3] + "/" + arrayUrl[4] + "/" + arrayUrl[5] + "/" + "invoice" + "/" + arrayUrl[7] + "/" + var_invoice: null
+
+2020-01-19 01:52:46 - [TEST_STEP][PASSED] - navigateToUrl(urlInvoice): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795537' successfully
+
+2020-01-19 01:52:46 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795537' successfully
+
+2020-01-19 01:52:46 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-19 01:52:50 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-19 01:52:50 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay")): NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:52:50 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:52:50 - [TEST_STEP][FAILED] - click(findTestObject("obj_paymentdetails/a_Pay (1)")): Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1579192333520.run(Script1579192333520.groovy:59)
+	... 13 more
+)
+
+2020-01-19 01:53:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-19 01:53:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1579192333520.run(Script1579192333520.groovy:59)
+	... 13 more
+)
+[[ATTACHMENT|/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_014613/ts_4_payment/20200119_014613/1579420417020.png]]]]></system-out>
+         <system-err><![CDATA[2020-01-19 01:52:33 - [TEST_CASE][FAILED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_4_payment_ ok" time="64.061" classname="Test Cases/p4p_4_payment_ ok" status="FAILED">
+         <failure type="FAILED" message="Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-01-19 01:53:37 - [TEST_CASE][FAILED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-01-19 01:53:37 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:53:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-19 01:53:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-19 01:53:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-19 01:53:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-19 01:53:40 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-19 01:53:40 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 01:53:40 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 01:53:40 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-19 01:53:40 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 01:53:40 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-19 01:53:40 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 01:53:40 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:53:40 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-19 01:53:40 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:53:41 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-19 01:53:41 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:53:41 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-19 01:53:41 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-19 01:53:42 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_parent): Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:53:43 - [MESSAGE][PASSED] - Text 'leongarzagarza@hotmail.com' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-19 01:53:43 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch"), STOP_ON_FAILURE): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-19 01:53:44 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-19 01:53:45 - [TEST_STEP][PASSED] - click(findTestObject("obj_invoce/a_Invoices")): Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_invoce/a_Invoices' is clicked on
+
+2020-01-19 01:53:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-19 01:53:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-19 01:53:50 - [TEST_STEP][NOT_RUN] - click(findTestObject("obj_invoce/a_1795112")): NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:53:50 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("obj_invoce/a_1795112"))
+
+2020-01-19 01:53:50 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:53:50 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoices/122350/'
+
+2020-01-19 01:53:50 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-19 01:53:50 - [TEST_STEP][PASSED] - urlInvoice = arrayUrl[0] + "/" + arrayUrl[1] + "/" + arrayUrl[2] + "/" + arrayUrl[3] + "/" + arrayUrl[4] + "/" + arrayUrl[5] + "/" + "invoice" + "/" + arrayUrl[7] + "/" + var_invoice: null
+
+2020-01-19 01:53:50 - [TEST_STEP][PASSED] - navigateToUrl(urlInvoice): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795538' successfully
+
+2020-01-19 01:53:50 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/accounts/profile/#/invoice/122350/1795538' successfully
+
+2020-01-19 01:53:50 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-19 01:53:54 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-19 01:53:54 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay")): NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:53:54 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/obj_paymentdetails/newpay/Page_Paradise 4 Paws  Dog Boarding Cat Boar_145431/a_Pay"))
+
+2020-01-19 01:53:54 - [TEST_STEP][FAILED] - click(findTestObject("obj_paymentdetails/a_Pay (1)")): Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1579192333520.run(Script1579192333520.groovy:59)
+	... 13 more
+)
+
+2020-01-19 01:54:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-19 01:54:41 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1579192333520.run(Script1579192333520.groovy:59)
+	... 13 more
+)
+[[ATTACHMENT|/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_014613/ts_4_payment/20200119_014613/1579420481144.png]]]]></system-out>
+         <system-err><![CDATA[2020-01-19 01:53:37 - [TEST_CASE][FAILED] - Test Cases/p4p_4_payment_ ok: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-19 01:46:14 - [TEST_SUITE][FAILED] - ts_4_payment: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-01-19 01:46:14 - [TEST_SUITE][FAILED] - ts_4_payment: Test Cases/p4p_4_payment_ ok FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/obj_paymentdetails/a_Pay (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at p4p_4_payment_ ok.run(p4p_4_payment_ ok:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579419973149.run(TempTestSuite1579419973149.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/obj_paymentdetails/a_Pay (1)' located by 'By.xpath: //section[@id='checkout-billing']/ng-form/div[3]/div[2]/div/div/fieldset/table/tbody[2]/tr[4]/td[4]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

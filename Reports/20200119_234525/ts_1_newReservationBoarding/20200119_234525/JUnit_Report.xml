@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_1_newReservationBoarding" time="2.765" tests="8" failures="0" errors="8">
+   <testsuite name="ts_1_newReservationBoarding" tests="8" failures="0" errors="8" time="2.765" timestamp="2020-01-19 23:45:26" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_1_newReservationBoarding">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_234525/ts_1_newReservationBoarding/20200119_234525"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200119_234525/ts_1_newReservationBoarding/20200119_234525/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+      </properties>
+      <testcase name="Test Cases/p4p_1_newReservationBoarding" time="1.166" classname="Test Cases/p4p_1_newReservationBoarding" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-19 23:45:26 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - todaysDate4 = today.format("dd/MM/yyyy/HH/mm"): null
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - date = todaysDate4.split("/"): null
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - log.logInfo(date[0]): 19
+
+2020-01-19 23:45:27 - [MESSAGE][INFO] - 19
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - log.logInfo(date[1]): 01
+
+2020-01-19 23:45:27 - [MESSAGE][INFO] - 01
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - log.logInfo(date[2]): 2020
+
+2020-01-19 23:45:27 - [MESSAGE][INFO] - 2020
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - log.logInfo(date[3]): 23
+
+2020-01-19 23:45:27 - [MESSAGE][INFO] - 23
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - log.logInfo(date[4]): 45
+
+2020-01-19 23:45:27 - [MESSAGE][INFO] - 45
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-19 23:45:27 - [TEST_STEP][PASSED] - log.logInfo(todaysDate1): null]]></system-out>
+         <system-err><![CDATA[2020-01-19 23:45:26 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_1_newReservationBoarding" time="0.112" classname="Test Cases/p4p_1_newReservationBoarding" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-19 23:45:28 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - todaysDate4 = today.format("dd/MM/yyyy/HH/mm"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - date = todaysDate4.split("/"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[0]): 19
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 19
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[1]): 01
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 01
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[2]): 2020
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 2020
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[3]): 23
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 23
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[4]): 45
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 45
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(todaysDate1): null]]></system-out>
+         <system-err><![CDATA[2020-01-19 23:45:28 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_1_newReservationBoarding" time="0.128" classname="Test Cases/p4p_1_newReservationBoarding" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-19 23:45:28 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - todaysDate4 = today.format("dd/MM/yyyy/HH/mm"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - date = todaysDate4.split("/"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[0]): 19
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 19
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[1]): 01
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 01
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[2]): 2020
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 2020
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[3]): 23
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 23
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[4]): 45
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 45
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(todaysDate1): null]]></system-out>
+         <system-err><![CDATA[2020-01-19 23:45:28 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_1_newReservationBoarding" time="0.11" classname="Test Cases/p4p_1_newReservationBoarding" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-19 23:45:28 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - todaysDate4 = today.format("dd/MM/yyyy/HH/mm"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - date = todaysDate4.split("/"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[0]): 19
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 19
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[1]): 01
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 01
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[2]): 2020
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 2020
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[3]): 23
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 23
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[4]): 45
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 45
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(todaysDate1): null]]></system-out>
+         <system-err><![CDATA[2020-01-19 23:45:28 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_1_newReservationBoarding" time="0.079" classname="Test Cases/p4p_1_newReservationBoarding" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-19 23:45:28 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - todaysDate4 = today.format("dd/MM/yyyy/HH/mm"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - date = todaysDate4.split("/"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[0]): 19
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 19
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[1]): 01
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 01
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[2]): 2020
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 2020
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[3]): 23
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 23
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[4]): 45
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 45
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(todaysDate1): null]]></system-out>
+         <system-err><![CDATA[2020-01-19 23:45:28 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_1_newReservationBoarding" time="0.082" classname="Test Cases/p4p_1_newReservationBoarding" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-19 23:45:28 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - todaysDate4 = today.format("dd/MM/yyyy/HH/mm"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - date = todaysDate4.split("/"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[0]): 19
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 19
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[1]): 01
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 01
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[2]): 2020
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 2020
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[3]): 23
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 23
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[4]): 45
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 45
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(todaysDate1): null]]></system-out>
+         <system-err><![CDATA[2020-01-19 23:45:28 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_1_newReservationBoarding" time="0.087" classname="Test Cases/p4p_1_newReservationBoarding" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-19 23:45:28 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - todaysDate4 = today.format("dd/MM/yyyy/HH/mm"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - date = todaysDate4.split("/"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[0]): 19
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 19
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[1]): 01
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 01
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[2]): 2020
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 2020
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[3]): 23
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 23
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(date[4]): 45
+
+2020-01-19 23:45:28 - [MESSAGE][INFO] - 45
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-19 23:45:28 - [TEST_STEP][PASSED] - log.logInfo(todaysDate1): null]]></system-out>
+         <system-err><![CDATA[2020-01-19 23:45:28 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_1_newReservationBoarding" time="0.083" classname="Test Cases/p4p_1_newReservationBoarding" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-19 23:45:29 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)
+
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - todaysDate4 = today.format("dd/MM/yyyy/HH/mm"): null
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - date = todaysDate4.split("/"): null
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - log.logInfo(date[0]): 19
+
+2020-01-19 23:45:29 - [MESSAGE][INFO] - 19
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - log.logInfo(date[1]): 01
+
+2020-01-19 23:45:29 - [MESSAGE][INFO] - 01
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - log.logInfo(date[2]): 2020
+
+2020-01-19 23:45:29 - [MESSAGE][INFO] - 2020
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - log.logInfo(date[3]): 23
+
+2020-01-19 23:45:29 - [MESSAGE][INFO] - 23
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - log.logInfo(date[4]): 45
+
+2020-01-19 23:45:29 - [MESSAGE][INFO] - 45
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-19 23:45:29 - [TEST_STEP][PASSED] - log.logInfo(todaysDate1): null]]></system-out>
+         <system-err><![CDATA[2020-01-19 23:45:29 - [TEST_CASE][ERROR] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-19 23:45:26 - [TEST_SUITE][ERROR] - ts_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-01-19 23:45:26 - [TEST_SUITE][ERROR] - ts_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: todaysDate1 for class: Script1579191965857
+	at p4p_1_newReservationBoarding.run(p4p_1_newReservationBoarding:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579499125076.run(TempTestSuite1579499125076.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

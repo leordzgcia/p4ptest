@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_3_updateInvoice" time="4.482" tests="1" failures="0" errors="1">
+   <testsuite name="ts_3_updateInvoice" tests="1" failures="0" errors="1" time="4.482" timestamp="2020-01-16 11:54:46" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_3_updateInvoice">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200116_115444/ts_3_updateInvoice/20200116_115444"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200116_115444/ts_3_updateInvoice/20200116_115444/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 79.0.3945.88"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="e37e11eb7d7396d652b2b8e835d67b0e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_3_updateInvoce_ok" time="4.015" classname="Test Cases/p4p_3_updateInvoce_ok" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: &quot;&quot;
+	at java_lang_Integer$parseInt.call(Unknown Source)
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579197284711.run(TempTestSuite1579197284711.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-16 11:54:46 - [TEST_CASE][ERROR] - Test Cases/p4p_3_updateInvoce_ok: Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: ""
+	at java_lang_Integer$parseInt.call(Unknown Source)
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579197284711.run(TempTestSuite1579197284711.groovy:36)
+
+
+2020-01-16 11:54:47 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 11:54:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-16 11:54:47 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-16 11:54:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 11:54:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-16 11:54:49 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-16 11:54:49 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-16 11:54:49 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-16 11:54:49 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-16 11:54:49 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3createInvoice.xlsx): null
+
+2020-01-16 11:54:49 - [TEST_STEP][PASSED] - fisPay = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_4payment.xlsx): null
+
+2020-01-16 11:54:49 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-16 11:54:50 - [TEST_STEP][PASSED] - workbookPay = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisPay): null
+
+2020-01-16 11:54:50 - [TEST_STEP][PASSED] - sheetInv = workbookInv.getSheet("Sheet1"): null
+
+2020-01-16 11:54:50 - [TEST_STEP][PASSED] - sheetPay = workbookPay.getSheet("Sheet1"): null
+
+2020-01-16 11:54:50 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null]]></system-out>
+         <system-err><![CDATA[2020-01-16 11:54:46 - [TEST_CASE][ERROR] - Test Cases/p4p_3_updateInvoce_ok: Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: ""
+	at java_lang_Integer$parseInt.call(Unknown Source)
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579197284711.run(TempTestSuite1579197284711.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-16 11:54:46 - [TEST_SUITE][ERROR] - ts_3_updateInvoice: Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: ""
+	at java_lang_Integer$parseInt.call(Unknown Source)
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579197284711.run(TempTestSuite1579197284711.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-01-16 11:54:46 - [TEST_SUITE][ERROR] - ts_3_updateInvoice: Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: ""
+	at java_lang_Integer$parseInt.call(Unknown Source)
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579197284711.run(TempTestSuite1579197284711.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_3_updateInvoice" time="9.038" tests="3" failures="0" errors="3">
+   <testsuite name="ts_3_updateInvoice" tests="3" failures="0" errors="3" time="9.038" timestamp="2020-01-17 11:53:00" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_3_updateInvoice">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200117_115259/ts_3_updateInvoice/20200117_115259"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200117_115259/ts_3_updateInvoice/20200117_115259/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 79.0.3945.88"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="95260da793e29d276039655f3b55397e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_3_updateInvoce_ok" time="3.799" classname="Test Cases/p4p_3_updateInvoce_ok" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fisUpd for class: Script1579192157788
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579283579331.run(TempTestSuite1579283579331.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-17 11:53:00 - [TEST_CASE][ERROR] - Test Cases/p4p_3_updateInvoce_ok: Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fisUpd for class: Script1579192157788
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579283579331.run(TempTestSuite1579283579331.groovy:36)
+
+
+2020-01-17 11:53:01 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-17 11:53:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-17 11:53:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-17 11:53:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-17 11:53:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-17 11:53:04 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-17 11:53:04 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-17 11:53:04 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-17 11:53:04 - [TEST_STEP][PASSED] - fosUpd = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3updateDeleteInvoice.xlsx): null
+
+2020-01-17 11:53:04 - [TEST_STEP][PASSED] - workbookUpd = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisUpd): null]]></system-out>
+         <system-err><![CDATA[2020-01-17 11:53:00 - [TEST_CASE][ERROR] - Test Cases/p4p_3_updateInvoce_ok: Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fisUpd for class: Script1579192157788
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579283579331.run(TempTestSuite1579283579331.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_3_updateInvoce_ok" time="2.249" classname="Test Cases/p4p_3_updateInvoce_ok" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fisUpd for class: Script1579192157788
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579283579331.run(TempTestSuite1579283579331.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-17 11:53:04 - [TEST_CASE][ERROR] - Test Cases/p4p_3_updateInvoce_ok: Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fisUpd for class: Script1579192157788
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579283579331.run(TempTestSuite1579283579331.groovy:36)
+
+
+2020-01-17 11:53:04 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-17 11:53:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-17 11:53:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-17 11:53:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-17 11:53:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-17 11:53:07 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-17 11:53:07 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-17 11:53:07 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-17 11:53:07 - [TEST_STEP][PASSED] - fosUpd = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3updateDeleteInvoice.xlsx): null
+
+2020-01-17 11:53:07 - [TEST_STEP][PASSED] - workbookUpd = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisUpd): null]]></system-out>
+         <system-err><![CDATA[2020-01-17 11:53:04 - [TEST_CASE][ERROR] - Test Cases/p4p_3_updateInvoce_ok: Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fisUpd for class: Script1579192157788
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579283579331.run(TempTestSuite1579283579331.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_3_updateInvoce_ok" time="2.366" classname="Test Cases/p4p_3_updateInvoce_ok" status="ERROR">
+         <error type="ERROR" message="Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fisUpd for class: Script1579192157788
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579283579331.run(TempTestSuite1579283579331.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-17 11:53:07 - [TEST_CASE][ERROR] - Test Cases/p4p_3_updateInvoce_ok: Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fisUpd for class: Script1579192157788
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579283579331.run(TempTestSuite1579283579331.groovy:36)
+
+
+2020-01-17 11:53:07 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-17 11:53:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-17 11:53:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-17 11:53:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-17 11:53:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-17 11:53:09 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-17 11:53:09 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-17 11:53:09 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-17 11:53:09 - [TEST_STEP][PASSED] - fosUpd = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3updateDeleteInvoice.xlsx): null
+
+2020-01-17 11:53:09 - [TEST_STEP][PASSED] - workbookUpd = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisUpd): null]]></system-out>
+         <system-err><![CDATA[2020-01-17 11:53:07 - [TEST_CASE][ERROR] - Test Cases/p4p_3_updateInvoce_ok: Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fisUpd for class: Script1579192157788
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579283579331.run(TempTestSuite1579283579331.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-17 11:53:00 - [TEST_SUITE][ERROR] - ts_3_updateInvoice: Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fisUpd for class: Script1579192157788
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579283579331.run(TempTestSuite1579283579331.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-01-17 11:53:00 - [TEST_SUITE][ERROR] - ts_3_updateInvoice: Test Cases/p4p_3_updateInvoce_ok FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fisUpd for class: Script1579192157788
+	at p4p_3_updateInvoce_ok.run(p4p_3_updateInvoce_ok:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579283579331.run(TempTestSuite1579283579331.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

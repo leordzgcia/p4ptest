@@ -1,0 +1,1673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts_1_newReservationBoarding" time="506.92" tests="4" failures="0" errors="0">
+   <testsuite name="ts_1_newReservationBoarding" tests="4" failures="0" errors="0" time="506.92" timestamp="2020-01-16 18:20:41" hostname="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577" id="Test Suites/ts_1_newReservationBoarding">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200116_182040/ts_1_newReservationBoarding/20200116_182040"/>
+         <property name="logFiles" value="/home/leonardo-arkusmty/Documents/workspaceKatalon/p4ptest/Reports/20200116_182040/ts_1_newReservationBoarding/20200116_182040/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leonardo-arkusmty - leonardoarkusmty-Inspiron-5577"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.8.1"/>
+         <property name="browser" value="Chrome 79.0.3945.88"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="b4f3174db5875e414d04541cdfe689e2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/p4p_1_newReservationBoarding" time="153.104" classname="Test Cases/p4p_1_newReservationBoarding" status="PASSED">
+         <system-out><![CDATA[2020-01-16 18:20:41 - [TEST_CASE][PASSED] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding
+
+2020-01-16 18:20:42 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-16 18:20:42 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-16 18:20:42 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-16 18:20:42 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-16 18:20:42 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - sheetInv = workbookInv.getSheet("Sheet1"): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - rowInv = sheetInv.getRow(var): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - todaysDate1 = today.format("yyyy"): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - todaysDate2 = today.format("mm"): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - todaysDate3 = today.format("dd"): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - todaysDate4 = today.format("mmm/dd/yyyy"): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - todaysDate5 = today.format("dd/mm/yyyy"): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-16 18:20:43 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 18:20:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-16 18:20:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-16 18:20:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 18:20:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-16 18:20:46 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-16 18:20:46 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-16 18:20:46 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-16 18:20:46 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-16 18:20:47 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-16 18:20:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:20:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:20:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-16 18:20:48 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-16 18:20:48 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-16 18:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-16 18:20:49 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_searchParent): Text 'katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-16 18:20:51 - [MESSAGE][PASSED] - Text 'katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-16 18:20:51 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-16 18:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-16 18:20:51 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-16 18:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-16 18:20:53 - [TEST_STEP][PASSED] - click(findTestObject("obj_profile/a_addReservation")): Object: 'Object Repository/obj_profile/a_addReservation' is clicked on
+
+2020-01-16 18:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_profile/a_addReservation' is clicked on
+
+2020-01-16 18:20:57 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_Boarding")): Object: 'Object Repository/obj_reservation/4_/btn_Boarding' is clicked on
+
+2020-01-16 18:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_Boarding' is clicked on
+
+2020-01-16 18:20:58 - [TEST_STEP][PASSED] - flagBoar = "1": null
+
+2020-01-16 18:20:58 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/i_location")): Object: 'Object Repository/obj_reservation/4_/i_location' is clicked on
+
+2020-01-16 18:21:01 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/i_location' is clicked on
+
+2020-01-16 18:21:01 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/2_facility/i_" + var_idFacility + "_facility")): Object: 'Object Repository/obj_reservation/2_facility/i_3_facility' is clicked on
+
+2020-01-16 18:21:01 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/2_facility/i_3_facility' is clicked on
+
+2020-01-16 18:21:01 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/dateCheckIn")): Object: 'Object Repository/obj_reservation/4_/dateCheckIn' is clicked on
+
+2020-01-16 18:21:04 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/dateCheckIn' is clicked on
+
+2020-01-16 18:21:04 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/3_date2020/0120/CI/button_" + dateCI[0] + "01_ci")): Object: 'Object Repository/obj_reservation/3_date2020/0120/CI/button_2701_ci' is clicked on
+
+2020-01-16 18:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/3_date2020/0120/CI/button_2701_ci' is clicked on
+
+2020-01-16 18:21:05 - [TEST_STEP][PASSED] - if (flagBoar == "1"): Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_2801_co' is clicked on
+
+2020-01-16 18:21:05 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/dateCheckOut")): Object: 'Object Repository/obj_reservation/4_/dateCheckOut' is clicked on
+
+2020-01-16 18:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/dateCheckOut' is clicked on
+
+2020-01-16 18:21:06 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/3_date2020/0120/CO/button_" + dateCO[0] + "01_co")): Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_2801_co' is clicked on
+
+2020-01-16 18:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_2801_co' is clicked on
+
+2020-01-16 18:21:07 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 1): null
+
+2020-01-16 18:21:07 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 2): null
+
+2020-01-16 18:21:07 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 3): null
+
+2020-01-16 18:21:07 - [TEST_STEP][PASSED] - var_checkinT = "0" + var_checkinT: null
+
+2020-01-16 18:21:07 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/timeCheckin")): Object: 'Object Repository/obj_reservation/4_/timeCheckin' is clicked on
+
+2020-01-16 18:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/timeCheckin' is clicked on
+
+2020-01-16 18:21:08 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/0_horas/CI/time_" + var_checkinT + "_ci")): Object: 'Object Repository/obj_reservation/0_horas/CI/time_0800_ci' is clicked on
+
+2020-01-16 18:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/0_horas/CI/time_0800_ci' is clicked on
+
+2020-01-16 18:21:08 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/timeCheckOut")): Object: 'Object Repository/obj_reservation/4_/timeCheckOut' is clicked on
+
+2020-01-16 18:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/timeCheckOut' is clicked on
+
+2020-01-16 18:21:09 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/0_horas/CO/time_" + var_checkoutT + "_co")): Object: 'Object Repository/obj_reservation/0_horas/CO/time_1130_co' is clicked on
+
+2020-01-16 18:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/0_horas/CO/time_1130_co' is clicked on
+
+2020-01-16 18:21:10 - [TEST_STEP][PASSED] - if (arryPets.size() == 1): Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-16 18:21:10 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_5/div_Ares")): Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-16 18:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-16 18:21:11 - [TEST_STEP][PASSED] - varHoliday = 0: null
+
+2020-01-16 18:21:11 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-16 18:21:11 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/div_suite_rad_deluxe")): Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-16 18:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-16 18:21:15 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_next2")): Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:21:15 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_next2")): Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:21:18 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:21:18 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Submit Reservation")): Object: 'Object Repository/obj_reservation/4_/button_Submit Reservation' is clicked on
+
+2020-01-16 18:21:20 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Submit Reservation' is clicked on
+
+2020-01-16 18:21:20 - [TEST_STEP][PASSED] - if (flagBoar == "2" && var_repeatingEvery == "Daily" || var_repeatingEvery == "Monthly" || var_repeatingEvery == "Weekly"): null
+
+2020-01-16 18:21:20 - [TEST_STEP][PASSED] - else: null
+
+2020-01-16 18:21:20 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-16 18:21:20 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Return To Reservation")): Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-16 18:21:25 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-16 18:21:25 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_2/button_Go to CheckOut")): Object: 'Object Repository/obj_reservation/P4P_2/button_Go to CheckOut' is clicked on
+
+2020-01-16 18:21:26 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_2/button_Go to CheckOut' is clicked on
+
+2020-01-16 18:21:26 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702854/?parent_id=122352'
+
+2020-01-16 18:21:27 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702854/?parent_id=122352'
+
+2020-01-16 18:21:27 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-16 18:21:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("obj_reservation/P4P_2/span_( BK )"), "( BK )", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-16 18:21:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-16 18:21:28 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/P4P_2/a_1795351"))): 1795546
+
+2020-01-16 18:21:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795546'
+
+2020-01-16 18:21:28 - [MESSAGE][INFO] - 1795546
+
+2020-01-16 18:21:28 - [TEST_STEP][PASSED] - cell = rowNewRes.createCell(16, 0): null
+
+2020-01-16 18:21:28 - [TEST_STEP][PASSED] - cell.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:21:28 - [TEST_STEP][PASSED] - cell.setCellValue(arrayUrl[5]): null
+
+2020-01-16 18:21:28 - [TEST_STEP][PASSED] - varIdInv = getText(findTestObject("obj_reservation/P4P_2/a_1795351")).toString(): Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795546'
+
+2020-01-16 18:21:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795546'
+
+2020-01-16 18:21:28 - [TEST_STEP][PASSED] - celldInvoice = rowNewRes.createCell(17, 0): null
+
+2020-01-16 18:21:28 - [TEST_STEP][PASSED] - celldInvoice.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:21:28 - [TEST_STEP][PASSED] - celldInvoice.setCellValue(varIdInv): null
+
+2020-01-16 18:21:28 - [TEST_STEP][PASSED] - cellStatus = rowNewRes.createCell(20, 0): null
+
+2020-01-16 18:21:28 - [TEST_STEP][PASSED] - cellStatus.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:21:28 - [TEST_STEP][PASSED] - cellStatus.setCellValue(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-16 18:21:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-16 18:21:29 - [TEST_STEP][PASSED] - cellHol = rowNewRes.createCell(18, 0): null
+
+2020-01-16 18:21:29 - [TEST_STEP][PASSED] - cellHol.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:21:29 - [TEST_STEP][PASSED] - cellInv3 = rowInv.createCell(3, 0): null
+
+2020-01-16 18:21:29 - [TEST_STEP][PASSED] - cellInv3.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:21:29 - [TEST_STEP][PASSED] - if (varHoliday == 1): null
+
+2020-01-16 18:21:29 - [TEST_STEP][PASSED] - else: null
+
+2020-01-16 18:21:29 - [TEST_STEP][PASSED] - cellHol.setCellValue("N"): null
+
+2020-01-16 18:21:29 - [TEST_STEP][PASSED] - cellInv3.setCellValue("N"): null
+
+2020-01-16 18:21:29 - [TEST_STEP][PASSED] - if (var == 1): null
+
+2020-01-16 18:21:29 - [TEST_STEP][PASSED] - cellTime = rowNewRes.createCell(36, 0): null
+
+2020-01-16 18:21:29 - [TEST_STEP][PASSED] - cellTime.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:21:29 - [TEST_STEP][PASSED] - cellTime.setCellValue(nowTime): null
+
+2020-01-16 18:21:29 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/4_/1_co_date"))): 
+
+2020-01-16 18:21:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/4_/1_co_date' is: ''
+
+2020-01-16 18:21:29 - [MESSAGE][INFO] - 
+
+2020-01-16 18:21:29 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_checkIn")): Object: 'Object Repository/obj_reservation/4_/tab_checkIn' is clicked on
+
+2020-01-16 18:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_checkIn' is clicked on
+
+2020-01-16 18:21:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 18:21:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 18:21:32 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("PP/input_CheckinDate_checkin"))): 
+
+2020-01-16 18:21:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/PP/input_CheckinDate_checkin' is: ''
+
+2020-01-16 18:21:32 - [MESSAGE][INFO] - 
+
+2020-01-16 18:21:32 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_editReservation")): Object: 'Object Repository/obj_reservation/4_/tab_editReservation' is clicked on
+
+2020-01-16 18:21:33 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_editReservation' is clicked on
+
+2020-01-16 18:21:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 18:21:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 18:21:35 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("PP/input_CheckinDate_edit"))): 
+
+2020-01-16 18:21:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/PP/input_CheckinDate_edit' is: ''
+
+2020-01-16 18:21:38 - [MESSAGE][INFO] - 
+
+2020-01-16 18:21:38 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2020-01-16 18:21:50 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2020-01-16 18:21:50 - [TEST_STEP][PASSED] - cellDCI = rowNewRes.createCell(22, 0): null
+
+2020-01-16 18:21:50 - [TEST_STEP][PASSED] - cellDCI.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:21:50 - [TEST_STEP][PASSED] - cellDCI.setCellValue(var_checkinD): null
+
+2020-01-16 18:21:50 - [TEST_STEP][PASSED] - cellDCO = rowNewRes.createCell(23, 0): null
+
+2020-01-16 18:21:50 - [TEST_STEP][PASSED] - cellDCO.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:21:50 - [TEST_STEP][PASSED] - cellDCO.setCellValue(var_checkoutD): null
+
+2020-01-16 18:21:50 - [TEST_STEP][PASSED] - cellDCI1 = rowNewRes.createCell(24, 0): null
+
+2020-01-16 18:21:50 - [TEST_STEP][PASSED] - cellDCI1.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:21:50 - [TEST_STEP][PASSED] - cellDCI1.setCellValue(var_checkinD): null
+
+2020-01-16 18:21:50 - [TEST_STEP][PASSED] - cellDCO1 = rowNewRes.createCell(25, 0): null
+
+2020-01-16 18:21:50 - [TEST_STEP][PASSED] - cellDCO1.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:21:50 - [TEST_STEP][PASSED] - cellDCO1.setCellValue(var_checkoutD): null
+
+2020-01-16 18:21:50 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_checkOut")): Object: 'Object Repository/obj_reservation/4_/tab_checkOut' is clicked on
+
+2020-01-16 18:21:51 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_checkOut' is clicked on
+
+2020-01-16 18:21:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:21:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:21:52 - [TEST_STEP][PASSED] - if (var_cancelRes == "Y"): null
+
+2020-01-16 18:21:52 - [TEST_STEP][PASSED] - else: Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( OUT )'
+
+2020-01-16 18:21:52 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_checkIn")): Object: 'Object Repository/obj_reservation/4_/tab_checkIn' is clicked on
+
+2020-01-16 18:21:54 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_checkIn' is clicked on
+
+2020-01-16 18:21:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:21:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:21:55 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_CheckIn_tabCheckin")): Object: 'Object Repository/obj_reservation/4_/button_CheckIn_tabCheckin' is clicked on
+
+2020-01-16 18:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_CheckIn_tabCheckin' is clicked on
+
+2020-01-16 18:21:56 - [TEST_STEP][PASSED] - urlCO = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkin/1702854/?parent_id=122352'
+
+2020-01-16 18:21:56 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkin/1702854/?parent_id=122352'
+
+2020-01-16 18:21:56 - [TEST_STEP][PASSED] - log.logInfo(urlCO): https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkin/1702854/?parent_id=122352
+
+2020-01-16 18:21:56 - [MESSAGE][INFO] - https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkin/1702854/?parent_id=122352
+
+2020-01-16 18:21:56 - [TEST_STEP][PASSED] - navigateToUrl(urlCO): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkin/1702854/?parent_id=122352' successfully
+
+2020-01-16 18:21:57 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkin/1702854/?parent_id=122352' successfully
+
+2020-01-16 18:21:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:21:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:21:58 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): ( IN )
+
+2020-01-16 18:21:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( IN )'
+
+2020-01-16 18:21:58 - [MESSAGE][INFO] - ( IN )
+
+2020-01-16 18:21:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:21:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:21:59 - [TEST_STEP][PASSED] - cellIn = rowNewRes.createCell(31, 0): null
+
+2020-01-16 18:21:59 - [TEST_STEP][PASSED] - cellIn.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:21:59 - [TEST_STEP][PASSED] - cellIn.setCellValue(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( IN )'
+
+2020-01-16 18:22:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( IN )'
+
+2020-01-16 18:22:00 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_checkOut")): Object: 'Object Repository/obj_reservation/4_/tab_checkOut' is clicked on
+
+2020-01-16 18:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_checkOut' is clicked on
+
+2020-01-16 18:22:01 - [TEST_STEP][PASSED] - delay(60): Delayed 60 second(s)
+
+2020-01-16 18:23:01 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2020-01-16 18:23:01 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/a_InitiateCheckout_tabCO")): Object: 'Object Repository/obj_reservation/4_/a_InitiateCheckout_tabCO' is clicked on
+
+2020-01-16 18:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/a_InitiateCheckout_tabCO' is clicked on
+
+2020-01-16 18:23:01 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-16 18:23:09 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-01-16 18:23:09 - [TEST_STEP][PASSED] - scrollToPosition(100, 99): Browser is scrolled to position x = 100, y = 99
+
+2020-01-16 18:23:09 - [MESSAGE][PASSED] - Browser is scrolled to position x = 100, y = 99
+
+2020-01-16 18:23:09 - [TEST_STEP][PASSED] - urlCO2 = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702854/?parent_id=122352'
+
+2020-01-16 18:23:09 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702854/?parent_id=122352'
+
+2020-01-16 18:23:09 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/a_btnGO_tabCO")): Object: 'Object Repository/obj_reservation/4_/a_btnGO_tabCO' is clicked on
+
+2020-01-16 18:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/a_btnGO_tabCO' is clicked on
+
+2020-01-16 18:23:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 18:23:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 18:23:11 - [TEST_STEP][PASSED] - log.logInfo(urlCO2): https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702854/?parent_id=122352
+
+2020-01-16 18:23:11 - [MESSAGE][INFO] - https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702854/?parent_id=122352
+
+2020-01-16 18:23:11 - [TEST_STEP][PASSED] - navigateToUrl(urlCO2): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702854/?parent_id=122352' successfully
+
+2020-01-16 18:23:12 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702854/?parent_id=122352' successfully
+
+2020-01-16 18:23:12 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): ( OUT )
+
+2020-01-16 18:23:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( OUT )'
+
+2020-01-16 18:23:14 - [MESSAGE][INFO] - ( OUT )
+
+2020-01-16 18:23:14 - [TEST_STEP][PASSED] - cellOut = rowNewRes.createCell(34, 0): null
+
+2020-01-16 18:23:14 - [TEST_STEP][PASSED] - cellOut.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:23:14 - [TEST_STEP][PASSED] - cellOut.setCellValue(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( OUT )'
+
+2020-01-16 18:23:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( OUT )'
+
+2020-01-16 18:23:14 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-16 18:23:14 - [TEST_STEP][PASSED] - workbookNewRes.write(fos): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - (var_row++): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_1_newReservationBoarding" time="163.965" classname="Test Cases/p4p_1_newReservationBoarding" status="PASSED">
+         <system-out><![CDATA[2020-01-16 18:23:15 - [TEST_CASE][PASSED] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - sheetInv = workbookInv.getSheet("Sheet1"): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - rowInv = sheetInv.getRow(var): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - todaysDate1 = today.format("yyyy"): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - todaysDate2 = today.format("mm"): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - todaysDate3 = today.format("dd"): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - todaysDate4 = today.format("mmm/dd/yyyy"): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - todaysDate5 = today.format("dd/mm/yyyy"): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-16 18:23:15 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 18:23:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-16 18:23:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-16 18:23:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 18:23:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-16 18:23:17 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-16 18:23:17 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-16 18:23:17 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-16 18:23:17 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-16 18:23:18 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-16 18:23:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:23:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:23:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-16 18:23:19 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-16 18:23:19 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-16 18:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-16 18:23:21 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_searchParent): Text 'katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-16 18:23:22 - [MESSAGE][PASSED] - Text 'katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-16 18:23:22 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-16 18:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-16 18:23:23 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-16 18:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-16 18:23:25 - [TEST_STEP][PASSED] - click(findTestObject("obj_profile/a_addReservation")): Object: 'Object Repository/obj_profile/a_addReservation' is clicked on
+
+2020-01-16 18:23:29 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_profile/a_addReservation' is clicked on
+
+2020-01-16 18:23:29 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_Boarding")): Object: 'Object Repository/obj_reservation/4_/btn_Boarding' is clicked on
+
+2020-01-16 18:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_Boarding' is clicked on
+
+2020-01-16 18:23:30 - [TEST_STEP][PASSED] - flagBoar = "1": null
+
+2020-01-16 18:23:30 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/i_location")): Object: 'Object Repository/obj_reservation/4_/i_location' is clicked on
+
+2020-01-16 18:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/i_location' is clicked on
+
+2020-01-16 18:23:33 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/2_facility/i_" + var_idFacility + "_facility")): Object: 'Object Repository/obj_reservation/2_facility/i_3_facility' is clicked on
+
+2020-01-16 18:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/2_facility/i_3_facility' is clicked on
+
+2020-01-16 18:23:33 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/dateCheckIn")): Object: 'Object Repository/obj_reservation/4_/dateCheckIn' is clicked on
+
+2020-01-16 18:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/dateCheckIn' is clicked on
+
+2020-01-16 18:23:36 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/3_date2020/0120/CI/button_" + dateCI[0] + "01_ci")): Object: 'Object Repository/obj_reservation/3_date2020/0120/CI/button_2901_ci' is clicked on
+
+2020-01-16 18:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/3_date2020/0120/CI/button_2901_ci' is clicked on
+
+2020-01-16 18:23:37 - [TEST_STEP][PASSED] - if (flagBoar == "1"): Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_3001_co' is clicked on
+
+2020-01-16 18:23:37 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/dateCheckOut")): Object: 'Object Repository/obj_reservation/4_/dateCheckOut' is clicked on
+
+2020-01-16 18:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/dateCheckOut' is clicked on
+
+2020-01-16 18:23:38 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/3_date2020/0120/CO/button_" + dateCO[0] + "01_co")): Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_3001_co' is clicked on
+
+2020-01-16 18:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_3001_co' is clicked on
+
+2020-01-16 18:23:39 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 1): null
+
+2020-01-16 18:23:39 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 2): null
+
+2020-01-16 18:23:39 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 3): null
+
+2020-01-16 18:23:39 - [TEST_STEP][PASSED] - var_checkinT = "0" + var_checkinT: null
+
+2020-01-16 18:23:39 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/timeCheckin")): Object: 'Object Repository/obj_reservation/4_/timeCheckin' is clicked on
+
+2020-01-16 18:23:40 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/timeCheckin' is clicked on
+
+2020-01-16 18:23:40 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/0_horas/CI/time_" + var_checkinT + "_ci")): Object: 'Object Repository/obj_reservation/0_horas/CI/time_0830_ci' is clicked on
+
+2020-01-16 18:23:41 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/0_horas/CI/time_0830_ci' is clicked on
+
+2020-01-16 18:23:41 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/timeCheckOut")): Object: 'Object Repository/obj_reservation/4_/timeCheckOut' is clicked on
+
+2020-01-16 18:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/timeCheckOut' is clicked on
+
+2020-01-16 18:23:42 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/0_horas/CO/time_" + var_checkoutT + "_co")): Object: 'Object Repository/obj_reservation/0_horas/CO/time_1200_co' is clicked on
+
+2020-01-16 18:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/0_horas/CO/time_1200_co' is clicked on
+
+2020-01-16 18:23:42 - [TEST_STEP][PASSED] - if (arryPets.size() == 1): null
+
+2020-01-16 18:23:42 - [TEST_STEP][PASSED] - else if (arryPets.size() == 2): Object: 'Object Repository/obj_reservation/4_/div_Zeus' is clicked on
+
+2020-01-16 18:23:42 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_5/div_Ares")): Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-16 18:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-16 18:23:43 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/div_Zeus")): Object: 'Object Repository/obj_reservation/4_/div_Zeus' is clicked on
+
+2020-01-16 18:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/div_Zeus' is clicked on
+
+2020-01-16 18:23:48 - [TEST_STEP][PASSED] - varHoliday = 0: null
+
+2020-01-16 18:23:48 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-16 18:23:48 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/div_suite_rad_deluxe")): Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-16 18:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-16 18:23:53 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_next2")): Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:23:54 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_next2")): Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:23:56 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Submit Reservation")): Object: 'Object Repository/obj_reservation/4_/button_Submit Reservation' is clicked on
+
+2020-01-16 18:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Submit Reservation' is clicked on
+
+2020-01-16 18:23:59 - [TEST_STEP][PASSED] - if (flagBoar == "2" && var_repeatingEvery == "Daily" || var_repeatingEvery == "Monthly" || var_repeatingEvery == "Weekly"): null
+
+2020-01-16 18:23:59 - [TEST_STEP][PASSED] - else: null
+
+2020-01-16 18:23:59 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-16 18:23:59 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Return To Reservation")): Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-16 18:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-16 18:24:04 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_2/button_Go to CheckOut")): Object: 'Object Repository/obj_reservation/P4P_2/button_Go to CheckOut' is clicked on
+
+2020-01-16 18:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_2/button_Go to CheckOut' is clicked on
+
+2020-01-16 18:24:06 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702855/?parent_id=122352'
+
+2020-01-16 18:24:06 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702855/?parent_id=122352'
+
+2020-01-16 18:24:06 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-16 18:24:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("obj_reservation/P4P_2/span_( BK )"), "( BK )", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-16 18:24:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-16 18:24:08 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/P4P_2/a_1795351"))): 1795549
+
+2020-01-16 18:24:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795549'
+
+2020-01-16 18:24:08 - [MESSAGE][INFO] - 1795549
+
+2020-01-16 18:24:08 - [TEST_STEP][PASSED] - cell = rowNewRes.createCell(16, 0): null
+
+2020-01-16 18:24:08 - [TEST_STEP][PASSED] - cell.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:24:08 - [TEST_STEP][PASSED] - cell.setCellValue(arrayUrl[5]): null
+
+2020-01-16 18:24:08 - [TEST_STEP][PASSED] - varIdInv = getText(findTestObject("obj_reservation/P4P_2/a_1795351")).toString(): Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795549'
+
+2020-01-16 18:24:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795549'
+
+2020-01-16 18:24:08 - [TEST_STEP][PASSED] - celldInvoice = rowNewRes.createCell(17, 0): null
+
+2020-01-16 18:24:08 - [TEST_STEP][PASSED] - celldInvoice.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:24:08 - [TEST_STEP][PASSED] - celldInvoice.setCellValue(varIdInv): null
+
+2020-01-16 18:24:08 - [TEST_STEP][PASSED] - cellStatus = rowNewRes.createCell(20, 0): null
+
+2020-01-16 18:24:08 - [TEST_STEP][PASSED] - cellStatus.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:24:08 - [TEST_STEP][PASSED] - cellStatus.setCellValue(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-16 18:24:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-16 18:24:09 - [TEST_STEP][PASSED] - cellHol = rowNewRes.createCell(18, 0): null
+
+2020-01-16 18:24:09 - [TEST_STEP][PASSED] - cellHol.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:24:09 - [TEST_STEP][PASSED] - cellInv3 = rowInv.createCell(3, 0): null
+
+2020-01-16 18:24:09 - [TEST_STEP][PASSED] - cellInv3.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:24:09 - [TEST_STEP][PASSED] - if (varHoliday == 1): null
+
+2020-01-16 18:24:09 - [TEST_STEP][PASSED] - else: null
+
+2020-01-16 18:24:09 - [TEST_STEP][PASSED] - cellHol.setCellValue("N"): null
+
+2020-01-16 18:24:09 - [TEST_STEP][PASSED] - cellInv3.setCellValue("N"): null
+
+2020-01-16 18:24:09 - [TEST_STEP][PASSED] - if (var == 1): null
+
+2020-01-16 18:24:09 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/4_/1_co_date"))): 
+
+2020-01-16 18:24:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/4_/1_co_date' is: ''
+
+2020-01-16 18:24:09 - [MESSAGE][INFO] - 
+
+2020-01-16 18:24:09 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_checkIn")): Object: 'Object Repository/obj_reservation/4_/tab_checkIn' is clicked on
+
+2020-01-16 18:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_checkIn' is clicked on
+
+2020-01-16 18:24:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 18:24:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 18:24:12 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("PP/input_CheckinDate_checkin"))): 
+
+2020-01-16 18:24:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/PP/input_CheckinDate_checkin' is: ''
+
+2020-01-16 18:24:12 - [MESSAGE][INFO] - 
+
+2020-01-16 18:24:12 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_editReservation")): Object: 'Object Repository/obj_reservation/4_/tab_editReservation' is clicked on
+
+2020-01-16 18:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_editReservation' is clicked on
+
+2020-01-16 18:24:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 18:24:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 18:24:16 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("PP/input_CheckinDate_edit"))): 
+
+2020-01-16 18:24:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/PP/input_CheckinDate_edit' is: ''
+
+2020-01-16 18:24:20 - [MESSAGE][INFO] - 
+
+2020-01-16 18:24:20 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2020-01-16 18:24:32 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2020-01-16 18:24:32 - [TEST_STEP][PASSED] - cellDCI = rowNewRes.createCell(22, 0): null
+
+2020-01-16 18:24:32 - [TEST_STEP][PASSED] - cellDCI.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:24:32 - [TEST_STEP][PASSED] - cellDCI.setCellValue(var_checkinD): null
+
+2020-01-16 18:24:32 - [TEST_STEP][PASSED] - cellDCO = rowNewRes.createCell(23, 0): null
+
+2020-01-16 18:24:32 - [TEST_STEP][PASSED] - cellDCO.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:24:32 - [TEST_STEP][PASSED] - cellDCO.setCellValue(var_checkoutD): null
+
+2020-01-16 18:24:32 - [TEST_STEP][PASSED] - cellDCI1 = rowNewRes.createCell(24, 0): null
+
+2020-01-16 18:24:32 - [TEST_STEP][PASSED] - cellDCI1.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:24:32 - [TEST_STEP][PASSED] - cellDCI1.setCellValue(var_checkinD): null
+
+2020-01-16 18:24:32 - [TEST_STEP][PASSED] - cellDCO1 = rowNewRes.createCell(25, 0): null
+
+2020-01-16 18:24:32 - [TEST_STEP][PASSED] - cellDCO1.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:24:32 - [TEST_STEP][PASSED] - cellDCO1.setCellValue(var_checkoutD): null
+
+2020-01-16 18:24:32 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_checkOut")): Object: 'Object Repository/obj_reservation/4_/tab_checkOut' is clicked on
+
+2020-01-16 18:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_checkOut' is clicked on
+
+2020-01-16 18:24:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:24:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:24:34 - [TEST_STEP][PASSED] - if (var_cancelRes == "Y"): null
+
+2020-01-16 18:24:34 - [TEST_STEP][PASSED] - else: Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( OUT )'
+
+2020-01-16 18:24:34 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_checkIn")): Object: 'Object Repository/obj_reservation/4_/tab_checkIn' is clicked on
+
+2020-01-16 18:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_checkIn' is clicked on
+
+2020-01-16 18:24:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:24:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:24:37 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_CheckIn_tabCheckin")): Object: 'Object Repository/obj_reservation/4_/button_CheckIn_tabCheckin' is clicked on
+
+2020-01-16 18:24:39 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_CheckIn_tabCheckin' is clicked on
+
+2020-01-16 18:24:39 - [TEST_STEP][PASSED] - urlCO = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkin/1702855/?parent_id=122352'
+
+2020-01-16 18:24:39 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkin/1702855/?parent_id=122352'
+
+2020-01-16 18:24:39 - [TEST_STEP][PASSED] - log.logInfo(urlCO): https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkin/1702855/?parent_id=122352
+
+2020-01-16 18:24:39 - [MESSAGE][INFO] - https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkin/1702855/?parent_id=122352
+
+2020-01-16 18:24:39 - [TEST_STEP][PASSED] - navigateToUrl(urlCO): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkin/1702855/?parent_id=122352' successfully
+
+2020-01-16 18:24:39 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkin/1702855/?parent_id=122352' successfully
+
+2020-01-16 18:24:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:24:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:24:41 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): ( IN )
+
+2020-01-16 18:24:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( IN )'
+
+2020-01-16 18:24:42 - [MESSAGE][INFO] - ( IN )
+
+2020-01-16 18:24:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:24:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:24:43 - [TEST_STEP][PASSED] - cellIn = rowNewRes.createCell(31, 0): null
+
+2020-01-16 18:24:43 - [TEST_STEP][PASSED] - cellIn.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:24:43 - [TEST_STEP][PASSED] - cellIn.setCellValue(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( IN )'
+
+2020-01-16 18:24:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( IN )'
+
+2020-01-16 18:24:43 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_checkOut")): Object: 'Object Repository/obj_reservation/4_/tab_checkOut' is clicked on
+
+2020-01-16 18:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_checkOut' is clicked on
+
+2020-01-16 18:24:44 - [TEST_STEP][PASSED] - delay(60): Delayed 60 second(s)
+
+2020-01-16 18:25:44 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2020-01-16 18:25:44 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/a_InitiateCheckout_tabCO")): Object: 'Object Repository/obj_reservation/4_/a_InitiateCheckout_tabCO' is clicked on
+
+2020-01-16 18:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/a_InitiateCheckout_tabCO' is clicked on
+
+2020-01-16 18:25:45 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-16 18:25:53 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-01-16 18:25:53 - [TEST_STEP][PASSED] - scrollToPosition(100, 99): Browser is scrolled to position x = 100, y = 99
+
+2020-01-16 18:25:53 - [MESSAGE][PASSED] - Browser is scrolled to position x = 100, y = 99
+
+2020-01-16 18:25:53 - [TEST_STEP][PASSED] - urlCO2 = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702855/?parent_id=122352'
+
+2020-01-16 18:25:53 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702855/?parent_id=122352'
+
+2020-01-16 18:25:53 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/a_btnGO_tabCO")): Object: 'Object Repository/obj_reservation/4_/a_btnGO_tabCO' is clicked on
+
+2020-01-16 18:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/a_btnGO_tabCO' is clicked on
+
+2020-01-16 18:25:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 18:25:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 18:25:55 - [TEST_STEP][PASSED] - log.logInfo(urlCO2): https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702855/?parent_id=122352
+
+2020-01-16 18:25:55 - [MESSAGE][INFO] - https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702855/?parent_id=122352
+
+2020-01-16 18:25:55 - [TEST_STEP][PASSED] - navigateToUrl(urlCO2): Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702855/?parent_id=122352' successfully
+
+2020-01-16 18:25:56 - [MESSAGE][PASSED] - Navigate to 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702855/?parent_id=122352' successfully
+
+2020-01-16 18:25:56 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): ( OUT )
+
+2020-01-16 18:25:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( OUT )'
+
+2020-01-16 18:25:58 - [MESSAGE][INFO] - ( OUT )
+
+2020-01-16 18:25:58 - [TEST_STEP][PASSED] - cellOut = rowNewRes.createCell(34, 0): null
+
+2020-01-16 18:25:58 - [TEST_STEP][PASSED] - cellOut.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:25:58 - [TEST_STEP][PASSED] - cellOut.setCellValue(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( OUT )'
+
+2020-01-16 18:25:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( OUT )'
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - workbookNewRes.write(fos): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - (var_row++): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_1_newReservationBoarding" time="88.457" classname="Test Cases/p4p_1_newReservationBoarding" status="PASSED">
+         <system-out><![CDATA[2020-01-16 18:25:59 - [TEST_CASE][PASSED] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - sheetInv = workbookInv.getSheet("Sheet1"): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - rowInv = sheetInv.getRow(var): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - todaysDate1 = today.format("yyyy"): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - todaysDate2 = today.format("mm"): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - todaysDate3 = today.format("dd"): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - todaysDate4 = today.format("mmm/dd/yyyy"): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - todaysDate5 = today.format("dd/mm/yyyy"): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-16 18:25:59 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 18:25:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-16 18:25:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-16 18:26:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 18:26:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-16 18:26:01 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-16 18:26:01 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-16 18:26:02 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-16 18:26:02 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-16 18:26:02 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-16 18:26:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:26:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:26:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-16 18:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-16 18:26:04 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-16 18:26:05 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-16 18:26:05 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_searchParent): Text 'katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-16 18:26:06 - [MESSAGE][PASSED] - Text 'katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-16 18:26:06 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-16 18:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-16 18:26:07 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-16 18:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-16 18:26:08 - [TEST_STEP][PASSED] - click(findTestObject("obj_profile/a_addReservation")): Object: 'Object Repository/obj_profile/a_addReservation' is clicked on
+
+2020-01-16 18:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_profile/a_addReservation' is clicked on
+
+2020-01-16 18:26:12 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_Boarding")): Object: 'Object Repository/obj_reservation/4_/btn_Boarding' is clicked on
+
+2020-01-16 18:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_Boarding' is clicked on
+
+2020-01-16 18:26:14 - [TEST_STEP][PASSED] - flagBoar = "1": null
+
+2020-01-16 18:26:14 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/i_location")): Object: 'Object Repository/obj_reservation/4_/i_location' is clicked on
+
+2020-01-16 18:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/i_location' is clicked on
+
+2020-01-16 18:26:17 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/2_facility/i_" + var_idFacility + "_facility")): Object: 'Object Repository/obj_reservation/2_facility/i_3_facility' is clicked on
+
+2020-01-16 18:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/2_facility/i_3_facility' is clicked on
+
+2020-01-16 18:26:17 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/dateCheckIn")): Object: 'Object Repository/obj_reservation/4_/dateCheckIn' is clicked on
+
+2020-01-16 18:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/dateCheckIn' is clicked on
+
+2020-01-16 18:26:20 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/3_date2020/0120/CI/button_" + dateCI[0] + "01_ci")): Object: 'Object Repository/obj_reservation/3_date2020/0120/CI/button_2501_ci' is clicked on
+
+2020-01-16 18:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/3_date2020/0120/CI/button_2501_ci' is clicked on
+
+2020-01-16 18:26:21 - [TEST_STEP][PASSED] - if (flagBoar == "1"): Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_2601_co' is clicked on
+
+2020-01-16 18:26:21 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/dateCheckOut")): Object: 'Object Repository/obj_reservation/4_/dateCheckOut' is clicked on
+
+2020-01-16 18:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/dateCheckOut' is clicked on
+
+2020-01-16 18:26:22 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/3_date2020/0120/CO/button_" + dateCO[0] + "01_co")): Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_2601_co' is clicked on
+
+2020-01-16 18:26:23 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_2601_co' is clicked on
+
+2020-01-16 18:26:23 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 1): null
+
+2020-01-16 18:26:23 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 2): null
+
+2020-01-16 18:26:23 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 3): null
+
+2020-01-16 18:26:23 - [TEST_STEP][PASSED] - var_checkinT = "0" + var_checkinT: null
+
+2020-01-16 18:26:23 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/timeCheckin")): Object: 'Object Repository/obj_reservation/4_/timeCheckin' is clicked on
+
+2020-01-16 18:26:23 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/timeCheckin' is clicked on
+
+2020-01-16 18:26:23 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/0_horas/CI/time_" + var_checkinT + "_ci")): Object: 'Object Repository/obj_reservation/0_horas/CI/time_0800_ci' is clicked on
+
+2020-01-16 18:26:24 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/0_horas/CI/time_0800_ci' is clicked on
+
+2020-01-16 18:26:24 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/timeCheckOut")): Object: 'Object Repository/obj_reservation/4_/timeCheckOut' is clicked on
+
+2020-01-16 18:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/timeCheckOut' is clicked on
+
+2020-01-16 18:26:25 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/0_horas/CO/time_" + var_checkoutT + "_co")): Object: 'Object Repository/obj_reservation/0_horas/CO/time_1130_co' is clicked on
+
+2020-01-16 18:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/0_horas/CO/time_1130_co' is clicked on
+
+2020-01-16 18:26:26 - [TEST_STEP][PASSED] - if (arryPets.size() == 1): Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-16 18:26:26 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_5/div_Ares")): Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-16 18:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-16 18:26:27 - [TEST_STEP][PASSED] - varHoliday = 0: null
+
+2020-01-16 18:26:27 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-16 18:26:27 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/div_suite_rad_deluxe")): Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-16 18:26:31 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-16 18:26:31 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_next2")): Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:26:34 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_next2")): Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:26:34 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Submit Reservation")): Object: 'Object Repository/obj_reservation/4_/button_Submit Reservation' is clicked on
+
+2020-01-16 18:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Submit Reservation' is clicked on
+
+2020-01-16 18:26:36 - [TEST_STEP][PASSED] - if (flagBoar == "2" && var_repeatingEvery == "Daily" || var_repeatingEvery == "Monthly" || var_repeatingEvery == "Weekly"): null
+
+2020-01-16 18:26:36 - [TEST_STEP][PASSED] - else: null
+
+2020-01-16 18:26:36 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-16 18:26:36 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Return To Reservation")): Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-16 18:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-16 18:26:40 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_2/button_Go to CheckOut")): Object: 'Object Repository/obj_reservation/P4P_2/button_Go to CheckOut' is clicked on
+
+2020-01-16 18:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_2/button_Go to CheckOut' is clicked on
+
+2020-01-16 18:26:43 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702856/?parent_id=122352'
+
+2020-01-16 18:26:43 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702856/?parent_id=122352'
+
+2020-01-16 18:26:43 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-16 18:26:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("obj_reservation/P4P_2/span_( BK )"), "( BK )", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-16 18:26:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-16 18:26:44 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/P4P_2/a_1795351"))): 1795550
+
+2020-01-16 18:26:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795550'
+
+2020-01-16 18:26:44 - [MESSAGE][INFO] - 1795550
+
+2020-01-16 18:26:44 - [TEST_STEP][PASSED] - cell = rowNewRes.createCell(16, 0): null
+
+2020-01-16 18:26:44 - [TEST_STEP][PASSED] - cell.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:26:44 - [TEST_STEP][PASSED] - cell.setCellValue(arrayUrl[5]): null
+
+2020-01-16 18:26:44 - [TEST_STEP][PASSED] - varIdInv = getText(findTestObject("obj_reservation/P4P_2/a_1795351")).toString(): Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795550'
+
+2020-01-16 18:26:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795550'
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - celldInvoice = rowNewRes.createCell(17, 0): null
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - celldInvoice.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - celldInvoice.setCellValue(varIdInv): null
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - cellStatus = rowNewRes.createCell(20, 0): null
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - cellStatus.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - cellStatus.setCellValue(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-16 18:26:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - cellHol = rowNewRes.createCell(18, 0): null
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - cellHol.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - cellInv3 = rowInv.createCell(3, 0): null
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - cellInv3.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - if (varHoliday == 1): null
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - else: null
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - cellHol.setCellValue("N"): null
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - cellInv3.setCellValue("N"): null
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - if (var == 1): null
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/4_/1_co_date"))): 
+
+2020-01-16 18:26:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/4_/1_co_date' is: ''
+
+2020-01-16 18:26:45 - [MESSAGE][INFO] - 
+
+2020-01-16 18:26:45 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_checkIn")): Object: 'Object Repository/obj_reservation/4_/tab_checkIn' is clicked on
+
+2020-01-16 18:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_checkIn' is clicked on
+
+2020-01-16 18:26:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 18:26:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 18:26:49 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("PP/input_CheckinDate_checkin"))): 
+
+2020-01-16 18:26:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/PP/input_CheckinDate_checkin' is: ''
+
+2020-01-16 18:26:49 - [MESSAGE][INFO] - 
+
+2020-01-16 18:26:49 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_editReservation")): Object: 'Object Repository/obj_reservation/4_/tab_editReservation' is clicked on
+
+2020-01-16 18:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_editReservation' is clicked on
+
+2020-01-16 18:26:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 18:26:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 18:26:52 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("PP/input_CheckinDate_edit"))): 
+
+2020-01-16 18:26:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/PP/input_CheckinDate_edit' is: ''
+
+2020-01-16 18:26:55 - [MESSAGE][INFO] - 
+
+2020-01-16 18:26:55 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2020-01-16 18:27:07 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2020-01-16 18:27:07 - [TEST_STEP][PASSED] - cellDCI = rowNewRes.createCell(22, 0): null
+
+2020-01-16 18:27:07 - [TEST_STEP][PASSED] - cellDCI.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:27:07 - [TEST_STEP][PASSED] - cellDCI.setCellValue(var_checkinD): null
+
+2020-01-16 18:27:07 - [TEST_STEP][PASSED] - cellDCO = rowNewRes.createCell(23, 0): null
+
+2020-01-16 18:27:07 - [TEST_STEP][PASSED] - cellDCO.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:27:07 - [TEST_STEP][PASSED] - cellDCO.setCellValue(var_checkoutD): null
+
+2020-01-16 18:27:07 - [TEST_STEP][PASSED] - cellDCI1 = rowNewRes.createCell(24, 0): null
+
+2020-01-16 18:27:07 - [TEST_STEP][PASSED] - cellDCI1.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:27:07 - [TEST_STEP][PASSED] - cellDCI1.setCellValue(var_checkinD): null
+
+2020-01-16 18:27:07 - [TEST_STEP][PASSED] - cellDCO1 = rowNewRes.createCell(25, 0): null
+
+2020-01-16 18:27:07 - [TEST_STEP][PASSED] - cellDCO1.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:27:07 - [TEST_STEP][PASSED] - cellDCO1.setCellValue(var_checkoutD): null
+
+2020-01-16 18:27:07 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_checkOut")): Object: 'Object Repository/obj_reservation/4_/tab_checkOut' is clicked on
+
+2020-01-16 18:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_checkOut' is clicked on
+
+2020-01-16 18:27:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:27:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:27:10 - [TEST_STEP][PASSED] - if (var_cancelRes == "Y"): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( CAN )'
+
+2020-01-16 18:27:10 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_editReservation")): Object: 'Object Repository/obj_reservation/4_/tab_editReservation' is clicked on
+
+2020-01-16 18:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_editReservation' is clicked on
+
+2020-01-16 18:27:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:27:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:27:12 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Next")): Object: 'Object Repository/obj_reservation/4_/button_Next' is clicked on
+
+2020-01-16 18:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Next' is clicked on
+
+2020-01-16 18:27:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:27:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:27:17 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Next")): Object: 'Object Repository/obj_reservation/4_/button_Next' is clicked on
+
+2020-01-16 18:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Next' is clicked on
+
+2020-01-16 18:27:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:27:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:27:19 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_cancelReservation")): Object: 'Object Repository/obj_reservation/4_/btn_cancelReservation' is clicked on
+
+2020-01-16 18:27:20 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_cancelReservation' is clicked on
+
+2020-01-16 18:27:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 18:27:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 18:27:23 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_1/button_Cancel This Reservation")): Object: 'Object Repository/obj_reservation/P4P_1/button_Cancel This Reservation' is clicked on
+
+2020-01-16 18:27:23 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_1/button_Cancel This Reservation' is clicked on
+
+2020-01-16 18:27:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 18:27:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 18:27:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("obj_reservation/P4P_2/span_( BK )"), "( CAN )", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-16 18:27:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): ( CAN )
+
+2020-01-16 18:27:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( CAN )'
+
+2020-01-16 18:27:27 - [MESSAGE][INFO] - ( CAN )
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - cellCan = rowNewRes.createCell(28, 0): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - cellCan.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - cellCan.setCellValue(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( CAN )'
+
+2020-01-16 18:27:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( CAN )'
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - workbookNewRes.write(fos): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - (var_row++): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/p4p_1_newReservationBoarding" time="100.762" classname="Test Cases/p4p_1_newReservationBoarding" status="PASSED">
+         <system-out><![CDATA[2020-01-16 18:27:27 - [TEST_CASE][PASSED] - Test Cases/p4p_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - flagBoar = "0": null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - fisNewRes = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - fisInv = new java.io.FileInputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_3Invoices.xlsx): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - workbookNewRes = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisNewRes): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - workbookInv = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fisInv): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - sheetNewRes = workbookNewRes.getSheet("Sheet1"): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - sheetInv = workbookInv.getSheet("Sheet1"): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - rowCount = var_row: null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - var = Integer.parseInt(var_idRowRes): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - rowNewRes = sheetNewRes.getRow(var): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - rowInv = sheetInv.getRow(var): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - todaysDate1 = today.format("yyyy"): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - todaysDate2 = today.format("mm"): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - todaysDate3 = today.format("dd"): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - todaysDate4 = today.format("mmm/dd/yyyy"): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - todaysDate5 = today.format("dd/mm/yyyy"): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - nowTime = today.format("hhmm"): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - dateCI = var_checkinD.split(","): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - dateCO = var_checkoutD.split(","): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - arryPets = var_pets.split(","): null
+
+2020-01-16 18:27:27 - [TEST_STEP][PASSED] - openBrowser("https://p4p-qa-bg.aws.paradise4paws.com/login/"): Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 18:27:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-16 18:27:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-16 18:27:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://p4p-qa-bg.aws.paradise4paws.com/login/'
+
+2020-01-16 18:27:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-16 18:27:29 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-16 18:27:29 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_user"), var_user): Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-16 18:27:30 - [MESSAGE][PASSED] - Text 'jegchavez@gmail.com' is set on object 'Object Repository/obj_login/input_user'
+
+2020-01-16 18:27:30 - [TEST_STEP][PASSED] - setText(findTestObject("obj_login/input_pass"), var_pass): Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-16 18:27:30 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/obj_login/input_pass'
+
+2020-01-16 18:27:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:27:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:27:31 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("obj_login/btn_login")): Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-16 18:27:32 - [MESSAGE][PASSED] - Object 'Object Repository/obj_login/btn_login' is clickable
+
+2020-01-16 18:27:32 - [TEST_STEP][PASSED] - click(findTestObject("obj_login/btn_login")): Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-16 18:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_login/btn_login' is clicked on
+
+2020-01-16 18:27:33 - [TEST_STEP][PASSED] - setText(findTestObject("obj_dashboard_emp/input_search"), var_searchParent): Text 'katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-16 18:27:34 - [MESSAGE][PASSED] - Text 'katalon 1' is set on object 'Object Repository/obj_dashboard_emp/input_search'
+
+2020-01-16 18:27:34 - [TEST_STEP][PASSED] - click(findTestObject("obj_dashboard_emp/btn_accountSearch")): Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-16 18:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_dashboard_emp/btn_accountSearch' is clicked on
+
+2020-01-16 18:27:36 - [TEST_STEP][PASSED] - click(findTestObject("obj_accountInformation/a_TEST GABRIEL PROD")): Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-16 18:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_accountInformation/a_TEST GABRIEL PROD' is clicked on
+
+2020-01-16 18:27:37 - [TEST_STEP][PASSED] - click(findTestObject("obj_profile/a_addReservation")): Object: 'Object Repository/obj_profile/a_addReservation' is clicked on
+
+2020-01-16 18:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_profile/a_addReservation' is clicked on
+
+2020-01-16 18:27:41 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_Boarding")): Object: 'Object Repository/obj_reservation/4_/btn_Boarding' is clicked on
+
+2020-01-16 18:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_Boarding' is clicked on
+
+2020-01-16 18:27:43 - [TEST_STEP][PASSED] - flagBoar = "1": null
+
+2020-01-16 18:27:43 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/i_location")): Object: 'Object Repository/obj_reservation/4_/i_location' is clicked on
+
+2020-01-16 18:27:46 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/i_location' is clicked on
+
+2020-01-16 18:27:46 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/2_facility/i_" + var_idFacility + "_facility")): Object: 'Object Repository/obj_reservation/2_facility/i_3_facility' is clicked on
+
+2020-01-16 18:27:46 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/2_facility/i_3_facility' is clicked on
+
+2020-01-16 18:27:46 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/dateCheckIn")): Object: 'Object Repository/obj_reservation/4_/dateCheckIn' is clicked on
+
+2020-01-16 18:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/dateCheckIn' is clicked on
+
+2020-01-16 18:27:49 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/3_date2020/0120/CI/button_" + dateCI[0] + "01_ci")): Object: 'Object Repository/obj_reservation/3_date2020/0120/CI/button_2301_ci' is clicked on
+
+2020-01-16 18:27:50 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/3_date2020/0120/CI/button_2301_ci' is clicked on
+
+2020-01-16 18:27:50 - [TEST_STEP][PASSED] - if (flagBoar == "1"): Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_2401_co' is clicked on
+
+2020-01-16 18:27:50 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/dateCheckOut")): Object: 'Object Repository/obj_reservation/4_/dateCheckOut' is clicked on
+
+2020-01-16 18:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/dateCheckOut' is clicked on
+
+2020-01-16 18:27:51 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/3_date2020/0120/CO/button_" + dateCO[0] + "01_co")): Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_2401_co' is clicked on
+
+2020-01-16 18:27:52 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/3_date2020/0120/CO/button_2401_co' is clicked on
+
+2020-01-16 18:27:52 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 1): null
+
+2020-01-16 18:27:52 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 2): null
+
+2020-01-16 18:27:52 - [TEST_STEP][PASSED] - if (var_checkinT.size() == 3): null
+
+2020-01-16 18:27:52 - [TEST_STEP][PASSED] - var_checkinT = "0" + var_checkinT: null
+
+2020-01-16 18:27:52 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/timeCheckin")): Object: 'Object Repository/obj_reservation/4_/timeCheckin' is clicked on
+
+2020-01-16 18:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/timeCheckin' is clicked on
+
+2020-01-16 18:27:53 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/0_horas/CI/time_" + var_checkinT + "_ci")): Object: 'Object Repository/obj_reservation/0_horas/CI/time_0830_ci' is clicked on
+
+2020-01-16 18:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/0_horas/CI/time_0830_ci' is clicked on
+
+2020-01-16 18:27:53 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/timeCheckOut")): Object: 'Object Repository/obj_reservation/4_/timeCheckOut' is clicked on
+
+2020-01-16 18:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/timeCheckOut' is clicked on
+
+2020-01-16 18:27:54 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/0_horas/CO/time_" + var_checkoutT + "_co")): Object: 'Object Repository/obj_reservation/0_horas/CO/time_1200_co' is clicked on
+
+2020-01-16 18:27:55 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/0_horas/CO/time_1200_co' is clicked on
+
+2020-01-16 18:27:55 - [TEST_STEP][PASSED] - if (arryPets.size() == 1): null
+
+2020-01-16 18:27:55 - [TEST_STEP][PASSED] - else if (arryPets.size() == 2): Object: 'Object Repository/obj_reservation/4_/div_Zeus' is clicked on
+
+2020-01-16 18:27:55 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_5/div_Ares")): Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-16 18:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_5/div_Ares' is clicked on
+
+2020-01-16 18:27:56 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/div_Zeus")): Object: 'Object Repository/obj_reservation/4_/div_Zeus' is clicked on
+
+2020-01-16 18:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/div_Zeus' is clicked on
+
+2020-01-16 18:28:01 - [TEST_STEP][PASSED] - varHoliday = 0: null
+
+2020-01-16 18:28:01 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-16 18:28:01 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/div_suite_rad_deluxe")): Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-16 18:28:06 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/div_suite_rad_deluxe' is clicked on
+
+2020-01-16 18:28:06 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_next2")): Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:28:07 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_next2")): Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_next2' is clicked on
+
+2020-01-16 18:28:09 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Submit Reservation")): Object: 'Object Repository/obj_reservation/4_/button_Submit Reservation' is clicked on
+
+2020-01-16 18:28:12 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Submit Reservation' is clicked on
+
+2020-01-16 18:28:12 - [TEST_STEP][PASSED] - if (flagBoar == "2" && var_repeatingEvery == "Daily" || var_repeatingEvery == "Monthly" || var_repeatingEvery == "Weekly"): null
+
+2020-01-16 18:28:12 - [TEST_STEP][PASSED] - else: null
+
+2020-01-16 18:28:12 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-16 18:28:12 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Return To Reservation")): Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-16 18:28:18 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Return To Reservation' is clicked on
+
+2020-01-16 18:28:18 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_2/button_Go to CheckOut")): Object: 'Object Repository/obj_reservation/P4P_2/button_Go to CheckOut' is clicked on
+
+2020-01-16 18:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_2/button_Go to CheckOut' is clicked on
+
+2020-01-16 18:28:19 - [TEST_STEP][PASSED] - var_url = getUrl(): Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702857/?parent_id=122352'
+
+2020-01-16 18:28:19 - [MESSAGE][PASSED] - Current window's url is: 'https://p4p-qa-bg.aws.paradise4paws.com/frontdesk/checkout/1702857/?parent_id=122352'
+
+2020-01-16 18:28:19 - [TEST_STEP][PASSED] - arrayUrl = var_url.split("/"): null
+
+2020-01-16 18:28:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("obj_reservation/P4P_2/span_( BK )"), "( BK )", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-16 18:28:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-16 18:28:21 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/P4P_2/a_1795351"))): 1795550
+
+2020-01-16 18:28:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795550'
+
+2020-01-16 18:28:21 - [MESSAGE][INFO] - 1795550
+
+2020-01-16 18:28:21 - [TEST_STEP][PASSED] - cell = rowNewRes.createCell(16, 0): null
+
+2020-01-16 18:28:21 - [TEST_STEP][PASSED] - cell.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:28:21 - [TEST_STEP][PASSED] - cell.setCellValue(arrayUrl[5]): null
+
+2020-01-16 18:28:21 - [TEST_STEP][PASSED] - varIdInv = getText(findTestObject("obj_reservation/P4P_2/a_1795351")).toString(): Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795550'
+
+2020-01-16 18:28:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/a_1795351' is: '1795550'
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - celldInvoice = rowNewRes.createCell(17, 0): null
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - celldInvoice.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - celldInvoice.setCellValue(varIdInv): null
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - cellStatus = rowNewRes.createCell(20, 0): null
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - cellStatus.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - cellStatus.setCellValue(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-16 18:28:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( BK )'
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - cellHol = rowNewRes.createCell(18, 0): null
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - cellHol.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - cellInv3 = rowInv.createCell(3, 0): null
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - cellInv3.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - if (varHoliday == 1): null
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - else: null
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - cellHol.setCellValue("N"): null
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - cellInv3.setCellValue("N"): null
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - if (var == 1): null
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/4_/1_co_date"))): 
+
+2020-01-16 18:28:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/4_/1_co_date' is: ''
+
+2020-01-16 18:28:22 - [MESSAGE][INFO] - 
+
+2020-01-16 18:28:22 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_checkIn")): Object: 'Object Repository/obj_reservation/4_/tab_checkIn' is clicked on
+
+2020-01-16 18:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_checkIn' is clicked on
+
+2020-01-16 18:28:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 18:28:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 18:28:25 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("PP/input_CheckinDate_checkin"))): 
+
+2020-01-16 18:28:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/PP/input_CheckinDate_checkin' is: ''
+
+2020-01-16 18:28:26 - [MESSAGE][INFO] - 
+
+2020-01-16 18:28:26 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_editReservation")): Object: 'Object Repository/obj_reservation/4_/tab_editReservation' is clicked on
+
+2020-01-16 18:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_editReservation' is clicked on
+
+2020-01-16 18:28:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 18:28:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 18:28:29 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("PP/input_CheckinDate_edit"))): 
+
+2020-01-16 18:28:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/PP/input_CheckinDate_edit' is: ''
+
+2020-01-16 18:28:34 - [MESSAGE][INFO] - 
+
+2020-01-16 18:28:34 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2020-01-16 18:28:46 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2020-01-16 18:28:46 - [TEST_STEP][PASSED] - cellDCI = rowNewRes.createCell(22, 0): null
+
+2020-01-16 18:28:46 - [TEST_STEP][PASSED] - cellDCI.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:28:46 - [TEST_STEP][PASSED] - cellDCI.setCellValue(var_checkinD): null
+
+2020-01-16 18:28:46 - [TEST_STEP][PASSED] - cellDCO = rowNewRes.createCell(23, 0): null
+
+2020-01-16 18:28:46 - [TEST_STEP][PASSED] - cellDCO.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:28:46 - [TEST_STEP][PASSED] - cellDCO.setCellValue(var_checkoutD): null
+
+2020-01-16 18:28:46 - [TEST_STEP][PASSED] - cellDCI1 = rowNewRes.createCell(24, 0): null
+
+2020-01-16 18:28:46 - [TEST_STEP][PASSED] - cellDCI1.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:28:46 - [TEST_STEP][PASSED] - cellDCI1.setCellValue(var_checkinD): null
+
+2020-01-16 18:28:46 - [TEST_STEP][PASSED] - cellDCO1 = rowNewRes.createCell(25, 0): null
+
+2020-01-16 18:28:46 - [TEST_STEP][PASSED] - cellDCO1.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:28:46 - [TEST_STEP][PASSED] - cellDCO1.setCellValue(var_checkoutD): null
+
+2020-01-16 18:28:46 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_checkOut")): Object: 'Object Repository/obj_reservation/4_/tab_checkOut' is clicked on
+
+2020-01-16 18:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_checkOut' is clicked on
+
+2020-01-16 18:28:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:28:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:28:48 - [TEST_STEP][PASSED] - if (var_cancelRes == "Y"): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( CAN )'
+
+2020-01-16 18:28:48 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/tab_editReservation")): Object: 'Object Repository/obj_reservation/4_/tab_editReservation' is clicked on
+
+2020-01-16 18:28:50 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/tab_editReservation' is clicked on
+
+2020-01-16 18:28:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:28:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:28:51 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Next")): Object: 'Object Repository/obj_reservation/4_/button_Next' is clicked on
+
+2020-01-16 18:28:57 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Next' is clicked on
+
+2020-01-16 18:28:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:28:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:28:58 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/button_Next")): Object: 'Object Repository/obj_reservation/4_/button_Next' is clicked on
+
+2020-01-16 18:28:58 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/button_Next' is clicked on
+
+2020-01-16 18:28:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-16 18:28:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-16 18:28:59 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/4_/btn_cancelReservation")): Object: 'Object Repository/obj_reservation/4_/btn_cancelReservation' is clicked on
+
+2020-01-16 18:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/4_/btn_cancelReservation' is clicked on
+
+2020-01-16 18:29:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 18:29:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 18:29:04 - [TEST_STEP][PASSED] - click(findTestObject("obj_reservation/P4P_1/button_Cancel This Reservation")): Object: 'Object Repository/obj_reservation/P4P_1/button_Cancel This Reservation' is clicked on
+
+2020-01-16 18:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/obj_reservation/P4P_1/button_Cancel This Reservation' is clicked on
+
+2020-01-16 18:29:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 18:29:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 18:29:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("obj_reservation/P4P_2/span_( BK )"), "( CAN )", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-16 18:29:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/obj_reservation/P4P_2/span_( BK )' are matched.
+
+2020-01-16 18:29:07 - [TEST_STEP][PASSED] - log.logInfo(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): ( CAN )
+
+2020-01-16 18:29:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( CAN )'
+
+2020-01-16 18:29:08 - [MESSAGE][INFO] - ( CAN )
+
+2020-01-16 18:29:08 - [TEST_STEP][PASSED] - cellCan = rowNewRes.createCell(28, 0): null
+
+2020-01-16 18:29:08 - [TEST_STEP][PASSED] - cellCan.setCellType(CELL_TYPE_STRING): null
+
+2020-01-16 18:29:08 - [TEST_STEP][PASSED] - cellCan.setCellValue(getText(findTestObject("obj_reservation/P4P_2/span_( BK )"))): Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( CAN )'
+
+2020-01-16 18:29:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/obj_reservation/P4P_2/span_( BK )' is: '( CAN )'
+
+2020-01-16 18:29:08 - [TEST_STEP][PASSED] - fos = new java.io.FileOutputStream(/home/leonardo-arkusmty/Desktop/P4P/DATA_AUTOMATINTESTING/data_1newReservationBoarding.xlsx): null
+
+2020-01-16 18:29:08 - [TEST_STEP][PASSED] - workbookNewRes.write(fos): null
+
+2020-01-16 18:29:08 - [TEST_STEP][PASSED] - (var_row++): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-16 18:20:41 - [TEST_SUITE][PASSED] - ts_1_newReservationBoarding: Test Cases/p4p_1_newReservationBoarding]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
