@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>ts_cancelReservation</name>
+   <name>ts_2_cancelReservation</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -14,7 +14,7 @@
       <guid>d65ff68b-63b7-41e9-b15b-0919c3b8e16f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/p4p_cancelReserEdit</testCaseId>
+      <testCaseId>Test Cases/p4p_2_cancelReserEdit_ok</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>42615aa8-2982-4484-b2ef-8014f207fd37</id>

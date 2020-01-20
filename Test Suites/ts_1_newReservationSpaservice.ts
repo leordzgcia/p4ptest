@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>ts_newReservationSpaservice</name>
+   <name>ts_1_newReservationSpaservice</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -14,7 +14,7 @@
       <guid>281401c9-4bfc-48d7-9067-296b3fbae5fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/p4p_newReservationSpaService</testCaseId>
+      <testCaseId>Test Cases/p4p_1_newReservationSpaService</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>704a1bd4-c55d-4b02-ba48-e2dd46b56658</id>

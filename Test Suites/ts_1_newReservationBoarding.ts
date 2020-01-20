@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>ts_newReservationBoarding</name>
+   <name>ts_1_newReservationBoarding</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -14,7 +14,7 @@
       <guid>281401c9-4bfc-48d7-9067-296b3fbae5fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/p4p_newReservationBoarding</testCaseId>
+      <testCaseId>Test Cases/p4p_1_newReservationBoarding</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4867b13c-0075-4292-a7d3-6cabffe190fc</id>
@@ -119,6 +119,24 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>3d954f2a-27f4-4e8c-b3c7-7a1a39801cd9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7ffdb58e-1c63-44ac-8662-373e310f0b78</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>53b8c53f-bc1a-4d7d-9a2d-20e33f42bf57</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4867b13c-0075-4292-a7d3-6cabffe190fc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>cancelReservation</value>
+         <variableId>72fd63cd-f5a0-47fb-aee9-75bd16128a63</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

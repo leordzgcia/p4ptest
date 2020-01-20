@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>ts_newReservationDaycare</name>
+   <name>ts_1_newReservationDaycare</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -14,7 +14,7 @@
       <guid>281401c9-4bfc-48d7-9067-296b3fbae5fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/p4p_newReservationDaycare</testCaseId>
+      <testCaseId>Test Cases/p4p_1_newReservationDaycare</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>991203db-573a-489b-b467-9b11f37f7083</id>
